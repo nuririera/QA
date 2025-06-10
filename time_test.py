@@ -5,20 +5,19 @@ API_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "llama3.1"
 
 # Prompt para medir tiempo con una frase de 10 palabras exactas
-prompt_10_words = """
-Tu tarea es generar frases que tengan exactamente 10 palabras, ni más ni menos.  
-La frase debe ser coherente, gramaticalmente correcta y tener sentido completo.  
+prompt_30_words = """
+Tu tarea es generar frases que tengan exactamente 30 palabras, ni más ni menos.  
+La frase debe ser coherente, gramaticalmente correcta y tener sentido completo.
 
-Ejemplos correctos (10 palabras):  
-- La música en vivo transforma cualquier noche en una experiencia inolvidable.  
-- Aprender un nuevo idioma requiere constancia, paciencia y mucha práctica.  
-- El gato saltó sobre la mesa y rompió el jarrón.
+Ejemplos correctos (30 palabras):  
+- Aunque la tormenta era intensa, decidimos continuar la caminata, confiando en que el clima mejoraría pronto y podríamos llegar al refugio antes de que anocheciera por completo.  
+- Los avances tecnológicos actuales permiten una comunicación instantánea entre personas de diferentes culturas, lo cual favorece el entendimiento mutuo, la colaboración internacional y el desarrollo de soluciones globales para problemas compartidos.  
 
 Ejemplos incorrectos (por número de palabras):  
-- Me gusta leer libros por las tardes. (7 palabras)  
-- Siempre he querido viajar a Japón y aprender su cultura milenaria. (12 palabras)  
+- Me encanta viajar, conocer nuevas personas y probar comidas diferentes. (10 palabras)  
+- Siempre soñé con construir una casa en el bosque donde pudiera vivir tranquilo, rodeado de naturaleza, lejos del ruido de la ciudad y de la rutina diaria. (33 palabras)  
 
-Ahora, genera una sola frase de exactamente 10 palabras.
+Ahora, genera una sola frase de exactamente 30 palabras.
 """
 
 def measure_response_time(promot, n=10):
@@ -44,5 +43,5 @@ def measure_response_time(promot, n=10):
 
 if __name__ == "__main__":
     print("Iniciando medición de tiempo de respuesta con frase de 10 palabras...")
-    measure_response_time(prompt_10_words, n=10)
+    measure_response_time(prompt_30_words, n=10)
     print("Medición completada.")
