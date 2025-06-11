@@ -145,7 +145,7 @@ def send_prompt(prompt):
 def save_output_to_file(output,version):
     os.makedirs("responses", exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"output_{version}_{timestamp}.json"
+    filename = f"responses/output_{version}_{timestamp}.json"
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
     print(f"Respuesta guardada en {filename}")
