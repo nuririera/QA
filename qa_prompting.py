@@ -2,6 +2,7 @@ import requests
 import  time
 import json
 from datetime import datetime
+import os
 
 API_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "llama3.1"
@@ -142,6 +143,7 @@ def send_prompt(prompt):
 
 # this function saves the response to a file with a timestamp
 def save_output_to_file(output,version):
+    os.makedirs("responses", exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     filename = f"output_{version}_{timestamp}.json"
     with open(filename, "w", encoding="utf-8") as f:
