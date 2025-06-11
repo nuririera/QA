@@ -174,11 +174,11 @@ if __name__ == "__main__":
     if version not in ["1", "2"]:
         print("Versión inválida.")
     else:
+        folder_name = input("Introduce el nombre de la carpeta para guardar la respuesta: ").strip()
         prompt = build_prompt(version)
         raw_response, elapsed = send_prompt(prompt)
         try:
             parsed_response = extract_json_block(raw_response)
-            folder_name = input("Introduce el nombre de la carpeta para guardar la respuesta: ").strip()
             save_output_to_file(parsed_response, version, elapsed, folder_name)
             print("\n=== RESPUESTA DEL MODELO ===")
             print(json.dumps(parsed_response, indent=2, ensure_ascii=False))
