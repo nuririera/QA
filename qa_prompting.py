@@ -19,7 +19,7 @@ You are an Argument Annotator AI.
 Given a segmented essay with labeled argument components (Major Claim, Claims, and Premises), assess the quality of each argument component.
 
 ###QUALITY RATINGS###
-For each argument component (Major Claim, Claims, Premises), assign a quality rating of either <Effective> or <Ineffective>.
+For each argument component (Major Claim, Claims, Premises), assign a quality rating of either "Effective" or "Ineffective" in each of the four categories.
 """
 
 dimensions_v1 = """
@@ -44,29 +44,29 @@ Assess each argument component based on the following dimensions. The overall ra
    - Global Relevance: Does it contribute to resolving the broader issue?
    - Global Sufficiency: Does it address or pre-empt counterarguments adequately?
 
-4. Deliberative Norms:
-   - Rationality: Is the reasoning logically sound?
-   - Interactivity: Does it acknowledge or engage with other perspectives?
-   - Equality: Does it assume or promote equal participation?
-   - Civility: Is it respectful and constructive in tone?
-   - Orientation to the Common Good: Does it aim at communal rather than selfish outcomes?
-   - Constructiveness: Does it seek consensus or resolution?
-   - Alternative Communication: Does it incorporate or respect non-traditional forms (e.g., storytelling)?
-
-5. Overall Assessment: This is not a simple average of dimensions, but a holistic judgment. Components that perform well across most of the dimensions above should be rated <Effective>. Otherwise, rate them <Ineffective>.
+4. Overall Assessment: This is not a simple average of dimensions, but a holistic judgment. Components that perform well across most of the dimensions above should be rated <Effective>. Otherwise, rate them <Ineffective>.
 """
 
 dimensions_v2 = """
 ###DIMENSIONS OF ARGUMENT QUALITY###
 
-Each component should be evaluated holistically according to five dimensions. First, consider logical cogency: whether the component presents ideas that are credible, relevant to the claim or conclusion, and sufficient to justify it. Second, assess rhetorical effectiveness by looking at how clearly the idea is expressed, whether the tone fits the topic and audience, how well it is structured, whether it adds to the author’s credibility, and whether it uses emotional appeal appropriately. Third, examine dialectical reasonableness, or the extent to which the argument is acceptable to the audience, contributes to resolving the issue, and addresses possible counterarguments. Fourth, take into account deliberative norms, such as whether the reasoning is logical, respectful, aimed at understanding others, oriented to the common good, and open to alternative ways of communicating ideas. Finally, make an overall assessment: if the component performs well across most of these areas, label it <Effective>; if not, label it <Ineffective>.
+Each component should be evaluated holistically according to five dimensions. First, consider logical cogency: whether the component presents ideas that are credible, relevant to the claim or conclusion, and sufficient to justify it. Second, assess rhetorical effectiveness by looking at how clearly the idea is expressed, whether the tone fits the topic and audience, how well it is structured, whether it adds to the author’s credibility, and whether it uses emotional appeal appropriately. Third, examine dialectical reasonableness, or the extent to which the argument is acceptable to the audience, contributes to resolving the issue, and addresses possible counterarguments.  Finally, make an overall assessment: if the component performs well across most of these areas, label it <Effective>; if not, label it <Ineffective>.
 """
 
 example = """
 ###EXPECTED OUTPUT###
-- Replicate the exact essay.
-- At the beginning of each argument component, prepend its quality rating (either <Effective> or <Ineffective>).
 - Format the output by starting with “#OUTPUT:” and ending with “#END.”
+- Between those markers, return a JSON array, where each element represents one argument component
+- Each element sohould be a JSON object containing the following keys:
+
+{
+"component": "<full text of the argument component>",
+"type": "MajorClaim" | "Claim" | "Premise",
+"cogency": "Effective" | "Ineffective",
+"reasonableness": "Effective" | "Ineffective",
+"overall": "Effective" | "Ineffective"
+}
+
 
 ###EXAMPLE###
 EXAMPLE ESSAY:
@@ -76,11 +76,42 @@ EXAMPLE ESSAY:
 <Premise> All of these skills help them to get on well with other people and will benefit them for the whole life.
 
 #OUTPUT:
-<Effective> through cooperation, children can learn about interpersonal skills which are significant in the future life of all students  
-<Ineffective> What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others  
-<Effective> During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred  
-<Ineffective> All of these skills help them to get on well with other people and will benefit them for the whole life  
-#END
+[
+  {
+    "component": "through cooperation, children can learn about interpersonal skills which are significant in the future life of all students",
+    "type": "Claim",
+    "cogency": "Effective ",
+    "effectiveness": "Effective",
+    "reasonableness": "Ineffective",
+    "overall": "Effective"
+  },
+  {
+    "component": "What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others",
+    "type": "Premise",
+    "cogency": "Ineffective",
+    "effectiveness": "Ineffective",
+    "reasonableness": "Ineffective",
+    "overall": "Ineffective"
+  },
+  {
+    "component": "During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred",
+    "type": "Premise",
+    "cogency": "Effective",
+    "effectiveness": "Effective",
+    "reasonableness": "Effective",
+    "overall": "Effective"
+  },
+  {
+    "component": "All of these skills help them to get on well with other people and will benefit them for the whole life",
+    "type": "Premise",
+    "cogency": "Ineffective",
+    "effectiveness": "Effective",
+    "reasonableness": "Ineffective",
+    "overall": "Ineffective"
+  }
+]
+#END.
+
 """
 
 def build_prompt(version):
