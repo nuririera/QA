@@ -3,6 +3,7 @@ import  time
 import json
 from datetime import datetime
 import os
+import re
 
 API_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "llama3.1"
@@ -135,19 +136,33 @@ def send_prompt(prompt):
         "stream": False
     })
     end_time = time.time()
+    elapsed = end_time - start_time
     if response.status_code != 200:
         raise Exception(f"Error {response.status_code}: {response.text}")
     
-    print(f"Tiempo de respuesta: {end_time - start_time:.3f} segundos")
-    return response.json()["response"]
+    print(f"Tiempo de respuesta: {elapsed:.3f} segundos")
+    return response.json()["response"], elapsed
+
+# This function extracts the JSON block from the response text
+def extract_json_block(text):
+    match = re.search(r'#OUTPUT:\s*(\[[\s\S]*?\])\s*#END', text, re.DOTALL)
+    if not match:
+        raise ValueError("No se encontró el bloque JSON en la respuesta.")
+    return json.loads(match.group(1))
 
 # this function saves the response to a file with a timestamp
-def save_output_to_file(output,version):
-    os.makedirs("responses", exist_ok=True)
+def save_output_to_file(output,version, elapsed, folder_name):
+    base_dir = os.path.join("responses", folder_name)
+    os.makedirs(base_dir, exist_ok=True)  # Create the directory if it doesn't exist, exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"responses/output_{version}_{timestamp}.json"
+    filename = os.path.join(base_dir, f"output_{version}_{timestamp}.json")
+    # Add time as extra information
+    data_to_save = {
+        "time_seconds": round(elapsed, 3),
+        "response": output
+    }
     with open(filename, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
+        json.dump(data_to_save, f, ensure_ascii=False, indent=2)
     print(f"Respuesta guardada en {filename}")
 
 # Main function to run the script
@@ -160,7 +175,12 @@ if __name__ == "__main__":
         print("Versión inválida.")
     else:
         prompt = build_prompt(version)
-        output = send_prompt(prompt)
-        save_output_to_file(output, version)
-        print("\n=== RESPUESTA DEL MODELO ===")
-        print(output)
+        raw_response, elapsed = send_prompt(prompt)
+        try:
+            parsed_response = extract_json_block(raw_response)
+            folder_name = input("Introduce el nombre de la carpeta para guardar la respuesta: ").strip()
+            save_output_to_file(parsed_response, version, elapsed, folder_name)
+            print("\n=== RESPUESTA DEL MODELO ===")
+            print(json.dumps(parsed_response, indent=2, ensure_ascii=False))
+        except Exception as e:
+            print(f"Error al procesar la respuesta: {e}")

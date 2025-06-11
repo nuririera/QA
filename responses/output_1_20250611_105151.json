@@ -1,1 +1,58 @@
-"#OUTPUT:\n[\n  {\n    \"component\": \"The death penalty should be abolished because it is inhumane and ineffective as a deterrent\",\n    \"type\": \"MajorClaim\",\n    \"cogency\": \"Effective \",\n    \"effectiveness\": \"Effective\",\n    \"reasonableness\": \"Effective\",\n    \"overall\": \"Effective\"\n  },\n  {\n    \"component\": \"Capital punishment violates the fundamental human right to life and dignity\",\n    \"type\": \"Claim\",\n    \"cogency\": \"Ineffective\",\n    \"effectiveness\": \"Ineffective\",\n    \"reasonableness\": \"Ineffective\",\n    \"overall\": \"Ineffective\"\n  },\n  {\n    \"component\": \"Numerous reports have documented cases where innocent people were executed due to flaws in the judicial system\",\n    \"type\": \"Premise\",\n    \"cogency\": \"Effective \",\n    \"effectiveness\": \"Effective\",\n    \"reasonableness\": \"Effective\",\n    \"overall\": \"Effective\"\n  },\n  {\n    \"component\": \"Executions are often carried out in a manner that causes prolonged suffering, which can be considered a form of torture\",\n    \"type\": \"Premise\",\n    \"cogency\": \"Ineffective \",\n    \"effectiveness\": \"Effective\",\n    \"reasonableness\": \"Ineffective\",\n    \"overall\": \"Ineffective\"\n  },\n  {\n    \"component\": \"The death penalty does not effectively reduce crime rates\",\n    \"type\": \"Claim\",\n    \"cogency\": \"Effective\",\n    \"effectiveness\": \"Effective \",\n    \"reasonableness\": \"Effective\",\n    \"overall\": \"Effective\"\n  },\n  {\n    \"component\": \"Studies have shown that regions with capital punishment do not have lower homicide rates than those without it\",\n    \"type\": \"Premise\",\n    \"cogency\": \"Effective \",\n    \"effectiveness\": \"Effective\",\n    \"reasonableness\": \"Effective\",\n    \"overall\": \"Effective\"\n  },\n  {\n    \"component\": \"Criminals often act in the heat of the moment or without expecting to be caught, so harsh punishments don’t deter them\",\n    \"type\": \"Premise\",\n    \"cogency\": \"Ineffective \",\n    \"effectiveness\": \"Effective\",\n    \"reasonableness\": \"Ineffective\",\n    \"overall\": \"Ineffective\"\n  }\n]\n#END."
+[
+  {
+    "component": "The death penalty should be abolished because it is inhumane and ineffective as a deterrent",
+    "type": "MajorClaim",
+    "cogency": "Effective ",
+    "effectiveness": "Effective",
+    "reasonableness": "Effective",
+    "overall": "Effective"
+  },
+  {
+    "component": "Capital punishment violates the fundamental human right to life and dignity",
+    "type": "Claim",
+    "cogency": "Ineffective",
+    "effectiveness": "Ineffective",
+    "reasonableness": "Ineffective",
+    "overall": "Ineffective"
+  },
+  {
+    "component": "Numerous reports have documented cases where innocent people were executed due to flaws in the judicial system",
+    "type": "Premise",
+    "cogency": "Effective ",
+    "effectiveness": "Effective",
+    "reasonableness": "Effective",
+    "overall": "Effective"
+  },
+  {
+    "component": "Executions are often carried out in a manner that causes prolonged suffering, which can be considered a form of torture",
+    "type": "Premise",
+    "cogency": "Ineffective ",
+    "effectiveness": "Effective",
+    "reasonableness": "Ineffective",
+    "overall": "Ineffective"
+  },
+  {
+    "component": "The death penalty does not effectively reduce crime rates",
+    "type": "Claim",
+    "cogency": "Effective",
+    "effectiveness": "Effective ",
+    "reasonableness": "Effective",
+    "overall": "Effective"
+  },
+  {
+    "component": "Studies have shown that regions with capital punishment do not have lower homicide rates than those without it",
+    "type": "Premise",
+    "cogency": "Effective ",
+    "effectiveness": "Effective",
+    "reasonableness": "Effective",
+    "overall": "Effective"
+  },
+  {
+    "component": "Criminals often act in the heat of the moment or without expecting to be caught, so harsh punishments don’t deter them",
+    "type": "Premise",
+    "cogency": "Ineffective ",
+    "effectiveness": "Effective",
+    "reasonableness": "Ineffective",
+    "overall": "Ineffective"
+  }
+]
