@@ -59,10 +59,12 @@ example = """
 - Between those markers, return a JSON array, where each element represents one argument component
 - Each element sohould be a JSON object containing the following keys:
 
+
 {
 "component": "<full text of the argument component>",
 "type": "MajorClaim" | "Claim" | "Premise",
 "cogency": "Effective" | "Ineffective",
+"effectiveness": "Effective" | "Ineffective", 
 "reasonableness": "Effective" | "Ineffective",
 "overall": "Effective" | "Ineffective"
 }
