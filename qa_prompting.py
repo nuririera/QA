@@ -1,4 +1,7 @@
 import requests
+import  time
+import json
+from datetime import datetime
 
 API_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "llama3.1"
@@ -116,20 +119,36 @@ EXAMPLE ESSAY:
 
 """
 
+# This function builds the prompt based on the selected version
 def build_prompt(version):
     dimensions = dimensions_v1 if version == "1" else dimensions_v2
     return f"{common_intro}\n{dimensions}\n{example}\n\n###ESSAY###\n{essay}"
 
+
+# This function sends the prompt to the API and returns the response it also measures the response time
 def send_prompt(prompt):
+    start_time = time.time()
     response = requests.post(API_URL, json={
         "model": MODEL_NAME,
         "prompt": prompt,
         "stream": False
     })
+    end_time = time.time()
     if response.status_code != 200:
         raise Exception(f"Error {response.status_code}: {response.text}")
+    
+    print(f"Tiempo de respuesta: {end_time - start_time:.3f} segundos")
     return response.json()["response"]
 
+# this function saves the response to a file with a timestamp
+def save_output_to_file(output,version):
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    filename = f"output_{version}_{timestamp}.json"
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+    print(f"Respuesta guardada en {filename}")
+
+# Main function to run the script
 if __name__ == "__main__":
     print("Elige la versión del prompt que quieres probar:")
     print("1 - Versión detallada con subpuntos")
@@ -140,5 +159,6 @@ if __name__ == "__main__":
     else:
         prompt = build_prompt(version)
         output = send_prompt(prompt)
+        save_output_to_file(output, version)
         print("\n=== RESPUESTA DEL MODELO ===")
         print(output)
