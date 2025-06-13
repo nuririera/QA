@@ -122,7 +122,7 @@ def send_prompt(prompt):
 
 # This function extracts the JSON block from the response text
 def extract_json_block(text):
-    match = re.search(r'#OUTPUT:\s*(\[[\s\S]*?\])\s*#END', text, re.DOTALL)
+    match = re.search(r'#OUTPUT:\s*(\{[\s\S]*?\})\s*#END', text, re.DOTALL)
     if not match:
         raise ValueError("No se encontró el bloque JSON en la respuesta.")
     return json.loads(match.group(1))
