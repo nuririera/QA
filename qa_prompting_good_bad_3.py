@@ -83,7 +83,7 @@ All of these skills help them to get on well with other people and will benefit 
 #OUTPUT:
 [
   {
-    "component": "Through cooperation, children can learn about interpersonal skills which are significant in the future life of all students\nWhat we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others\nDuring the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred\nAll of these skills help them to get on well with other people and will benefit them for the whole life.",
+    "component": "Through cooperation, children can learn about interpersonal skills which are significant in the future life of all students. What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others. During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred. All of these skills help them to get on well with other people and will benefit them for the whole life.",
     "cogency": "Good",
     "effectiveness": "Bad",
     "reasonableness": "Good",
