@@ -13,7 +13,7 @@ The state's hands are kept clean.
 An innocent person will always choose the imprisonment, during this time new evidence may come to light that proves them innocent. No more dead innocents.
 The convict's freedom of choice remains intact, which I consider to be important.
 I believe that presenting them with a choice is more human than executing them against their will.
-If they choose the life imprisonment, then they should be presented the option again every five years or so. This way the life imprisonment is not inhumane as there is always an "out".
+If they choose the life imprisonment, then they should be presented the option again every five years or so. This way the life imprisonment is not inhumane as there is always an \"out\".
 The method of suicide should be left up to the convict.
 No other people have to bear the burden of ending someone's life."""
 
@@ -64,7 +64,6 @@ example = """
 - Format the output by starting with “#OUTPUT:” and ending with “#END.”
 - Between those markers, return a JSON, containing the following keys:
 
-
 {
 "component": "<full text of the argument component>",
 "cogency": "Good" | "Bad",
@@ -72,7 +71,6 @@ example = """
 "reasonableness": "Good" | "Bad",
 "overall": "Good" | "Bad"
 }
-
 
 ###EXAMPLE###
 EXAMPLE ESSAY:
@@ -84,10 +82,7 @@ All of these skills help them to get on well with other people and will benefit 
 #OUTPUT:
 
   {
-    "component": "Through cooperation, children can learn about interpersonal skills which are significant in the future life of all students
-What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others
-During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred
-All of these skills help them to get on well with other people and will benefit them for the whole life.",
+    "component": "Through cooperation, children can learn about interpersonal skills which are significant in the future life of all students\nWhat we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others\nDuring the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred\nAll of these skills help them to get on well with other people and will benefit them for the whole life.",
     "cogency": "Good",
     "effectiveness": "Bad",
     "reasonableness": "Good",
@@ -95,15 +90,14 @@ All of these skills help them to get on well with other people and will benefit 
   }
 
 #END.
-
 """
 
-# This function builds the prompt based on the selected version
+
 def build_prompt(version):
     dimensions = dimensions_v1 if version == "1" else dimensions_v2
     return f"{common_intro}\n{dimensions}\n{example}\n\n###ESSAY###\n{essay}"
 
-# This function sends the prompt to the API and returns the response. It also measures the response time.
+
 def send_prompt(prompt):
     start_time = time.time()
     response = requests.post(API_URL, json={
@@ -115,21 +109,24 @@ def send_prompt(prompt):
     elapsed = end_time - start_time
     if response.status_code != 200:
         raise Exception(f"Error {response.status_code}: {response.text}")
-    
+
     print(f"Response time: {elapsed:.3f} seconds")
     return response.json()["response"], elapsed
 
-# This function extracts the JSON block from the response text
+
 def extract_json_block(text):
     match = re.search(r'#OUTPUT:\s*(\{[\s\S]*?\})\s*#END', text, re.DOTALL)
     if not match:
         raise ValueError("No JSON block found in the response.")
-    
+
     json_str = match.group(1)
 
-    # Fix: Remove unescaped control characters (e.g., newlines inside strings)
-    json_str = re.sub(r'(?<!\\)\n', '\\n', json_str)
-    
+    # Escapa comillas no escapadas dentro de strings (como "out")
+    json_str = re.sub(r'(?<!\\)"', r'\"', json_str)
+
+    # Normaliza newlines para evitar errores
+    json_str = json_str.replace("\n", "\\n")
+
     try:
         return json.loads(json_str)
     except json.JSONDecodeError as e:
@@ -138,10 +135,9 @@ def extract_json_block(text):
         raise e
 
 
-# This function saves the response to a file with a timestamp
 def save_output_to_file(output, version, elapsed, folder_name):
     base_dir = os.path.join("responses", folder_name)
-    os.makedirs(base_dir, exist_ok=True)  # Create the directory if it doesn't exist
+    os.makedirs(base_dir, exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     filename = os.path.join(base_dir, f"output_{version}_{timestamp}.json")
     data_to_save = {
@@ -152,7 +148,7 @@ def save_output_to_file(output, version, elapsed, folder_name):
         json.dump(data_to_save, f, ensure_ascii=False, indent=2)
     print(f"Response saved to {filename}")
 
-# Main function to run the script
+
 if __name__ == "__main__":
     print("Choose the prompt version you want to test:")
     print("1 - Detailed version with subpoints")
@@ -164,7 +160,6 @@ if __name__ == "__main__":
         folder_name = input("Enter the name of the folder to save the response: ").strip()
         prompt = build_prompt(version)
         raw_response, elapsed = send_prompt(prompt)
-        # Guarda el texto crudo para depuración, aunque falle el parseo
         base_dir = os.path.join("responses", folder_name)
         os.makedirs(base_dir, exist_ok=True)
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -173,7 +168,6 @@ if __name__ == "__main__":
             f.write(raw_response)
         print(f"Raw response saved to {raw_filename}")
 
-        # Intenta parsear
         try:
             parsed_response = extract_json_block(raw_response)
             save_output_to_file(parsed_response, version, elapsed, folder_name)
@@ -181,4 +175,3 @@ if __name__ == "__main__":
             print(json.dumps(parsed_response, indent=2, ensure_ascii=False))
         except Exception as e:
             print(f"Error processing the response: {e}")
-
