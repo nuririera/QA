@@ -123,8 +123,20 @@ def send_prompt(prompt):
 def extract_json_block(text):
     match = re.search(r'#OUTPUT:\s*(\{[\s\S]*?\})\s*#END', text, re.DOTALL)
     if not match:
-        raise ValueError("JSON block not found in the response.")
-    return json.loads(match.group(1))
+        raise ValueError("No JSON block found in the response.")
+    
+    json_str = match.group(1)
+
+    # Fix: Remove unescaped control characters (e.g., newlines inside strings)
+    json_str = re.sub(r'(?<!\\)\n', '\\n', json_str)
+    
+    try:
+        return json.loads(json_str)
+    except json.JSONDecodeError as e:
+        print("Raw JSON string (for debugging):")
+        print(json_str)
+        raise e
+
 
 # This function saves the response to a file with a timestamp
 def save_output_to_file(output, version, elapsed, folder_name):
