@@ -127,7 +127,7 @@ def save_output_to_file(output,version, elapsed, folder_name):
     base_dir = os.path.join("responses", folder_name)
     os.makedirs(base_dir, exist_ok=True)  # Create the directory if it doesn't exist, exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = os.path.join(base_dir, f"output_{version}_{timestamp}.json")
+    filename = os.path.join(base_dir, f"output_{version}_{timestamp}.txt")
     # Add time as extra information
     data_to_save = {
         "time_seconds": round(elapsed, 3),
