@@ -62,6 +62,7 @@ The argument should be evaluated holistically according to four dimensions. Firs
 example = """
 ###EXPECTED OUTPUT###
 - Format the output by starting with “#OUTPUT:” and ending with “#END.”
+- Respond strictly with a valid JSON object and nothing appart from the starting and ending. Do not include any comments or explanatory text outside the JSON.
 - Between those markers, return a JSON, containing the following keys:
 
 {
