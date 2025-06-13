@@ -164,6 +164,16 @@ if __name__ == "__main__":
         folder_name = input("Enter the name of the folder to save the response: ").strip()
         prompt = build_prompt(version)
         raw_response, elapsed = send_prompt(prompt)
+        # Guarda el texto crudo para depuración, aunque falle el parseo
+        base_dir = os.path.join("responses", folder_name)
+        os.makedirs(base_dir, exist_ok=True)
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        raw_filename = os.path.join(base_dir, f"raw_output_{version}_{timestamp}.txt")
+        with open(raw_filename, "w", encoding="utf-8") as f:
+            f.write(raw_response)
+        print(f"Raw response saved to {raw_filename}")
+
+        # Intenta parsear
         try:
             parsed_response = extract_json_block(raw_response)
             save_output_to_file(parsed_response, version, elapsed, folder_name)
@@ -171,3 +181,4 @@ if __name__ == "__main__":
             print(json.dumps(parsed_response, indent=2, ensure_ascii=False))
         except Exception as e:
             print(f"Error processing the response: {e}")
+
