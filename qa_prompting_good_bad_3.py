@@ -56,15 +56,13 @@ Assess each argument component based on the following dimensions. The overall ra
 dimensions_v2 = """
 ###DIMENSIONS OF ARGUMENT QUALITY###
 
-Each argument should be evaluated holistically according to four dimensions. First, consider logical cogency: whether the component presents ideas that are credible, relevant to the claim or conclusion, and sufficient to justify it. Second, assess rhetorical effectiveness by looking at how clearly the idea is expressed, whether the tone fits the topic and audience, how well it is structured, whether it adds to the author’s credibility, and whether it uses emotional appeal appropriately. Third, examine dialectical reasonableness, or the extent to which the argument is acceptable to the audience, contributes to resolving the issue, and addresses possible counterarguments. Finally, make an overall assessment: if the component performs well across most of these areas, label it <Good>; if not, label it <Neutral> or <Bad>.
+The argument should be evaluated holistically according to four dimensions. First, consider logical cogency: whether the component presents ideas that are credible, relevant to the claim or conclusion, and sufficient to justify it. Second, assess rhetorical effectiveness by looking at how clearly the idea is expressed, whether the tone fits the topic and audience, how well it is structured, whether it adds to the author’s credibility, and whether it uses emotional appeal appropriately. Third, examine dialectical reasonableness, or the extent to which the argument is acceptable to the audience, contributes to resolving the issue, and addresses possible counterarguments. Finally, make an overall assessment: if the component performs well across most of these areas, label it <Good>; if not, label it <Neutral> or <Bad>.
 """
 
 example = """
 ###EXPECTED OUTPUT###
 - Format the output by starting with “#OUTPUT:” and ending with “#END.”
-- Between those markers, return a JSON array, where each element represents one argument component
-- Each element sohould be a JSON object containing the following keys:
-
+- Between those markers, return a JSON, containing the following keys:
 
 {
 "component": "<full text of the argument component>",
