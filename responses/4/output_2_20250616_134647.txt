@@ -1,0 +1,12 @@
+{
+  "time_seconds": 97.607,
+  "response": [
+    {
+      "component": "I believe that this solves a number of issues that I have with the death penalty, amongst other benefits. The state's hands are kept clean. An innocent person will always choose the imprisonment, during this time new evidence may come to light that proves them innocent. No more dead innocents. The convict's freedom of choice remains intact, which I consider to be important. I believe that presenting them with a choice is more human than executing them against their will. If they choose the life imprisonment, then they should be presented the option again every five years or so. This way the life imprisonment is not inhumane as there is always an \"out\". The method of suicide should be left up to the convict. No other people have to bear the burden of ending someone's life.",
+      "cogency": "Good",
+      "effectiveness": "Neutral",
+      "reasonableness": "Bad",
+      "overall": "Neutral"
+    }
+  ]
+}
