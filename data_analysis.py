@@ -83,27 +83,37 @@ def build_prompt(argument):
 
 # This function sends the prompt to the API and returns the response it also measures the response time
 def query_model(prompt):
-    res = requests.post(API_URL, json={
-        "model": MODEL_NAME,
-        "prompt": prompt,
-        "stream": False
-    })
+    try:
+        res = requests.post(API_URL, json={
+            "model": MODEL_NAME,
+            "prompt": prompt,
+            "stream": False
+        })
 
-    if res.status_code != 200:
-        print("Error from API:", res.text)
-        return '{"cogency": "Bad", "effectiveness": "Bad", "reasonableness": "Bad", "overall": "Bad"}'
+        if res.status_code != 200:
+            print("Error from API:", res.text)
+            return None
 
-    return res.json().get("response", "{}")
+        return res.json().get("response", "{}")
+    
+    except requests.exceptions.RequestException as e:
+        print("Request failed:", e)
+        return None
 
 # Clean and parse the response
 def extract_labels(text):
     try:
         match = re.search(r'\{.*?\}', text, re.DOTALL)
-        return json.loads(match.group())
+        parsed = json.loads(match.group())
+
+        if all(dim in parsed for dim in ["cogency", "effectiveness", "reasonableness", "overall"]):
+            return parsed
+        else:
+            return None  # Missing keys
     except Exception as e:
         print("Error parsing response:", text)
-        return {"cogency": "Bad", "effectiveness": "Bad", "reasonableness": "Bad", "overall": "Bad"}
-
+        return None  # Invalid format
+    
 # Multiple runs of the model
 MAX_RETRIES = 5
 error_counter = Counter()
@@ -131,12 +141,11 @@ for run_ind in range(N_RUNS):
                 error_counter[f"arg_{i+1}_retry_{retries}"] += 1
                 print(f"Retry {retries} for argument {i+1} due to invalid response.")
                 time.sleep(1)
-            run.append(labels)
-            time.sleep(0.5)  # Sleep to avoid hitting API rate limits
 
         if not success:
-            print(f"Failed to process argument {i+1} after {MAX_RETRIES} retries. Appending default bad labels.")
-            run.append({"cogency": "Bad", "effectiveness": "Bad", "reasonableness": "Bad", "overall": "Bad"})
+            print(f"Failed to process argument {i+1} after {MAX_RETRIES} retries. Skipping.")
+            run.append(None)  # o algún marcador tipo 'None'
+
 
         print(f"Argument {i + 1}:\n{arg}\nResponse: {run[-1]}\n")
         time.sleep(0.5)  # optional cooldown
