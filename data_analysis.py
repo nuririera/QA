@@ -4,33 +4,36 @@ import json
 import time
 from collections import Counter
 from analyze_results import evaluate_single_run, analyze_variability_across_runs
+from dataset_division import test_data
 
 API_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "llama3.1"
 N_RUNS = 3
 
-arguments = [
-"""I believe that this solves a number of issues that I have with the death penalty, amongst other benefits.
-The state's hands are kept clean.
-An innocent person will always choose the imprisonment, during this time new evidence may come to light that proves them innocent. No more dead innocents.
-The convict's freedom of choice remains intact, which I consider to be important.
-I believe that presenting them with a choice is more human than executing them against their will.
-If they choose the life imprisonment, then they should be presented the option again every five years or so. This way the life imprisonment is not inhumane as there is always an \"out\".
-The method of suicide should be left up to the convict.
-No other people have to bear the burden of ending someone's life.""",
-"""This is maybe more specific to Canada, but I really don't care which candidate wins what or what party they belong to.
-I feel like regardless if it's the Liberals, Conservatives, or NDP (read: the parties that could realistically win just about everything),
-some good things will get done, more bad things will be done, there's a 25/%/ chance of some major scandal, and there will definitely be corruption.
-And then there's the fact that every incumbent cancels out what their predecessors put in place to put their own mark on things and this just continues in a cycle. 
-This is me looking at the situation without my own political beliefs. For example, if I am in favour of subways and only party X is, I am not taking that into account.
-""",
-"""I think ADHD and perhaps some forms of autism aren't a bad thing, but the next level of human evolution.
-ADHD yes makes you not focus easily but when you do, you hyper focus grasping everything.
-I have multiple friends who have ADHD and when they force themselves to focus, they do great things, get the highest grades and retain more knowledge.
-And some people with autism can be servants, which means they are highly proficient in something, generally math science or music, which is fantastic.
-I think we should let those kids blossom and be there own unique awesome person, advancing human towards the next step in our history"""
+# arguments = [
+# """I believe that this solves a number of issues that I have with the death penalty, amongst other benefits.
+# The state's hands are kept clean.
+# An innocent person will always choose the imprisonment, during this time new evidence may come to light that proves them innocent. No more dead innocents.
+# The convict's freedom of choice remains intact, which I consider to be important.
+# I believe that presenting them with a choice is more human than executing them against their will.
+# If they choose the life imprisonment, then they should be presented the option again every five years or so. This way the life imprisonment is not inhumane as there is always an \"out\".
+# The method of suicide should be left up to the convict.
+# No other people have to bear the burden of ending someone's life.""",
+# """This is maybe more specific to Canada, but I really don't care which candidate wins what or what party they belong to.
+# I feel like regardless if it's the Liberals, Conservatives, or NDP (read: the parties that could realistically win just about everything),
+# some good things will get done, more bad things will be done, there's a 25/%/ chance of some major scandal, and there will definitely be corruption.
+# And then there's the fact that every incumbent cancels out what their predecessors put in place to put their own mark on things and this just continues in a cycle. 
+# This is me looking at the situation without my own political beliefs. For example, if I am in favour of subways and only party X is, I am not taking that into account.
+# """,
+# """I think ADHD and perhaps some forms of autism aren't a bad thing, but the next level of human evolution.
+# ADHD yes makes you not focus easily but when you do, you hyper focus grasping everything.
+# I have multiple friends who have ADHD and when they force themselves to focus, they do great things, get the highest grades and retain more knowledge.
+# And some people with autism can be servants, which means they are highly proficient in something, generally math science or music, which is fantastic.
+# I think we should let those kids blossom and be there own unique awesome person, advancing human towards the next step in our history"""
 
-]
+# ]
+
+arguments = [entry["text"] for entry in test_data]
 
 common_intro = """
 ####ROLE###
@@ -40,7 +43,7 @@ You are an Argument Annotator AI.
 Given an argument, assess the quality.
 
 ###QUALITY RATINGS###
-Assign a quality rating of either "Good" or "Bad" in each of the four categories. Internally, assign a value between 1-5 to each quality aspect. If the value is between 1-2, the quality is "Bad"; if it is between 3-5, the quality is "Good".
+Assign a quality rating of either "Good" or "Bad" in each of the four categories. Internally, assign a value between 1-5 to each quality aspect. If the value is between 1-2.5, the quality is "Bad"; if it is between 2.5-5, the quality is "Good".
 """
 
 dimensions = """
@@ -154,11 +157,13 @@ for run_ind in range(N_RUNS):
     print(f"Total errors in RUN {run_ind + 1}: {local_errors}")
 
 
-ground_truth = [
-    {"cogency": "Good", "effectiveness": "Good", "reasonableness": "Good", "overall": "Good"},
-    {"cogency": "Bad", "effectiveness": "Good", "reasonableness": "Bad", "overall": "Bad"},
-    {"cogency": "Good", "effectiveness": "Good", "reasonableness": "Good", "overall": "Good"}
-]
+# ground_truth = [
+#     {"cogency": "Good", "effectiveness": "Good", "reasonableness": "Good", "overall": "Good"},
+#     {"cogency": "Bad", "effectiveness": "Good", "reasonableness": "Bad", "overall": "Bad"},
+#     {"cogency": "Good", "effectiveness": "Good", "reasonableness": "Good", "overall": "Good"}
+# ]
+
+ground_truth = [entry["labels"] for entry in test_data]
 
 # Evaluate each run against the ground truth
 for i, run in enumerate(all_runs):
