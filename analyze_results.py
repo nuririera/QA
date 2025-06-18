@@ -20,7 +20,13 @@ def evaluate_single_run(model_outpus, ground_truths):
         print(f"\n --- {dim.upper()} ---")
         # Metric of basic classification performance
         print(f"F1 Score: {f1_score(true_scores, model_scores):.2f}")
-        print(f"Matriz de confusión:\n{confusion_matrix(true_scores, model_scores)}")
+        cm = confusion_matrix(true_scores, model_scores)
+        print("\nConfusion Matrix (Actual vs Predicted):")
+        print("               Predicted")
+        print("               Bad     Good")
+        print(f"True Bad   [{cm[0][0]:<5}  {cm[0][1]:<5}]")
+        print(f"True Good  [{cm[1][0]:<5}  {cm[1][1]:<5}]")
+
         print("Classification Report:")
         print(classification_report(true_scores, model_scores, zero_division=0))
 
@@ -32,14 +38,14 @@ def analyze_variability_across_runs(runs_outputs):
     n_args = len(runs_outputs[0])
 
     for dim in dimensions:
-        print(f"\n --- VARIABILIDAD EN {dim.upper()} ---")
-        # bin_matrix[i][j] = evaluación binaria del argumento i en el run j
+        print(f"\n --- VARIABILITY IN {dim.upper()} ---")
+        # bin_matrix[i][j] = binary evaluation of argument i in run j
         bin_matrix = np.array([
             [rating_map[run[i][dim]] for run in runs_outputs]
             for i in range(n_args)
         ])
 
-        # Varianza por argumento: mide cuánto varían los runs para ese argumento
+        # Variance per argument: measures how much the evaluations vary across runs for that argument
         var_by_argument = np.var(bin_matrix, axis=1)
         mean_var = mean(var_by_argument)
 
@@ -50,7 +56,7 @@ def analyze_variability_across_runs(runs_outputs):
             len(set(row)) == 1 for row in bin_matrix
         ])
 
-        print(f"Proporción de argumentos con desacuerdo entre runs: {desacuerdo:.2%}")
+        print(f"Proportion of arguments with disagreement across runs: {desacuerdo:.2%}")
 
-        print("Ejemplo primeros 5 argumentos (filas = argumentos, columnas = runs):")
+        print("(filas = argumentos, columnas = runs):")
         print(bin_matrix)
