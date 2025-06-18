@@ -6,9 +6,11 @@ from collections import Counter
 from analyze_results import evaluate_single_run, analyze_variability_across_runs, evaluate_multiple_runs
 from dataset_division import test_data
 import sys
+import time
 from Logger import Logger
 
 sys.stdout = Logger("analysis_log.txt")
+global_start = time.time() #total time
 
 API_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "llama3.1"
@@ -103,6 +105,7 @@ MAX_RETRIES = 5
 error_counter = Counter()
 all_runs = []
 for run_ind in range(N_RUNS):
+    run_start = time.time()
     print(f"\n--- RUN {run_ind + 1} ---")
     run = []
     local_errors = 0
@@ -112,6 +115,7 @@ for run_ind in range(N_RUNS):
         success = False
 
         while retries < MAX_RETRIES and not success:
+            arg_start = time.time()
             prompt = build_prompt(arg)
             response = query_model(prompt)
             labels = extract_labels(response)
@@ -132,9 +136,12 @@ for run_ind in range(N_RUNS):
 
 
         print(f"Argument {i + 1}:\n{arg}\nResponse: {run[-1]}\n")
+        arg_time = time.time() - arg_start
         time.sleep(0.5)  # optional cooldown
 
+    run_time = time.time() - run_start
     all_runs.append(run)
+    print(f"Run {run_ind + 1} completed in {run_time:.2f} seconds.")
     print(f"Total errors in RUN {run_ind + 1}: {local_errors}")
 
 ground_truth = [entry["labels"] for entry in test_data]
@@ -156,3 +163,8 @@ analyze_variability_across_runs(all_runs)
 print("\n--- ERROR STATISTICS ---")
 print(f"Total errors across all runs: {sum(error_counter.values())}")
 print("Error details:", dict(error_counter))
+
+# Print total execution time
+total_duration = time.time() - global_start
+print(f"\n--- TOTAL EXECUTION TIME ---")
+print(f"Total time: {total_duration:.2f} seconds")
