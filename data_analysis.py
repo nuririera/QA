@@ -9,7 +9,7 @@ import sys
 import time
 from Logger import Logger
 
-sys.stdout = Logger("analysis_log.txt")
+sys.stdout = Logger("analysis_log2.txt")
 global_start = time.time() #total time
 
 API_URL = "http://localhost:11434/api/generate"
