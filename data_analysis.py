@@ -137,6 +137,7 @@ for run_ind in range(N_RUNS):
 
         print(f"Argument {i + 1}:\n{arg}\nResponse: {run[-1]}\n")
         arg_time = time.time() - arg_start
+        print(f"Time for argument {i + 1}: {arg_time:.2f} seconds")
         time.sleep(0.5)  # optional cooldown
 
     run_time = time.time() - run_start
