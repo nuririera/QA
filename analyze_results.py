@@ -42,7 +42,6 @@ def evaluate_multiple_runs(model_outputs_runs, ground_truths):
     metrics_by_dim = {dim: {"f1":[], "precision":[], "recall":[]} for dim in dimensions}
 
     for run_idx, model_outputs in enumerate(model_outputs_runs):
-        print(f"\n --- RUN {run_idx+1} ---")
         for dim in dimensions:
             model_scores = [rating_map[x[dim]] for x in model_outputs]
             true_scores = [rating_map[x[dim]] for x in ground_truths]
@@ -53,21 +52,6 @@ def evaluate_multiple_runs(model_outputs_runs, ground_truths):
             metrics_by_dim[dim]["f1"].append(f1)
             metrics_by_dim[dim]["precision"].append(precision)
             metrics_by_dim[dim]["recall"].append(recall)
-
-            print(f"\n --- {dim.upper()} ---")
-            print(f"F1 Score: {f1:.2f}")
-            print(f"Precision: {precision:.2f}")
-            print(f"Recall: {recall:.2f}")
-
-            cm = confusion_matrix(true_scores, model_scores)
-            print("\nConfusion Matrix (Actual vs Predicted):")
-            print("               Predicted")
-            print("               Bad     Good")
-            print(f"True Bad   [{cm[0][0]:<5}  {cm[0][1]:<5}]")
-            print(f"True Good  [{cm[1][0]:<5}  {cm[1][1]:<5}]")
-
-            print("Classification Report:")
-            print(classification_report(true_scores, model_scores, zero_division=0))
 
     print(f"\n === AVERAGE METRICS ACROSS {n_runs} RUNS ===")
     for dim in dimensions:
