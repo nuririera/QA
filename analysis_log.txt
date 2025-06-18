@@ -1,0 +1,1114 @@
+
+--- RUN 1 ---
+Argument 1:
+I am currently a college student at the University of Houston. Three times now I have been threatened with violence less than 2 minutes from my dorm. Once it was diffused by showing a knife. Once I managed to drove off. The final time I was lucky to be saved by campus pd. This has led me to advocate for campus carry. I belive that every college campus should be forced to allow it regardless of what the Dean or students think. The only argument I see against it is the "danger" of students carrying , but stats have proven that people with CHL's almost always commit crimes less often than people without liscenses.
+Edit: for clarity I'm talking about a law that both allows carry on campuses and forces them to accept it in policies. 
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 2:
+Increasingly over the last decade the police in America have become more and more aggressive and abusive of their powers. Almost daily we hear of police shooting and killing unarmed and unthreatening citizens along with animals. Most times these cops are given a slap on the wrist or paid leave at worst. I understand that they serve a vital function in our society, but has become evident that they are abusing that trust. In many places they have tried to Institute personally mounted cameras which have been proven to lower incidents and false abuse claims, yet police departments have been adamant against implementation. This leads me to believe that they are trying to hide criminal activity and widespread systemic abuse. If i smoke marijuana I am infinitely more prone to danger from police then from anyone or anything else. And with the increasing militarization this threat is ever increasing. 
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Error parsing response: {{
+    "cogency": "Good",
+    "effectiveness": "Bad",
+    "reasonableness": "Good",
+    "overall": "Good"
+}}
+Retry 1 for argument 3 due to invalid response.
+Argument 3:
+Sadism as the practice of violence or cruelty against others to fulfil some sort of personal or sexual gratification is, in my opinion, the most sickening act a person can commit. In order to commit such an act, the person must be subjugated and therefore weaker than the active participant, thus compounding the act of violence. This is "evil".
+However where both, or all individuals are consenting active participants, I believe this to be a form of masochism, albeit from the hands of another. Although this statement may seem to be an oxymoron, if you pursue pain and violence, and consequently receive it from the hands of another, is this not just "assisted" masochism? (a la assisted suicide) Although these individuals may be strange, what two (or more) consenting adults do in private is no concern of mine.
+Pick this apart at your will.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 4:
+How are you going to enforce it? Stop people in the middle of the road, ask their license and registration, and conduct a breath test? "Sir, you have been randomly selected for breath test, please step outside of the car".
+Will certainty give counties jobs for police officers, at the expense of tax payers.
+Cops already doing tests if they suspect you were drinking -- it's not random but probable cause.
+Guess what. if you were drinking and cops do not suspect your drinking habits, it is because your Alcoholic content is below DUI. Some cops don't like the extra effort, and paperwork stopping people for DUI. Do you think random testing will solve this problem?
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 5:
+Although I believe both baseball and football are both deeply rooted in America's history, I believe that baseball has to America's number one pastime. It's the popularity of baseball in the days of Babe Ruth that all sports strive to achieve. It is with that type of popularity or attention to one specific thing that brings people together. Baseball definitely has to be America's favorite pastime, well at least it is my book.
+Response: {'cogency': 'Bad', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 6:
+Seeing as how I don't believe in the Big Bang theory and I believe God created all per Genesis, I have to say that God created photosynthesis.
+Although for those of you who disagree, I wonder just how likely it is that you think photosynthesis evolved. Something as complex as that process occurred by evolution/accident?
+It is things like this that make me wonder how we can't all believe in a supreme creator whether it be God, Allah, Vishnu, or any other god that people choose to worship. It just seems that somebody/something had to design it all at least in the beginning.
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 7:
+I would be in favor of that. My personal convictions could never allow me to support caging an animal up behind bars for the amusement of people. Animals are meant to be free. Of course nothing like this would ever be taken seriously by a substantial amount of people because for the most part animals are viewed as inferior which then justifies locking them up. F**k zoos.
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 8:
+The way i see it, the main controversy comes at whether abortion implies killing another human being or not.
+
+To solve this, we need to define what being alive means legally. I propose that being alive should be measured by brain activity since its our brain what makes us sentient.
+
+So, if a fetus doesn't show any signs of brain activity then its not a living human being yet and could be legally aborted.
+
+This definition bypasses both religious and ethical concerns, potentially makind the abort issue way easier to solve.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 9:
+First of all, very first of all, us people are very greedy. We like to scrimp if we can, so we can pocket the difference. $8B, according to Forbes is its budget. If it was so useless, or even if Congress felt they could get away without it, they would immediately remove it. $8B more! They'd raise their pay! But they don't. Why wouldn't they? Because they think it serves some sort of purpose, and I am assuming it is the one of protecting the USA. Secondly, it is evolving. You have seen new security measures every year and while yes, they are annoying, they may have potentially saved your life. How's that for throwing away 500ml of water and standing in queue for 30min?
+I can see that many people in reddit disagree with this, however, and I want to know why, so I can form a balanced opinion. So CMV!
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 10:
+I feel that Kurt Cobain was murdered. Here are my reasons.
+1. He had enough heroin in his system to kill an adult 3 times over.
+2. The so called suicide note had evidence of being written by two different people. Kurt, himself, and another person.
+3. Kurt Cobain's credit card was reported being used after his death.
+4. There were no usable fingerprints on the weapon. I mean with all the heroin in his system he would not be coherent enough to put on gloves and then shoot himself.
+Everyone is entitled to their opinions, but with this kind of evidence, I feel there is no question that he was murdered.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 11:
+Since it's illegal to offer equity in a company via a Kickstarter, what's the point of funding one? It's basically a charitable donation to a for-profit company, or a gamble that you can't win - you'll never receive anything more than you put in, but you are quite likely to receive nothing at all in return for your investment. The only benefit I can see is that if there's some idea out there that was so revolutionary that it could change the world, if only it had the proper funding - but if it was that good, why didn't some big corporation buy it already? So it's probably just snake oil. I really can't see any rational reason to fund a Kickstarter; the only reason I can see to do so is because of an emotional attachment to whatever product is being developed, and a fear that if one does not fund it, the product will never see the light of day.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 12:
+It is pointless. I see no positive thing about it. It is not the best way to communicate to people seeing at we have phones, email, instant messenger, video calls, and video chats. The apps have no meaning and are really not that fun. I also do not see why anyone would wanna post about their feelings or what their doing and shout it out to everyone. I really do not care if billy bob is going shopping. It is also a place for online and maybe real life stalkers and maybe future stalkers.
+Response: {'cogency': 'Bad', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 13:
+The processes of the Engineering process category in SPICE are more beneficial for designing or assessing processes of typical projects developing software-intensive systems. SPICE shows the relation of tests to requirements and integration tests to architecture and design much clearer than CMMI. Additionally, SPICE contains a sophisticated list of typical input and output work products with detailed characteristics that greatly supports process development work. CMMI is missing such a systematic approach regarding work products.
+Response: {'cogency': 'Good', 'effectiveness': 'Good', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 14:
+I believe that this solves a number of issues that I have with the death penalty, amongst other benefits.
+
+* The state's hands are kept clean.
+
+* An innocent person will always choose the imprisonment, during this time new evidence may come to light that proves them innocent. No more dead innocents.
+
+* The convicts freedom of choice remains intact, which I consider to be important.
+
+* I believe that presenting them with a choice is more human than executing them against their will.
+
+* If they choose the life imprisonment, then they should be presented the option again every five years or so. This way the life imprisonment is not inhumane as there is always an "out".
+
+* The method of suicide should be left up to the convict.
+
+* No other people have to bear the burden of ending someone's life.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 15:
+I'm moving to Singapore in the coming months and discovered that they have basically a flat tax system (much lower rate than US) on income and have heavy luxury taxes on items like cars and brand named clothing. Many employees in my company are relocating to different parts of Asia because their tax burden is too heavy especially in European countries. High taxes seem to be causing an exodus from certain countries which creates loss of tax income. Places like Dubai and Singapore are benefiting greatly from the tax challenges faced in mature economies. MNC have been doing it for years, individuals are starting as well now.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 16:
+Termaionater because he is made of full metal and pluse in the movie he said that he can live for milions of years. pluse he can see every thing when in is dark. All so he he way much smarter that rob cop. Rob cop he is just hafe human and hafe metal see thats stupied if he gets shout in the mouth he would die. and allso every time he gets hit really bad he will die quicker. but that why the termanater is so much better. Like if he gets shout he wont die at all he looses his own arm he can still walk really fast.
+Response: {'cogency': 'Bad', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 17:
+I'm 30, and it seems like for nearly have my life we have "at war" with al qaeda/terrorism by way of military adventurism, nation building, and shifting an enormous amount of GDP into military contractors at the expensive of using that GDP to help our own citizens.
+
+It looks to me that the military industrial complex used 9/11 as an excuse to be at war with a very generic concept of "terrorism" so in theory the "war" would never end since there will always be "terrorism" in the world (pre and post 9/11 dating back 1000's of years...).
+
+It also seems like a political tool of the right wing to scare old white conservatives into fearing brown people so they elect the most hawkish neo-con into office to spend even more on military adventurism.
+To me, it just seems like a huge scam into spending an enormous amount of money on exactly what Eisenhower warned us about.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Total errors in RUN 1: 1
+
+--- RUN 2 ---
+Argument 1:
+I am currently a college student at the University of Houston. Three times now I have been threatened with violence less than 2 minutes from my dorm. Once it was diffused by showing a knife. Once I managed to drove off. The final time I was lucky to be saved by campus pd. This has led me to advocate for campus carry. I belive that every college campus should be forced to allow it regardless of what the Dean or students think. The only argument I see against it is the "danger" of students carrying , but stats have proven that people with CHL's almost always commit crimes less often than people without liscenses.
+Edit: for clarity I'm talking about a law that both allows carry on campuses and forces them to accept it in policies. 
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 2:
+Increasingly over the last decade the police in America have become more and more aggressive and abusive of their powers. Almost daily we hear of police shooting and killing unarmed and unthreatening citizens along with animals. Most times these cops are given a slap on the wrist or paid leave at worst. I understand that they serve a vital function in our society, but has become evident that they are abusing that trust. In many places they have tried to Institute personally mounted cameras which have been proven to lower incidents and false abuse claims, yet police departments have been adamant against implementation. This leads me to believe that they are trying to hide criminal activity and widespread systemic abuse. If i smoke marijuana I am infinitely more prone to danger from police then from anyone or anything else. And with the increasing militarization this threat is ever increasing. 
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 3:
+Sadism as the practice of violence or cruelty against others to fulfil some sort of personal or sexual gratification is, in my opinion, the most sickening act a person can commit. In order to commit such an act, the person must be subjugated and therefore weaker than the active participant, thus compounding the act of violence. This is "evil".
+However where both, or all individuals are consenting active participants, I believe this to be a form of masochism, albeit from the hands of another. Although this statement may seem to be an oxymoron, if you pursue pain and violence, and consequently receive it from the hands of another, is this not just "assisted" masochism? (a la assisted suicide) Although these individuals may be strange, what two (or more) consenting adults do in private is no concern of mine.
+Pick this apart at your will.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 4:
+How are you going to enforce it? Stop people in the middle of the road, ask their license and registration, and conduct a breath test? "Sir, you have been randomly selected for breath test, please step outside of the car".
+Will certainty give counties jobs for police officers, at the expense of tax payers.
+Cops already doing tests if they suspect you were drinking -- it's not random but probable cause.
+Guess what. if you were drinking and cops do not suspect your drinking habits, it is because your Alcoholic content is below DUI. Some cops don't like the extra effort, and paperwork stopping people for DUI. Do you think random testing will solve this problem?
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 5:
+Although I believe both baseball and football are both deeply rooted in America's history, I believe that baseball has to America's number one pastime. It's the popularity of baseball in the days of Babe Ruth that all sports strive to achieve. It is with that type of popularity or attention to one specific thing that brings people together. Baseball definitely has to be America's favorite pastime, well at least it is my book.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 6:
+Seeing as how I don't believe in the Big Bang theory and I believe God created all per Genesis, I have to say that God created photosynthesis.
+Although for those of you who disagree, I wonder just how likely it is that you think photosynthesis evolved. Something as complex as that process occurred by evolution/accident?
+It is things like this that make me wonder how we can't all believe in a supreme creator whether it be God, Allah, Vishnu, or any other god that people choose to worship. It just seems that somebody/something had to design it all at least in the beginning.
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 7:
+I would be in favor of that. My personal convictions could never allow me to support caging an animal up behind bars for the amusement of people. Animals are meant to be free. Of course nothing like this would ever be taken seriously by a substantial amount of people because for the most part animals are viewed as inferior which then justifies locking them up. F**k zoos.
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 8:
+The way i see it, the main controversy comes at whether abortion implies killing another human being or not.
+
+To solve this, we need to define what being alive means legally. I propose that being alive should be measured by brain activity since its our brain what makes us sentient.
+
+So, if a fetus doesn't show any signs of brain activity then its not a living human being yet and could be legally aborted.
+
+This definition bypasses both religious and ethical concerns, potentially makind the abort issue way easier to solve.
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 9:
+First of all, very first of all, us people are very greedy. We like to scrimp if we can, so we can pocket the difference. $8B, according to Forbes is its budget. If it was so useless, or even if Congress felt they could get away without it, they would immediately remove it. $8B more! They'd raise their pay! But they don't. Why wouldn't they? Because they think it serves some sort of purpose, and I am assuming it is the one of protecting the USA. Secondly, it is evolving. You have seen new security measures every year and while yes, they are annoying, they may have potentially saved your life. How's that for throwing away 500ml of water and standing in queue for 30min?
+I can see that many people in reddit disagree with this, however, and I want to know why, so I can form a balanced opinion. So CMV!
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 10:
+I feel that Kurt Cobain was murdered. Here are my reasons.
+1. He had enough heroin in his system to kill an adult 3 times over.
+2. The so called suicide note had evidence of being written by two different people. Kurt, himself, and another person.
+3. Kurt Cobain's credit card was reported being used after his death.
+4. There were no usable fingerprints on the weapon. I mean with all the heroin in his system he would not be coherent enough to put on gloves and then shoot himself.
+Everyone is entitled to their opinions, but with this kind of evidence, I feel there is no question that he was murdered.
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 11:
+Since it's illegal to offer equity in a company via a Kickstarter, what's the point of funding one? It's basically a charitable donation to a for-profit company, or a gamble that you can't win - you'll never receive anything more than you put in, but you are quite likely to receive nothing at all in return for your investment. The only benefit I can see is that if there's some idea out there that was so revolutionary that it could change the world, if only it had the proper funding - but if it was that good, why didn't some big corporation buy it already? So it's probably just snake oil. I really can't see any rational reason to fund a Kickstarter; the only reason I can see to do so is because of an emotional attachment to whatever product is being developed, and a fear that if one does not fund it, the product will never see the light of day.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Bad'}
+
+Argument 12:
+It is pointless. I see no positive thing about it. It is not the best way to communicate to people seeing at we have phones, email, instant messenger, video calls, and video chats. The apps have no meaning and are really not that fun. I also do not see why anyone would wanna post about their feelings or what their doing and shout it out to everyone. I really do not care if billy bob is going shopping. It is also a place for online and maybe real life stalkers and maybe future stalkers.
+Response: {'cogency': 'Bad', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Bad'}
+
+Argument 13:
+The processes of the Engineering process category in SPICE are more beneficial for designing or assessing processes of typical projects developing software-intensive systems. SPICE shows the relation of tests to requirements and integration tests to architecture and design much clearer than CMMI. Additionally, SPICE contains a sophisticated list of typical input and output work products with detailed characteristics that greatly supports process development work. CMMI is missing such a systematic approach regarding work products.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 14:
+I believe that this solves a number of issues that I have with the death penalty, amongst other benefits.
+
+* The state's hands are kept clean.
+
+* An innocent person will always choose the imprisonment, during this time new evidence may come to light that proves them innocent. No more dead innocents.
+
+* The convicts freedom of choice remains intact, which I consider to be important.
+
+* I believe that presenting them with a choice is more human than executing them against their will.
+
+* If they choose the life imprisonment, then they should be presented the option again every five years or so. This way the life imprisonment is not inhumane as there is always an "out".
+
+* The method of suicide should be left up to the convict.
+
+* No other people have to bear the burden of ending someone's life.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 15:
+I'm moving to Singapore in the coming months and discovered that they have basically a flat tax system (much lower rate than US) on income and have heavy luxury taxes on items like cars and brand named clothing. Many employees in my company are relocating to different parts of Asia because their tax burden is too heavy especially in European countries. High taxes seem to be causing an exodus from certain countries which creates loss of tax income. Places like Dubai and Singapore are benefiting greatly from the tax challenges faced in mature economies. MNC have been doing it for years, individuals are starting as well now.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 16:
+Termaionater because he is made of full metal and pluse in the movie he said that he can live for milions of years. pluse he can see every thing when in is dark. All so he he way much smarter that rob cop. Rob cop he is just hafe human and hafe metal see thats stupied if he gets shout in the mouth he would die. and allso every time he gets hit really bad he will die quicker. but that why the termanater is so much better. Like if he gets shout he wont die at all he looses his own arm he can still walk really fast.
+Response: {'cogency': 'Bad', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Bad'}
+
+Argument 17:
+I'm 30, and it seems like for nearly have my life we have "at war" with al qaeda/terrorism by way of military adventurism, nation building, and shifting an enormous amount of GDP into military contractors at the expensive of using that GDP to help our own citizens.
+
+It looks to me that the military industrial complex used 9/11 as an excuse to be at war with a very generic concept of "terrorism" so in theory the "war" would never end since there will always be "terrorism" in the world (pre and post 9/11 dating back 1000's of years...).
+
+It also seems like a political tool of the right wing to scare old white conservatives into fearing brown people so they elect the most hawkish neo-con into office to spend even more on military adventurism.
+To me, it just seems like a huge scam into spending an enormous amount of money on exactly what Eisenhower warned us about.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Total errors in RUN 2: 0
+
+--- RUN 3 ---
+Argument 1:
+I am currently a college student at the University of Houston. Three times now I have been threatened with violence less than 2 minutes from my dorm. Once it was diffused by showing a knife. Once I managed to drove off. The final time I was lucky to be saved by campus pd. This has led me to advocate for campus carry. I belive that every college campus should be forced to allow it regardless of what the Dean or students think. The only argument I see against it is the "danger" of students carrying , but stats have proven that people with CHL's almost always commit crimes less often than people without liscenses.
+Edit: for clarity I'm talking about a law that both allows carry on campuses and forces them to accept it in policies. 
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 2:
+Increasingly over the last decade the police in America have become more and more aggressive and abusive of their powers. Almost daily we hear of police shooting and killing unarmed and unthreatening citizens along with animals. Most times these cops are given a slap on the wrist or paid leave at worst. I understand that they serve a vital function in our society, but has become evident that they are abusing that trust. In many places they have tried to Institute personally mounted cameras which have been proven to lower incidents and false abuse claims, yet police departments have been adamant against implementation. This leads me to believe that they are trying to hide criminal activity and widespread systemic abuse. If i smoke marijuana I am infinitely more prone to danger from police then from anyone or anything else. And with the increasing militarization this threat is ever increasing. 
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 3:
+Sadism as the practice of violence or cruelty against others to fulfil some sort of personal or sexual gratification is, in my opinion, the most sickening act a person can commit. In order to commit such an act, the person must be subjugated and therefore weaker than the active participant, thus compounding the act of violence. This is "evil".
+However where both, or all individuals are consenting active participants, I believe this to be a form of masochism, albeit from the hands of another. Although this statement may seem to be an oxymoron, if you pursue pain and violence, and consequently receive it from the hands of another, is this not just "assisted" masochism? (a la assisted suicide) Although these individuals may be strange, what two (or more) consenting adults do in private is no concern of mine.
+Pick this apart at your will.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 4:
+How are you going to enforce it? Stop people in the middle of the road, ask their license and registration, and conduct a breath test? "Sir, you have been randomly selected for breath test, please step outside of the car".
+Will certainty give counties jobs for police officers, at the expense of tax payers.
+Cops already doing tests if they suspect you were drinking -- it's not random but probable cause.
+Guess what. if you were drinking and cops do not suspect your drinking habits, it is because your Alcoholic content is below DUI. Some cops don't like the extra effort, and paperwork stopping people for DUI. Do you think random testing will solve this problem?
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 5:
+Although I believe both baseball and football are both deeply rooted in America's history, I believe that baseball has to America's number one pastime. It's the popularity of baseball in the days of Babe Ruth that all sports strive to achieve. It is with that type of popularity or attention to one specific thing that brings people together. Baseball definitely has to be America's favorite pastime, well at least it is my book.
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 6:
+Seeing as how I don't believe in the Big Bang theory and I believe God created all per Genesis, I have to say that God created photosynthesis.
+Although for those of you who disagree, I wonder just how likely it is that you think photosynthesis evolved. Something as complex as that process occurred by evolution/accident?
+It is things like this that make me wonder how we can't all believe in a supreme creator whether it be God, Allah, Vishnu, or any other god that people choose to worship. It just seems that somebody/something had to design it all at least in the beginning.
+Response: {'cogency': 'Bad', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Bad'}
+
+Argument 7:
+I would be in favor of that. My personal convictions could never allow me to support caging an animal up behind bars for the amusement of people. Animals are meant to be free. Of course nothing like this would ever be taken seriously by a substantial amount of people because for the most part animals are viewed as inferior which then justifies locking them up. F**k zoos.
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 8:
+The way i see it, the main controversy comes at whether abortion implies killing another human being or not.
+
+To solve this, we need to define what being alive means legally. I propose that being alive should be measured by brain activity since its our brain what makes us sentient.
+
+So, if a fetus doesn't show any signs of brain activity then its not a living human being yet and could be legally aborted.
+
+This definition bypasses both religious and ethical concerns, potentially makind the abort issue way easier to solve.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 9:
+First of all, very first of all, us people are very greedy. We like to scrimp if we can, so we can pocket the difference. $8B, according to Forbes is its budget. If it was so useless, or even if Congress felt they could get away without it, they would immediately remove it. $8B more! They'd raise their pay! But they don't. Why wouldn't they? Because they think it serves some sort of purpose, and I am assuming it is the one of protecting the USA. Secondly, it is evolving. You have seen new security measures every year and while yes, they are annoying, they may have potentially saved your life. How's that for throwing away 500ml of water and standing in queue for 30min?
+I can see that many people in reddit disagree with this, however, and I want to know why, so I can form a balanced opinion. So CMV!
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 10:
+I feel that Kurt Cobain was murdered. Here are my reasons.
+1. He had enough heroin in his system to kill an adult 3 times over.
+2. The so called suicide note had evidence of being written by two different people. Kurt, himself, and another person.
+3. Kurt Cobain's credit card was reported being used after his death.
+4. There were no usable fingerprints on the weapon. I mean with all the heroin in his system he would not be coherent enough to put on gloves and then shoot himself.
+Everyone is entitled to their opinions, but with this kind of evidence, I feel there is no question that he was murdered.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 11:
+Since it's illegal to offer equity in a company via a Kickstarter, what's the point of funding one? It's basically a charitable donation to a for-profit company, or a gamble that you can't win - you'll never receive anything more than you put in, but you are quite likely to receive nothing at all in return for your investment. The only benefit I can see is that if there's some idea out there that was so revolutionary that it could change the world, if only it had the proper funding - but if it was that good, why didn't some big corporation buy it already? So it's probably just snake oil. I really can't see any rational reason to fund a Kickstarter; the only reason I can see to do so is because of an emotional attachment to whatever product is being developed, and a fear that if one does not fund it, the product will never see the light of day.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 12:
+It is pointless. I see no positive thing about it. It is not the best way to communicate to people seeing at we have phones, email, instant messenger, video calls, and video chats. The apps have no meaning and are really not that fun. I also do not see why anyone would wanna post about their feelings or what their doing and shout it out to everyone. I really do not care if billy bob is going shopping. It is also a place for online and maybe real life stalkers and maybe future stalkers.
+Response: {'cogency': 'Bad', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 13:
+The processes of the Engineering process category in SPICE are more beneficial for designing or assessing processes of typical projects developing software-intensive systems. SPICE shows the relation of tests to requirements and integration tests to architecture and design much clearer than CMMI. Additionally, SPICE contains a sophisticated list of typical input and output work products with detailed characteristics that greatly supports process development work. CMMI is missing such a systematic approach regarding work products.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 14:
+I believe that this solves a number of issues that I have with the death penalty, amongst other benefits.
+
+* The state's hands are kept clean.
+
+* An innocent person will always choose the imprisonment, during this time new evidence may come to light that proves them innocent. No more dead innocents.
+
+* The convicts freedom of choice remains intact, which I consider to be important.
+
+* I believe that presenting them with a choice is more human than executing them against their will.
+
+* If they choose the life imprisonment, then they should be presented the option again every five years or so. This way the life imprisonment is not inhumane as there is always an "out".
+
+* The method of suicide should be left up to the convict.
+
+* No other people have to bear the burden of ending someone's life.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 15:
+I'm moving to Singapore in the coming months and discovered that they have basically a flat tax system (much lower rate than US) on income and have heavy luxury taxes on items like cars and brand named clothing. Many employees in my company are relocating to different parts of Asia because their tax burden is too heavy especially in European countries. High taxes seem to be causing an exodus from certain countries which creates loss of tax income. Places like Dubai and Singapore are benefiting greatly from the tax challenges faced in mature economies. MNC have been doing it for years, individuals are starting as well now.
+Response: {'cogency': 'Good', 'effectiveness': 'Good', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Error parsing response: {{
+    "cogency": "Bad",
+    "effectiveness": "Bad",
+    "reasonableness": "Bad",
+    "overall": "Bad"
+}}
+Retry 1 for argument 16 due to invalid response.
+Argument 16:
+Termaionater because he is made of full metal and pluse in the movie he said that he can live for milions of years. pluse he can see every thing when in is dark. All so he he way much smarter that rob cop. Rob cop he is just hafe human and hafe metal see thats stupied if he gets shout in the mouth he would die. and allso every time he gets hit really bad he will die quicker. but that why the termanater is so much better. Like if he gets shout he wont die at all he looses his own arm he can still walk really fast.
+Response: {'cogency': 'Bad', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Bad'}
+
+Error parsing response: {{
+    "cogency": "Good",
+    "effectiveness": "Bad",
+    "reasonableness": "Good",
+    "overall": "Good"
+}}
+Retry 1 for argument 17 due to invalid response.
+Argument 17:
+I'm 30, and it seems like for nearly have my life we have "at war" with al qaeda/terrorism by way of military adventurism, nation building, and shifting an enormous amount of GDP into military contractors at the expensive of using that GDP to help our own citizens.
+
+It looks to me that the military industrial complex used 9/11 as an excuse to be at war with a very generic concept of "terrorism" so in theory the "war" would never end since there will always be "terrorism" in the world (pre and post 9/11 dating back 1000's of years...).
+
+It also seems like a political tool of the right wing to scare old white conservatives into fearing brown people so they elect the most hawkish neo-con into office to spend even more on military adventurism.
+To me, it just seems like a huge scam into spending an enormous amount of money on exactly what Eisenhower warned us about.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Total errors in RUN 3: 2
+
+--- RUN 4 ---
+Argument 1:
+I am currently a college student at the University of Houston. Three times now I have been threatened with violence less than 2 minutes from my dorm. Once it was diffused by showing a knife. Once I managed to drove off. The final time I was lucky to be saved by campus pd. This has led me to advocate for campus carry. I belive that every college campus should be forced to allow it regardless of what the Dean or students think. The only argument I see against it is the "danger" of students carrying , but stats have proven that people with CHL's almost always commit crimes less often than people without liscenses.
+Edit: for clarity I'm talking about a law that both allows carry on campuses and forces them to accept it in policies. 
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 2:
+Increasingly over the last decade the police in America have become more and more aggressive and abusive of their powers. Almost daily we hear of police shooting and killing unarmed and unthreatening citizens along with animals. Most times these cops are given a slap on the wrist or paid leave at worst. I understand that they serve a vital function in our society, but has become evident that they are abusing that trust. In many places they have tried to Institute personally mounted cameras which have been proven to lower incidents and false abuse claims, yet police departments have been adamant against implementation. This leads me to believe that they are trying to hide criminal activity and widespread systemic abuse. If i smoke marijuana I am infinitely more prone to danger from police then from anyone or anything else. And with the increasing militarization this threat is ever increasing. 
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 3:
+Sadism as the practice of violence or cruelty against others to fulfil some sort of personal or sexual gratification is, in my opinion, the most sickening act a person can commit. In order to commit such an act, the person must be subjugated and therefore weaker than the active participant, thus compounding the act of violence. This is "evil".
+However where both, or all individuals are consenting active participants, I believe this to be a form of masochism, albeit from the hands of another. Although this statement may seem to be an oxymoron, if you pursue pain and violence, and consequently receive it from the hands of another, is this not just "assisted" masochism? (a la assisted suicide) Although these individuals may be strange, what two (or more) consenting adults do in private is no concern of mine.
+Pick this apart at your will.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 4:
+How are you going to enforce it? Stop people in the middle of the road, ask their license and registration, and conduct a breath test? "Sir, you have been randomly selected for breath test, please step outside of the car".
+Will certainty give counties jobs for police officers, at the expense of tax payers.
+Cops already doing tests if they suspect you were drinking -- it's not random but probable cause.
+Guess what. if you were drinking and cops do not suspect your drinking habits, it is because your Alcoholic content is below DUI. Some cops don't like the extra effort, and paperwork stopping people for DUI. Do you think random testing will solve this problem?
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 5:
+Although I believe both baseball and football are both deeply rooted in America's history, I believe that baseball has to America's number one pastime. It's the popularity of baseball in the days of Babe Ruth that all sports strive to achieve. It is with that type of popularity or attention to one specific thing that brings people together. Baseball definitely has to be America's favorite pastime, well at least it is my book.
+Response: {'cogency': 'Bad', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 6:
+Seeing as how I don't believe in the Big Bang theory and I believe God created all per Genesis, I have to say that God created photosynthesis.
+Although for those of you who disagree, I wonder just how likely it is that you think photosynthesis evolved. Something as complex as that process occurred by evolution/accident?
+It is things like this that make me wonder how we can't all believe in a supreme creator whether it be God, Allah, Vishnu, or any other god that people choose to worship. It just seems that somebody/something had to design it all at least in the beginning.
+Response: {'cogency': 'Bad', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Bad'}
+
+Error parsing response: {{
+    "cogency": "Bad",
+    "effectiveness": "Bad",
+    "reasonableness": "Bad",
+    "overall": "Bad"
+}}
+Retry 1 for argument 7 due to invalid response.
+Argument 7:
+I would be in favor of that. My personal convictions could never allow me to support caging an animal up behind bars for the amusement of people. Animals are meant to be free. Of course nothing like this would ever be taken seriously by a substantial amount of people because for the most part animals are viewed as inferior which then justifies locking them up. F**k zoos.
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 8:
+The way i see it, the main controversy comes at whether abortion implies killing another human being or not.
+
+To solve this, we need to define what being alive means legally. I propose that being alive should be measured by brain activity since its our brain what makes us sentient.
+
+So, if a fetus doesn't show any signs of brain activity then its not a living human being yet and could be legally aborted.
+
+This definition bypasses both religious and ethical concerns, potentially makind the abort issue way easier to solve.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 9:
+First of all, very first of all, us people are very greedy. We like to scrimp if we can, so we can pocket the difference. $8B, according to Forbes is its budget. If it was so useless, or even if Congress felt they could get away without it, they would immediately remove it. $8B more! They'd raise their pay! But they don't. Why wouldn't they? Because they think it serves some sort of purpose, and I am assuming it is the one of protecting the USA. Secondly, it is evolving. You have seen new security measures every year and while yes, they are annoying, they may have potentially saved your life. How's that for throwing away 500ml of water and standing in queue for 30min?
+I can see that many people in reddit disagree with this, however, and I want to know why, so I can form a balanced opinion. So CMV!
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 10:
+I feel that Kurt Cobain was murdered. Here are my reasons.
+1. He had enough heroin in his system to kill an adult 3 times over.
+2. The so called suicide note had evidence of being written by two different people. Kurt, himself, and another person.
+3. Kurt Cobain's credit card was reported being used after his death.
+4. There were no usable fingerprints on the weapon. I mean with all the heroin in his system he would not be coherent enough to put on gloves and then shoot himself.
+Everyone is entitled to their opinions, but with this kind of evidence, I feel there is no question that he was murdered.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 11:
+Since it's illegal to offer equity in a company via a Kickstarter, what's the point of funding one? It's basically a charitable donation to a for-profit company, or a gamble that you can't win - you'll never receive anything more than you put in, but you are quite likely to receive nothing at all in return for your investment. The only benefit I can see is that if there's some idea out there that was so revolutionary that it could change the world, if only it had the proper funding - but if it was that good, why didn't some big corporation buy it already? So it's probably just snake oil. I really can't see any rational reason to fund a Kickstarter; the only reason I can see to do so is because of an emotional attachment to whatever product is being developed, and a fear that if one does not fund it, the product will never see the light of day.
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 12:
+It is pointless. I see no positive thing about it. It is not the best way to communicate to people seeing at we have phones, email, instant messenger, video calls, and video chats. The apps have no meaning and are really not that fun. I also do not see why anyone would wanna post about their feelings or what their doing and shout it out to everyone. I really do not care if billy bob is going shopping. It is also a place for online and maybe real life stalkers and maybe future stalkers.
+Response: {'cogency': 'Bad', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 13:
+The processes of the Engineering process category in SPICE are more beneficial for designing or assessing processes of typical projects developing software-intensive systems. SPICE shows the relation of tests to requirements and integration tests to architecture and design much clearer than CMMI. Additionally, SPICE contains a sophisticated list of typical input and output work products with detailed characteristics that greatly supports process development work. CMMI is missing such a systematic approach regarding work products.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 14:
+I believe that this solves a number of issues that I have with the death penalty, amongst other benefits.
+
+* The state's hands are kept clean.
+
+* An innocent person will always choose the imprisonment, during this time new evidence may come to light that proves them innocent. No more dead innocents.
+
+* The convicts freedom of choice remains intact, which I consider to be important.
+
+* I believe that presenting them with a choice is more human than executing them against their will.
+
+* If they choose the life imprisonment, then they should be presented the option again every five years or so. This way the life imprisonment is not inhumane as there is always an "out".
+
+* The method of suicide should be left up to the convict.
+
+* No other people have to bear the burden of ending someone's life.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 15:
+I'm moving to Singapore in the coming months and discovered that they have basically a flat tax system (much lower rate than US) on income and have heavy luxury taxes on items like cars and brand named clothing. Many employees in my company are relocating to different parts of Asia because their tax burden is too heavy especially in European countries. High taxes seem to be causing an exodus from certain countries which creates loss of tax income. Places like Dubai and Singapore are benefiting greatly from the tax challenges faced in mature economies. MNC have been doing it for years, individuals are starting as well now.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 16:
+Termaionater because he is made of full metal and pluse in the movie he said that he can live for milions of years. pluse he can see every thing when in is dark. All so he he way much smarter that rob cop. Rob cop he is just hafe human and hafe metal see thats stupied if he gets shout in the mouth he would die. and allso every time he gets hit really bad he will die quicker. but that why the termanater is so much better. Like if he gets shout he wont die at all he looses his own arm he can still walk really fast.
+Response: {'cogency': 'Bad', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Bad'}
+
+Error parsing response: {{
+    "cogency": "Good",
+    "effectiveness": "Bad",
+    "reasonableness": "Good",
+    "overall": "Good"
+}}
+Retry 1 for argument 17 due to invalid response.
+Argument 17:
+I'm 30, and it seems like for nearly have my life we have "at war" with al qaeda/terrorism by way of military adventurism, nation building, and shifting an enormous amount of GDP into military contractors at the expensive of using that GDP to help our own citizens.
+
+It looks to me that the military industrial complex used 9/11 as an excuse to be at war with a very generic concept of "terrorism" so in theory the "war" would never end since there will always be "terrorism" in the world (pre and post 9/11 dating back 1000's of years...).
+
+It also seems like a political tool of the right wing to scare old white conservatives into fearing brown people so they elect the most hawkish neo-con into office to spend even more on military adventurism.
+To me, it just seems like a huge scam into spending an enormous amount of money on exactly what Eisenhower warned us about.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Total errors in RUN 4: 2
+
+--- RUN 5 ---
+Argument 1:
+I am currently a college student at the University of Houston. Three times now I have been threatened with violence less than 2 minutes from my dorm. Once it was diffused by showing a knife. Once I managed to drove off. The final time I was lucky to be saved by campus pd. This has led me to advocate for campus carry. I belive that every college campus should be forced to allow it regardless of what the Dean or students think. The only argument I see against it is the "danger" of students carrying , but stats have proven that people with CHL's almost always commit crimes less often than people without liscenses.
+Edit: for clarity I'm talking about a law that both allows carry on campuses and forces them to accept it in policies. 
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 2:
+Increasingly over the last decade the police in America have become more and more aggressive and abusive of their powers. Almost daily we hear of police shooting and killing unarmed and unthreatening citizens along with animals. Most times these cops are given a slap on the wrist or paid leave at worst. I understand that they serve a vital function in our society, but has become evident that they are abusing that trust. In many places they have tried to Institute personally mounted cameras which have been proven to lower incidents and false abuse claims, yet police departments have been adamant against implementation. This leads me to believe that they are trying to hide criminal activity and widespread systemic abuse. If i smoke marijuana I am infinitely more prone to danger from police then from anyone or anything else. And with the increasing militarization this threat is ever increasing. 
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 3:
+Sadism as the practice of violence or cruelty against others to fulfil some sort of personal or sexual gratification is, in my opinion, the most sickening act a person can commit. In order to commit such an act, the person must be subjugated and therefore weaker than the active participant, thus compounding the act of violence. This is "evil".
+However where both, or all individuals are consenting active participants, I believe this to be a form of masochism, albeit from the hands of another. Although this statement may seem to be an oxymoron, if you pursue pain and violence, and consequently receive it from the hands of another, is this not just "assisted" masochism? (a la assisted suicide) Although these individuals may be strange, what two (or more) consenting adults do in private is no concern of mine.
+Pick this apart at your will.
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 4:
+How are you going to enforce it? Stop people in the middle of the road, ask their license and registration, and conduct a breath test? "Sir, you have been randomly selected for breath test, please step outside of the car".
+Will certainty give counties jobs for police officers, at the expense of tax payers.
+Cops already doing tests if they suspect you were drinking -- it's not random but probable cause.
+Guess what. if you were drinking and cops do not suspect your drinking habits, it is because your Alcoholic content is below DUI. Some cops don't like the extra effort, and paperwork stopping people for DUI. Do you think random testing will solve this problem?
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 5:
+Although I believe both baseball and football are both deeply rooted in America's history, I believe that baseball has to America's number one pastime. It's the popularity of baseball in the days of Babe Ruth that all sports strive to achieve. It is with that type of popularity or attention to one specific thing that brings people together. Baseball definitely has to be America's favorite pastime, well at least it is my book.
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 6:
+Seeing as how I don't believe in the Big Bang theory and I believe God created all per Genesis, I have to say that God created photosynthesis.
+Although for those of you who disagree, I wonder just how likely it is that you think photosynthesis evolved. Something as complex as that process occurred by evolution/accident?
+It is things like this that make me wonder how we can't all believe in a supreme creator whether it be God, Allah, Vishnu, or any other god that people choose to worship. It just seems that somebody/something had to design it all at least in the beginning.
+Response: {'cogency': 'Bad', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 7:
+I would be in favor of that. My personal convictions could never allow me to support caging an animal up behind bars for the amusement of people. Animals are meant to be free. Of course nothing like this would ever be taken seriously by a substantial amount of people because for the most part animals are viewed as inferior which then justifies locking them up. F**k zoos.
+Response: {'cogency': 'Bad', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 8:
+The way i see it, the main controversy comes at whether abortion implies killing another human being or not.
+
+To solve this, we need to define what being alive means legally. I propose that being alive should be measured by brain activity since its our brain what makes us sentient.
+
+So, if a fetus doesn't show any signs of brain activity then its not a living human being yet and could be legally aborted.
+
+This definition bypasses both religious and ethical concerns, potentially makind the abort issue way easier to solve.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 9:
+First of all, very first of all, us people are very greedy. We like to scrimp if we can, so we can pocket the difference. $8B, according to Forbes is its budget. If it was so useless, or even if Congress felt they could get away without it, they would immediately remove it. $8B more! They'd raise their pay! But they don't. Why wouldn't they? Because they think it serves some sort of purpose, and I am assuming it is the one of protecting the USA. Secondly, it is evolving. You have seen new security measures every year and while yes, they are annoying, they may have potentially saved your life. How's that for throwing away 500ml of water and standing in queue for 30min?
+I can see that many people in reddit disagree with this, however, and I want to know why, so I can form a balanced opinion. So CMV!
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 10:
+I feel that Kurt Cobain was murdered. Here are my reasons.
+1. He had enough heroin in his system to kill an adult 3 times over.
+2. The so called suicide note had evidence of being written by two different people. Kurt, himself, and another person.
+3. Kurt Cobain's credit card was reported being used after his death.
+4. There were no usable fingerprints on the weapon. I mean with all the heroin in his system he would not be coherent enough to put on gloves and then shoot himself.
+Everyone is entitled to their opinions, but with this kind of evidence, I feel there is no question that he was murdered.
+Response: {'cogency': 'Bad', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Bad'}
+
+Argument 11:
+Since it's illegal to offer equity in a company via a Kickstarter, what's the point of funding one? It's basically a charitable donation to a for-profit company, or a gamble that you can't win - you'll never receive anything more than you put in, but you are quite likely to receive nothing at all in return for your investment. The only benefit I can see is that if there's some idea out there that was so revolutionary that it could change the world, if only it had the proper funding - but if it was that good, why didn't some big corporation buy it already? So it's probably just snake oil. I really can't see any rational reason to fund a Kickstarter; the only reason I can see to do so is because of an emotional attachment to whatever product is being developed, and a fear that if one does not fund it, the product will never see the light of day.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Bad'}
+
+Argument 12:
+It is pointless. I see no positive thing about it. It is not the best way to communicate to people seeing at we have phones, email, instant messenger, video calls, and video chats. The apps have no meaning and are really not that fun. I also do not see why anyone would wanna post about their feelings or what their doing and shout it out to everyone. I really do not care if billy bob is going shopping. It is also a place for online and maybe real life stalkers and maybe future stalkers.
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 13:
+The processes of the Engineering process category in SPICE are more beneficial for designing or assessing processes of typical projects developing software-intensive systems. SPICE shows the relation of tests to requirements and integration tests to architecture and design much clearer than CMMI. Additionally, SPICE contains a sophisticated list of typical input and output work products with detailed characteristics that greatly supports process development work. CMMI is missing such a systematic approach regarding work products.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 14:
+I believe that this solves a number of issues that I have with the death penalty, amongst other benefits.
+
+* The state's hands are kept clean.
+
+* An innocent person will always choose the imprisonment, during this time new evidence may come to light that proves them innocent. No more dead innocents.
+
+* The convicts freedom of choice remains intact, which I consider to be important.
+
+* I believe that presenting them with a choice is more human than executing them against their will.
+
+* If they choose the life imprisonment, then they should be presented the option again every five years or so. This way the life imprisonment is not inhumane as there is always an "out".
+
+* The method of suicide should be left up to the convict.
+
+* No other people have to bear the burden of ending someone's life.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 15:
+I'm moving to Singapore in the coming months and discovered that they have basically a flat tax system (much lower rate than US) on income and have heavy luxury taxes on items like cars and brand named clothing. Many employees in my company are relocating to different parts of Asia because their tax burden is too heavy especially in European countries. High taxes seem to be causing an exodus from certain countries which creates loss of tax income. Places like Dubai and Singapore are benefiting greatly from the tax challenges faced in mature economies. MNC have been doing it for years, individuals are starting as well now.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Argument 16:
+Termaionater because he is made of full metal and pluse in the movie he said that he can live for milions of years. pluse he can see every thing when in is dark. All so he he way much smarter that rob cop. Rob cop he is just hafe human and hafe metal see thats stupied if he gets shout in the mouth he would die. and allso every time he gets hit really bad he will die quicker. but that why the termanater is so much better. Like if he gets shout he wont die at all he looses his own arm he can still walk really fast.
+Response: {'cogency': 'Bad', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Argument 17:
+I'm 30, and it seems like for nearly have my life we have "at war" with al qaeda/terrorism by way of military adventurism, nation building, and shifting an enormous amount of GDP into military contractors at the expensive of using that GDP to help our own citizens.
+
+It looks to me that the military industrial complex used 9/11 as an excuse to be at war with a very generic concept of "terrorism" so in theory the "war" would never end since there will always be "terrorism" in the world (pre and post 9/11 dating back 1000's of years...).
+
+It also seems like a political tool of the right wing to scare old white conservatives into fearing brown people so they elect the most hawkish neo-con into office to spend even more on military adventurism.
+To me, it just seems like a huge scam into spending an enormous amount of money on exactly what Eisenhower warned us about.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Total errors in RUN 5: 0
+
+--- EVALUATION OF RUN 1 ---
+
+ --- ANALYSIS RESULTS --- (evaluating model outputs against ground truths - 1 run)
+
+
+ --- COGENCY ---
+F1 Score: 0.69
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [0      1    ]
+True Good  [7      9    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         1
+           1       0.90      0.56      0.69        16
+
+    accuracy                           0.53        17
+   macro avg       0.45      0.28      0.35        17
+weighted avg       0.85      0.53      0.65        17
+
+
+ --- EFFECTIVENESS ---
+F1 Score: 0.44
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [3      1    ]
+True Good  [9      4    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.25      0.75      0.38         4
+           1       0.80      0.31      0.44        13
+
+    accuracy                           0.41        17
+   macro avg       0.53      0.53      0.41        17
+weighted avg       0.67      0.41      0.43        17
+
+
+ --- REASONABLENESS ---
+F1 Score: 0.63
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [4      1    ]
+True Good  [6      6    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.40      0.80      0.53         5
+           1       0.86      0.50      0.63        12
+
+    accuracy                           0.59        17
+   macro avg       0.63      0.65      0.58        17
+weighted avg       0.72      0.59      0.60        17
+
+
+ --- OVERALL ---
+F1 Score: 0.60
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [3      1    ]
+True Good  [7      6    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.30      0.75      0.43         4
+           1       0.86      0.46      0.60        13
+
+    accuracy                           0.53        17
+   macro avg       0.58      0.61      0.51        17
+weighted avg       0.73      0.53      0.56        17
+
+
+--- EVALUATION OF RUN 2 ---
+
+ --- ANALYSIS RESULTS --- (evaluating model outputs against ground truths - 1 run)
+
+
+ --- COGENCY ---
+F1 Score: 0.69
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [0      1    ]
+True Good  [7      9    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         1
+           1       0.90      0.56      0.69        16
+
+    accuracy                           0.53        17
+   macro avg       0.45      0.28      0.35        17
+weighted avg       0.85      0.53      0.65        17
+
+
+ --- EFFECTIVENESS ---
+F1 Score: 0.44
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [3      1    ]
+True Good  [9      4    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.25      0.75      0.38         4
+           1       0.80      0.31      0.44        13
+
+    accuracy                           0.41        17
+   macro avg       0.53      0.53      0.41        17
+weighted avg       0.67      0.41      0.43        17
+
+
+ --- REASONABLENESS ---
+F1 Score: 0.78
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [3      2    ]
+True Good  [3      9    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.50      0.60      0.55         5
+           1       0.82      0.75      0.78        12
+
+    accuracy                           0.71        17
+   macro avg       0.66      0.68      0.66        17
+weighted avg       0.72      0.71      0.71        17
+
+
+ --- OVERALL ---
+F1 Score: 0.67
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [3      1    ]
+True Good  [6      7    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.33      0.75      0.46         4
+           1       0.88      0.54      0.67        13
+
+    accuracy                           0.59        17
+   macro avg       0.60      0.64      0.56        17
+weighted avg       0.75      0.59      0.62        17
+
+
+--- EVALUATION OF RUN 3 ---
+
+ --- ANALYSIS RESULTS --- (evaluating model outputs against ground truths - 1 run)
+
+
+ --- COGENCY ---
+F1 Score: 0.79
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [0      1    ]
+True Good  [5      11   ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         1
+           1       0.92      0.69      0.79        16
+
+    accuracy                           0.65        17
+   macro avg       0.46      0.34      0.39        17
+weighted avg       0.86      0.65      0.74        17
+
+
+ --- EFFECTIVENESS ---
+F1 Score: 0.25
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [3      1    ]
+True Good  [11     2    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.21      0.75      0.33         4
+           1       0.67      0.15      0.25        13
+
+    accuracy                           0.29        17
+   macro avg       0.44      0.45      0.29        17
+weighted avg       0.56      0.29      0.27        17
+
+
+ --- REASONABLENESS ---
+F1 Score: 0.57
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [2      3    ]
+True Good  [6      6    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.25      0.40      0.31         5
+           1       0.67      0.50      0.57        12
+
+    accuracy                           0.47        17
+   macro avg       0.46      0.45      0.44        17
+weighted avg       0.54      0.47      0.49        17
+
+
+ --- OVERALL ---
+F1 Score: 0.70
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [4      0    ]
+True Good  [6      7    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.40      1.00      0.57         4
+           1       1.00      0.54      0.70        13
+
+    accuracy                           0.65        17
+   macro avg       0.70      0.77      0.64        17
+weighted avg       0.86      0.65      0.67        17
+
+
+--- EVALUATION OF RUN 4 ---
+
+ --- ANALYSIS RESULTS --- (evaluating model outputs against ground truths - 1 run)
+
+
+ --- COGENCY ---
+F1 Score: 0.74
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [0      1    ]
+True Good  [6      10   ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         1
+           1       0.91      0.62      0.74        16
+
+    accuracy                           0.59        17
+   macro avg       0.45      0.31      0.37        17
+weighted avg       0.86      0.59      0.70        17
+
+
+ --- EFFECTIVENESS ---
+F1 Score: 0.00
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [2      2    ]
+True Good  [13     0    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.13      0.50      0.21         4
+           1       0.00      0.00      0.00        13
+
+    accuracy                           0.12        17
+   macro avg       0.07      0.25      0.11        17
+weighted avg       0.03      0.12      0.05        17
+
+
+ --- REASONABLENESS ---
+F1 Score: 0.42
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [2      3    ]
+True Good  [8      4    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.20      0.40      0.27         5
+           1       0.57      0.33      0.42        12
+
+    accuracy                           0.35        17
+   macro avg       0.39      0.37      0.34        17
+weighted avg       0.46      0.35      0.38        17
+
+
+ --- OVERALL ---
+F1 Score: 0.56
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [4      0    ]
+True Good  [8      5    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.33      1.00      0.50         4
+           1       1.00      0.38      0.56        13
+
+    accuracy                           0.53        17
+   macro avg       0.67      0.69      0.53        17
+weighted avg       0.84      0.53      0.54        17
+
+
+--- EVALUATION OF RUN 5 ---
+
+ --- ANALYSIS RESULTS --- (evaluating model outputs against ground truths - 1 run)
+
+
+ --- COGENCY ---
+F1 Score: 0.72
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [1      0    ]
+True Good  [7      9    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.12      1.00      0.22         1
+           1       1.00      0.56      0.72        16
+
+    accuracy                           0.59        17
+   macro avg       0.56      0.78      0.47        17
+weighted avg       0.95      0.59      0.69        17
+
+
+ --- EFFECTIVENESS ---
+F1 Score: 0.35
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [3      1    ]
+True Good  [10     3    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.23      0.75      0.35         4
+           1       0.75      0.23      0.35        13
+
+    accuracy                           0.35        17
+   macro avg       0.49      0.49      0.35        17
+weighted avg       0.63      0.35      0.35        17
+
+
+ --- REASONABLENESS ---
+F1 Score: 0.76
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [4      1    ]
+True Good  [4      8    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.50      0.80      0.62         5
+           1       0.89      0.67      0.76        12
+
+    accuracy                           0.71        17
+   macro avg       0.69      0.73      0.69        17
+weighted avg       0.77      0.71      0.72        17
+
+
+ --- OVERALL ---
+F1 Score: 0.60
+
+Confusion Matrix (Actual vs Predicted):
+               Predicted
+               Bad     Good
+True Bad   [3      1    ]
+True Good  [7      6    ]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.30      0.75      0.43         4
+           1       0.86      0.46      0.60        13
+
+    accuracy                           0.53        17
+   macro avg       0.58      0.61      0.51        17
+weighted avg       0.73      0.53      0.56        17
+
+
+--- ANALYSIS OF VARIABILITY ACROSS ARGUMENTS ---
+
+ === AGGREGATED ANALYSIS ACROSS MULTIPLE RUNS ===
+
+
+ === AVERAGE METRICS ACROSS 5 RUNS ===
+
+ --- COGENCY ---
+Average F1 Score: 0.73
+Average Precision: 0.93
+Average Recall: 0.60
+
+ --- EFFECTIVENESS ---
+Average F1 Score: 0.30
+Average Precision: 0.60
+Average Recall: 0.20
+
+ --- REASONABLENESS ---
+Average F1 Score: 0.63
+Average Precision: 0.76
+Average Recall: 0.55
+
+ --- OVERALL ---
+Average F1 Score: 0.62
+Average Precision: 0.92
+Average Recall: 0.48
+
+--- ANALYSIS OF VARIABILITY ACROSS RUNS ---
+
+ --- ANALYSIS RESULTS --- (analyzing variability across multiple runs)
+
+
+ --- VARIABILITY IN COGENCY ---
+Mean variance per argument:  0.08
+Proportion of arguments with disagreement across runs: 41.18%
+(filas = argumentos, columnas = runs):
+[[1 1 1 1 1]
+ [1 1 1 1 1]
+ [1 1 1 1 0]
+ [0 0 1 1 1]
+ [0 1 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [1 0 1 1 1]
+ [0 1 1 1 0]
+ [1 0 1 1 0]
+ [1 1 1 0 1]
+ [0 0 0 0 0]
+ [1 1 1 1 1]
+ [1 1 1 1 1]
+ [1 1 1 1 1]
+ [0 0 0 0 0]
+ [1 1 1 1 1]]
+
+ --- VARIABILITY IN EFFECTIVENESS ---
+Mean variance per argument:  0.13
+Proportion of arguments with disagreement across runs: 70.59%
+(filas = argumentos, columnas = runs):
+[[0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 1]
+ [1 1 0 0 0]
+ [0 0 1 0 1]
+ [1 1 0 0 0]
+ [1 1 1 1 0]
+ [0 1 0 0 0]
+ [1 0 0 0 1]
+ [0 1 0 0 0]
+ [0 0 0 1 0]
+ [0 0 0 0 1]
+ [1 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 1 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]]
+
+ --- VARIABILITY IN REASONABLENESS ---
+Mean variance per argument:  0.13
+Proportion of arguments with disagreement across runs: 58.82%
+(filas = argumentos, columnas = runs):
+[[0 1 0 0 1]
+ [1 1 1 0 1]
+ [1 1 0 0 1]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 1 1 0]
+ [0 0 0 0 0]
+ [1 1 1 1 1]
+ [0 0 1 1 0]
+ [1 0 0 0 1]
+ [0 1 0 0 1]
+ [0 1 0 0 0]
+ [1 1 1 1 1]
+ [1 1 1 1 1]
+ [1 1 1 1 1]
+ [0 1 1 1 0]
+ [0 1 1 0 0]]
+
+ --- VARIABILITY IN OVERALL ---
+Mean variance per argument:  0.08
+Proportion of arguments with disagreement across runs: 35.29%
+(filas = argumentos, columnas = runs):
+[[0 1 0 0 1]
+ [1 1 1 0 1]
+ [1 1 0 0 1]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [1 1 1 1 1]
+ [0 0 1 1 0]
+ [1 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [1 1 1 1 1]
+ [1 1 1 1 1]
+ [1 1 1 1 1]
+ [0 0 0 0 0]
+ [0 1 1 0 0]]
+
+--- ERROR STATISTICS ---
+Total errors across all runs: 5
+Error details: {'arg_3_retry_1': 1, 'arg_16_retry_1': 1, 'arg_17_retry_1': 2, 'arg_7_retry_1': 1}
