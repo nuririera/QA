@@ -3,7 +3,7 @@ import re
 import json
 import time
 from collections import Counter
-from analyze_results import evaluate_single_run, analyze_variability_across_runs
+from analyze_results import evaluate_single_run, analyze_variability_across_runs, evaluate_multiple_runs
 from dataset_division import test_data
 
 API_URL = "http://localhost:11434/api/generate"
@@ -169,6 +169,10 @@ ground_truth = [entry["labels"] for entry in test_data]
 for i, run in enumerate(all_runs):
     print(f"\n--- EVALUATION OF RUN {i + 1} ---")
     evaluate_single_run(run, ground_truth)
+
+# Analyze variability across arguments
+print("\n--- ANALYSIS OF VARIABILITY ACROSS ARGUMENTS ---")
+evaluate_multiple_runs(all_runs, ground_truth)
 
 # Analyze variability across runs
 print("\n--- ANALYSIS OF VARIABILITY ACROSS RUNS ---")
