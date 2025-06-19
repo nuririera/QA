@@ -114,25 +114,6 @@ def evaluate_multiple_runs(model_outputs_runs, ground_truths):
     #ground_truths: list of dicts -> [ground_truth1, ground_truth2, ...]
 
     print("\n === AGGREGATED ANALYSIS ACROSS MULTIPLE RUNS ===\n")
-    n_runs = len(model_outputs_runs)
-
-    metrics_by_dim = {dim: {"f1":[], "precision":[], "recall":[]} for dim in dimensions}
-
-    for model_outputs in model_outputs_runs:
-        for dim in dimensions:
-            model_scores = binarize_scores(model_outputs, dim)
-            true_scores = binarize_scores(ground_truths, dim)
-            metrics = compute_metrics(true_scores, model_scores)
-
-            for metric in ["f1", "precision", "recall"]:
-                metrics_by_dim[dim][metric].append(metrics[metric])
-
-    print(f"\n === AVERAGE METRICS ACROSS {n_runs} RUNS ===")
-    for dim in dimensions:
-        print(f"\n --- {dim.upper()} ---")
-        for metric in ["f1", "precision", "recall"]:
-            avg = mean(metrics_by_dim[dim][metric])
-            print(f"Average {metric.upper()}: {avg:.2f}")
 
     print("\n === CONFUSION MATRICES ACROSS RUNS ===")
     avg_cms = compute_avg_cm(model_outputs_runs, ground_truths)
@@ -147,16 +128,15 @@ def evaluate_multiple_runs(model_outputs_runs, ground_truths):
         for label, metrics in avg_reports[dim].items():
             if isinstance(metrics, dict):
                 print(f"Class {label}:")
-                for metric_name, value in metrics.items():
-                    print(f"  {metric_name}: {value:.2f}")
+                for metric_name in ["precision", "recall", "f1-score", "support"]:
+                    if metric_name in metrics:
+                        print(f"  {metric_name:<10}: {metrics[metric_name]:.2f}")
             else:
                 print(f"{label}: {metrics:.2f}")
 
 def analyze_variability_across_runs(runs_outputs):
     print("\n --- ANALYSIS RESULTS --- (analyzing variability across multiple runs)\n")
     
-
-    n_runs = len(runs_outputs)
     n_args = len(runs_outputs[0])
 
     for dim in dimensions:
