@@ -118,16 +118,29 @@ def evaluate_multiple_runs(model_outputs_runs, ground_truths):
 
     print("\n === CLASSIFICATION REPORT ACROSS RUNS ===")
     avg_reports = compute_avg_report(model_outputs_runs, ground_truths)
+
     for dim in dimensions:
         print(f"\n --- {dim.upper()} ---")
-        for label, metrics in avg_reports[dim].items():
-            if isinstance(metrics, dict):
-                print(f"Class {label}:")
-                for metric_name in ["precision", "recall", "f1-score", "support"]:
-                    if metric_name in metrics:
-                        print(f"  {metric_name:<10}: {metrics[metric_name]:.2f}")
-            else:
-                print(f"{label}: {metrics:.2f}")
+        print(f"{'':<15}{'precision':>10}{'recall':>10}{'f1-score':>10}{'support':>10}")
+        print("-" * 55)
+
+        report = avg_reports[dim]
+
+        # Primero imprime las clases '0' y '1' si existen
+        for label in ['0', '1']:
+            if label in report:
+                m = report[label]
+                print(f"{label:<15}{m['precision']:>10.2f}{m['recall']:>10.2f}{m['f1-score']:>10.2f}{m['support']:>10.0f}")
+
+        # Imprime 'accuracy' si existe
+        if 'accuracy' in report:
+            print(f"\n{'accuracy':<15}{'':>30}{report['accuracy']:>10.2f}")
+
+        # Luego los promedios
+        for avg_type in ['macro avg', 'weighted avg']:
+            if avg_type in report:
+                m = report[avg_type]
+                print(f"{avg_type:<15}{m['precision']:>10.2f}{m['recall']:>10.2f}{m['f1-score']:>10.2f}{m['support']:>10.0f}")
 
 def analyze_variability_across_runs(runs_outputs):
     print("\n --- ANALYSIS RESULTS --- (analyzing variability across multiple runs)\n")
@@ -145,16 +158,16 @@ def analyze_variability_across_runs(runs_outputs):
         ])
 
         # Variance per argument: measures how much the evaluations vary across runs for that argument
-        var_by_argument = np.var(bin_matrix, axis=1)
-        mean_var = mean(var_by_argument)
+        std_by_argument = np.std(bin_matrix, axis=1)
+        mean_std = mean(std_by_argument)
 
-        # Proporción de argumentos con desacuerdo entre runs
-        desacuerdo = 1 - np.mean([
-            len(set(row)) == 1 for row in bin_matrix
-        ])
+        # Proporción y número de argumentos con desacuerdo
+        disagreement_flags = [len(set(row)) > 1 for row in bin_matrix]
+        num_disagreements = sum(disagreement_flags)
+        proportion_disagreement = num_disagreements / n_args
 
-        print(f"Mean variance per argument:  {mean_var:.2f}")
-        print(f"Proportion of arguments with disagreement across runs: {desacuerdo:.2%}")
+        print(f"Mean standard deviation per argument: {mean_std:.2f}")
+        print(f"Arguments with disagreement: {num_disagreements} / {n_args} ({proportion_disagreement:.2%})")
 
-        print("(rows = arguments, columns = runs):")
+        print("\n(rows = arguments, columns = runs):")
         print(bin_matrix)
