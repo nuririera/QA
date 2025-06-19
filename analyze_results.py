@@ -51,7 +51,6 @@ def evaluate_single_run(model_outputs, ground_truths):
 
         print(f"\n --- {dim.upper()} ---")
         # Metric of basic classification performance
-        print(f"F1 Score: {metrics['f1']:.2f}")
         cm = metrics["cm"]
         print_cm(cm)
         print("Classification Report:")
@@ -73,6 +72,42 @@ def compute_avg_cm(model_outputs_runs, ground_truths):
         avg_cms[dim] = total_cm / n_runs
 
     return avg_cms
+
+# Compute avg classification report across multiple runs by dimension
+def compute_avg_report(model_outputs_runs, ground_truths):
+    from collections import defaultdict
+
+    n_runs = len(model_outputs_runs)
+    avg_reports = {}
+
+    for dim in dimensions:
+        # Inicializar estructura para acumular
+        total_report = defaultdict(lambda: defaultdict(float))
+
+        for run_outputs in model_outputs_runs:
+            model_scores = binarize_scores(run_outputs, dim)
+            true_scores = binarize_scores(ground_truths, dim)
+            report = classification_report(true_scores, model_scores, zero_division=0, output_dict=True)
+
+            for label, metrics in report.items():
+                if isinstance(metrics, dict):
+                    for metric_name, value in metrics.items():
+                        total_report[label][metric_name] += value
+                else:
+                    total_report[label] += metrics
+        
+        # Average
+        averaged = {}
+        for label, metrics in total_report.items():
+            if isinstance(metrics, dict):
+                averaged[label] = {k: v / n_runs for k, v in metrics.items()}
+            else:
+                averaged[label] = metrics / n_runs
+           
+        avg_reports[dim] = averaged
+    
+    return avg_reports
+
 
 def evaluate_multiple_runs(model_outputs_runs, ground_truths):
     #model_outputs_runs: list of list of dicts -> [run1_outputs, run2_outputs, ...]
@@ -104,6 +139,18 @@ def evaluate_multiple_runs(model_outputs_runs, ground_truths):
     for dim in dimensions:
         print(f"\n --- {dim.upper()} ---")
         print_cm(avg_cms[dim])
+
+    print("\n === CLASSIFICATION REPORT ACROSS RUNS ===")
+    avg_reports = compute_avg_report(model_outputs_runs, ground_truths)
+    for dim in dimensions:
+        print(f"\n --- {dim.upper()} ---")
+        for label, metrics in avg_reports[dim].items():
+            if isinstance(metrics, dict):
+                print(f"Class {label}:")
+                for metric_name, value in metrics.items():
+                    print(f"  {metric_name}: {value:.2f}")
+            else:
+                print(f"{label}: {metrics:.2f}")
 
 def analyze_variability_across_runs(runs_outputs):
     print("\n --- ANALYSIS RESULTS --- (analyzing variability across multiple runs)\n")
