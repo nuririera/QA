@@ -10,7 +10,7 @@ data = data[columns_of_interest]
 
 # Map the cogency_mean, effectiveness_mean, reasonableness_mean, and overall_mean columns
 def map_score(score):
-    return 'Good' if score > 3 else 'Bad'
+    return 'Good' if score > 2.9 else 'Bad'
 
 #Apply the map_score function to the cogency_mean, effectiveness_mean, reasonableness_mean, and overall_mean columns
 for col in ['cogency_mean', 'effectiveness_mean', 'reasonableness_mean', 'overall_mean']:
