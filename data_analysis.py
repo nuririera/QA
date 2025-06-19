@@ -8,8 +8,15 @@ from dataset_division import test_data
 import sys
 import time
 from Logger import Logger
+import datetime
 
-sys.stdout = Logger("analysis_log2.txt")
+#date in YYYY-MM-DD-HH-MM format
+date = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")
+
+#Name of the file
+log_filename = f"analysis_log_{date}.txt"
+
+sys.stdout = Logger(log_filename)
 global_start = time.time() #total time
 
 API_URL = "http://localhost:11434/api/generate"

@@ -7,6 +7,18 @@ from sklearn.metrics import (f1_score, confusion_matrix, classification_report, 
 rating_map = {"Good": 1, "Bad": 0}
 dimensions = ["cogency", "effectiveness", "reasonableness", "overall"]
 
+# Binarization of the ratings
+def binarize_scores(data, dim):
+    return [rating_map[x[dim]] for x in data]
+
+
+# Print a confusion matrix
+def print_cm(cm):
+    print("\nConfusion Matrix (Actual vs Predicted):")
+    print("               Predicted")
+    print("               Bad     Good")
+    print(f"True Bad   [{cm[0][0]:<5.2f}  {cm[0][1]:<5.2f}]")
+    print(f"True Good  [{cm[1][0]:<5.2f}  {cm[1][1]:<5.2f}]")
 
 # Calculate basic metrics and reports for a set of labels
 # returns a dictionary with the metrics
@@ -27,27 +39,40 @@ def compute_metrics(true_scores, model_scores):
 
 # Function to analyze the results of the model outputs against ground truths
 def evaluate_single_run(model_outputs, ground_truths):
-    print("\n --- ANALYSIS RESULTS --- (evaluating model outputs against ground truths - 1 run)\n")
+    print("\n --- ANALYSIS RESULTS --- (evaluating model outputs against ground truths - SINGLE RUN)\n")
     # List of dimensions to analyze
 
     for dim in dimensions:
         # Turn the dimension into a key for accessing the ratings
-        model_scores = [rating_map[x[dim]] for x in model_outputs]
-        true_scores = [rating_map[x[dim]] for x in ground_truths]
+        model_scores = binarize_scores(model_outputs, dim)
+        true_scores = binarize_scores(ground_truths, dim)
 
         metrics = compute_metrics(true_scores, model_scores)
 
         print(f"\n --- {dim.upper()} ---")
         # Metric of basic classification performance
         print(f"F1 Score: {metrics['f1']:.2f}")
-        print("\nConfusion Matrix (Actual vs Predicted):")
-        print("               Predicted")
-        print("               Bad     Good")
         cm = metrics["cm"]
-        print(f"True Bad   [{cm[0][0]:<5}  {cm[0][1]:<5}]")
-        print(f"True Good  [{cm[1][0]:<5}  {cm[1][1]:<5}]")
+        print_cm(cm)
         print("Classification Report:")
         print(metrics["classification_report"])
+
+# Compute de average confusion matrix across multiple runs by dimension
+def compute_avg_cm(model_outputs_runs, ground_truths):
+    n_runs = len(model_outputs_runs)
+    avg_cms = {}
+
+    for dim in dimensions:
+        total_cm = np.zeros((2, 2), dtype=float)
+        for run_outputs in model_outputs_runs:
+            model_scores = binarize_scores(run_outputs, dim)
+            true_scores = binarize_scores(ground_truths, dim)
+            cm = confusion_matrix(true_scores, model_scores)
+            total_cm += cm
+        
+        avg_cms[dim] = total_cm / n_runs
+
+    return avg_cms
 
 def evaluate_multiple_runs(model_outputs_runs, ground_truths):
     #model_outputs_runs: list of list of dicts -> [run1_outputs, run2_outputs, ...]
@@ -56,30 +81,29 @@ def evaluate_multiple_runs(model_outputs_runs, ground_truths):
     print("\n === AGGREGATED ANALYSIS ACROSS MULTIPLE RUNS ===\n")
     n_runs = len(model_outputs_runs)
 
-    # metrics storage: {"f1": [...], "precision": [...], "recall": [...]}
     metrics_by_dim = {dim: {"f1":[], "precision":[], "recall":[]} for dim in dimensions}
 
     for model_outputs in model_outputs_runs:
         for dim in dimensions:
-            model_scores = [rating_map[x[dim]] for x in model_outputs]
-            true_scores = [rating_map[x[dim]] for x in ground_truths]
-
+            model_scores = binarize_scores(model_outputs, dim)
+            true_scores = binarize_scores(ground_truths, dim)
             metrics = compute_metrics(true_scores, model_scores)
 
-            metrics_by_dim[dim]["f1"].append(metrics["f1"])
-            metrics_by_dim[dim]["precision"].append(metrics["precision"])
-            metrics_by_dim[dim]["recall"].append(metrics["recall"])
+            for metric in ["f1", "precision", "recall"]:
+                metrics_by_dim[dim][metric].append(metrics[metric])
 
     print(f"\n === AVERAGE METRICS ACROSS {n_runs} RUNS ===")
     for dim in dimensions:
-        avg_f1 = mean(metrics_by_dim[dim]["f1"])
-        avg_precision = mean(metrics_by_dim[dim]["precision"])
-        avg_recall = mean(metrics_by_dim[dim]["recall"])
-
         print(f"\n --- {dim.upper()} ---")
-        print(f"Average F1 Score: {avg_f1:.2f}")
-        print(f"Average Precision: {avg_precision:.2f}")
-        print(f"Average Recall: {avg_recall:.2f}")
+        for metric in ["f1", "precision", "recall"]:
+            avg = mean(metrics_by_dim[dim][metric])
+            print(f"Average {metric.upper()}: {avg:.2f}")
+
+    print("\n === CONFUSION MATRICES ACROSS RUNS ===")
+    avg_cms = compute_avg_cm(model_outputs_runs, ground_truths)
+    for dim in dimensions:
+        print(f"\n --- {dim.upper()} ---")
+        print_cm(avg_cms[dim])
 
 def analyze_variability_across_runs(runs_outputs):
     print("\n --- ANALYSIS RESULTS --- (analyzing variability across multiple runs)\n")
@@ -108,5 +132,5 @@ def analyze_variability_across_runs(runs_outputs):
         print(f"Mean variance per argument:  {mean_var:.2f}")
         print(f"Proportion of arguments with disagreement across runs: {desacuerdo:.2%}")
 
-        print("(filas = argumentos, columnas = runs):")
+        print("(rows = arguments, columns = runs):")
         print(bin_matrix)
