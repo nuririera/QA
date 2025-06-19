@@ -1,6 +1,7 @@
 import numpy as np
 from statistics import mean
-from sklearn.metrics import (f1_score, confusion_matrix, classification_report, precision_recall_fscore_support)
+from sklearn.metrics import (confusion_matrix, classification_report)
+from collections import defaultdict
 
 # Define the mapping for ratings
 # The ratings are "Good" and "Bad", we map them to 1 and 0 respectively
@@ -23,16 +24,10 @@ def print_cm(cm):
 # Calculate basic metrics and reports for a set of labels
 # returns a dictionary with the metrics
 def compute_metrics(true_scores, model_scores):
-    f1 = f1_score(true_scores, model_scores)
-    precision, recall, fscore, _ = precision_recall_fscore_support(true_scores, model_scores, zero_division=0, average='binary')
 
     cm = confusion_matrix(true_scores, model_scores)
     report = classification_report(true_scores, model_scores, zero_division=0)
     return {
-        "f1": f1,
-        "precision": precision,
-        "recall": recall, 
-        "fscore": fscore, 
         "cm": cm,
         "classification_report": report
     }
@@ -75,7 +70,6 @@ def compute_avg_cm(model_outputs_runs, ground_truths):
 
 # Compute avg classification report across multiple runs by dimension
 def compute_avg_report(model_outputs_runs, ground_truths):
-    from collections import defaultdict
 
     n_runs = len(model_outputs_runs)
     avg_reports = {}
@@ -83,6 +77,8 @@ def compute_avg_report(model_outputs_runs, ground_truths):
     for dim in dimensions:
         # Inicializar estructura para acumular
         total_report = defaultdict(lambda: defaultdict(float))
+        scalar_metrics = defaultdict(float)
+
 
         for run_outputs in model_outputs_runs:
             model_scores = binarize_scores(run_outputs, dim)
@@ -94,15 +90,14 @@ def compute_avg_report(model_outputs_runs, ground_truths):
                     for metric_name, value in metrics.items():
                         total_report[label][metric_name] += value
                 else:
-                    total_report[label] += metrics
+                    scalar_metrics[label] += metrics
         
         # Average
         averaged = {}
         for label, metrics in total_report.items():
-            if isinstance(metrics, dict):
-                averaged[label] = {k: v / n_runs for k, v in metrics.items()}
-            else:
-                averaged[label] = metrics / n_runs
+            averaged[label] = {k: v / n_runs for k, v in metrics.items()}
+        for label, value in scalar_metrics.items():
+            averaged[label] = value / n_runs
            
         avg_reports[dim] = averaged
     
@@ -138,9 +133,11 @@ def analyze_variability_across_runs(runs_outputs):
     print("\n --- ANALYSIS RESULTS --- (analyzing variability across multiple runs)\n")
     
     n_args = len(runs_outputs[0])
+    n_runs = len(runs_outputs)
 
     for dim in dimensions:
         print(f"\n --- VARIABILITY IN {dim.upper()} ---")
+
         # bin_matrix[i][j] = binary evaluation of argument i in run j
         bin_matrix = np.array([
             [rating_map[run[i][dim]] for run in runs_outputs]
