@@ -36,10 +36,60 @@ Given an argument, assess the quality.
 Assign a quality rating of either "Good" or "Bad" in each of the four categories. Internally, assign a value between 1-5 to each quality aspect. If the value is between 1-2.5, the quality is "Bad"; if it is between 2.5-5, the quality is "Good".
 """
 
+common_intro2 = """
+####ROLE###
+You are an Argument Annotator AI.
+
+###OBJECTIVE###
+Your task is to evaluate the quality of an argument in four dimensions: cogency, effectiveness, reasonableness, and overall.
+
+You must score each of the first three traits (cogency, effectiveness, reasonableness) on a 1-to-5 scale:
+- 1: Very Low
+- 2: Low
+- 3: Medium
+- 4: High
+- 5: Very High
+
+Then, assign an overall quality score based on the other three.
+
+Finally, convert each score into a binary label:
+- "Bad" if the score is 1 or 2
+- "Good" if the score is 3, 4, or 5
+Return your response only as a JSON object with the binary labels.
+"""
+
 dimensions = """
 ###DIMENSIONS OF ARGUMENT QUALITY###
 
 The argument should be evaluated holistically according to four dimensions. First, consider logical cogency: whether the component presents ideas that are credible, relevant to the claim or conclusion, and sufficient to justify it. Second, assess rhetorical effectiveness by looking at how clearly the idea is expressed, whether the tone fits the topic and audience, how well it is structured, whether it adds to the author’s credibility, and whether it uses emotional appeal appropriately. Third, examine dialectical reasonableness, or the extent to which the argument is acceptable to the audience, contributes to resolving the issue, and addresses possible counterarguments. Finally, make an overall assessment: if the component performs well across most of these areas, label it <Good>; if not, label it <Bad>.
+"""
+dimensions2 = """
+#### DIMENSIONS & QUESTIONS ####
+
+1. **Cogency**  
+Evaluate only the justifications used to support the claim. Ask yourself:
+- Are the justifications believable?
+- Are they relevant to the author's point?
+- Do they provide enough support for the conclusion?
+
+2. **Effectiveness**  
+Assess how persuasive the presentation is. Ask yourself:
+- Is the author qualified or credible?
+- Does the argument evoke emotions appropriately?
+- Is the language clear and grammatically correct?
+- Is the delivery appropriate for an online forum?
+- Is the argument logically ordered and easy to follow?
+
+3. **Reasonableness**  
+Consider the argument’s contribution to resolving the issue. Ask:
+- Would the target audience accept it?
+- Does it contribute meaningfully to the discussion?
+- Does it provide helpful information for reaching a conclusion?
+- Does it address counterarguments?
+
+4. **Overall Quality**  
+Reflect on your previous scores. If most scores are "Good", overall should also be "Good". Consider any other relevant factors too.
+
 """
 
 example = """
@@ -69,9 +119,36 @@ EXAMPLE OUTPUT:
 }}
 """
 
+example2 = """
+###EXPECTED OUTPUT###
+Resond in the following JSON format:
+{{
+"cogency": "Good" | "Bad",
+"effectiveness": "Good" | "Bad",
+"reasonableness": "Good" | "Bad",
+"overall": "Good" | "Bad"
+}}
+
+
+###EXAMPLE###
+EXAMPLE argument:
+Through cooperation, children can learn about interpersonal skills which are significant in the future life of all students.
+What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others.
+During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred.
+All of these skills help them to get on well with other people and will benefit them for the whole life.
+
+EXAMPLE OUTPUT:
+{{
+    "cogency": "Good",
+    "effectiveness": "Bad",
+    "reasonableness": "Good",
+    "overall": "Good"
+}}
+"""
+
 # This function builds the prompt
 def build_prompt(argument):
-    return f"{common_intro}\n{dimensions}\n{example}\n\n###argument###\n{argument}###YOUR RESPONSE### (Only respond with the JSON object)"
+    return f"{common_intro2}\n{dimensions2}\n{example2}\n\n###argument###\n{argument}###YOUR RESPONSE### (Only respond with the JSON object)"
 
 
 # This function sends the prompt to the API and returns the response it also measures the response time
