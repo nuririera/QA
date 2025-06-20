@@ -15,10 +15,11 @@ global_start = time.time() #total time
 API_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "llama3.1"
 N_RUNS = 8
+VERSION = 4 # chose between 4 versions
 
 arguments = [entry["text"] for entry in test_data]
 
-common_intro = """
+common_intro1 = """
 ####ROLE###
 You are an Argument Annotator AI.
 
@@ -34,6 +35,50 @@ Then, assign an overall quality score based on the other three.
 
 Return your response only as a JSON object using numeric values (1 to 5). Do not use other labels.
 """
+
+common_intro2 = """
+####ROLE###
+You are an Argument Annotator AI.
+
+###OBJECTIVE###
+Your task is to evaluate the quality of an argument in four dimensions: cogency, effectiveness, reasonableness, and overall.
+You must score each of the four traits on a scale:
+
+- Bad
+- Medium
+- Good
+
+Then, assign an overall quality score based on the other three.
+
+Return your response only as a JSON object using that values (Bad, Medium, Good). Do not use other labels.
+"""
+common_intro3 = """
+####ROLE###
+You are an Argument Annotator AI.
+
+###OBJECTIVE###
+Your task is to evaluate the quality of an argument in four dimensions: cogency, effectiveness, reasonableness, and overall.
+You must score each of the four traits binary:
+- Bad
+- Good
+Then, assign an overall quality score based on the other three.
+
+Return your response only as a JSON object using that values (Bad, Good). Do not use other labels.
+"""
+common_intro4 = """
+####ROLE###
+You are an Argument Annotator AI.
+
+###OBJECTIVE###
+Your task is to evaluate the quality of an argument in four dimensions: cogency, effectiveness, reasonableness, and overall.
+You must score each of the four traits binary:
+- Ineffective
+- Effective
+Then, assign an overall quality score based on the other three.
+
+Return your response only as a JSON object using that values (Ineffective, Effective). Do not use other labels.
+"""
+
 
 dimensions = """
 #### DIMENSIONS & QUESTIONS ####
@@ -64,9 +109,9 @@ Reflect on your previous scores. Consider any other relevant factors too.
 
 """
 
-example = """
+example1 = """
 ###EXPECTED OUTPUT###
-Respond ONLY with a JSON object. The values MUST 1 or 2 or 3 or 4 or 5:
+Respond ONLY with a JSON object. The values MUST be 1 or 2 or 3 or 4 or 5:
 {{
   "cogency": 1 | 2 | 3 | 4 | 5,
   "effectiveness": 1 | 2 | 3 | 4 | 5,
@@ -90,10 +135,110 @@ EXAMPLE OUTPUT:
     "overall": 4
 }}
 """
+example2 = """
+###EXPECTED OUTPUT###
+Respond ONLY with a JSON object. The values MUST be "Good" or "Medium" or "Bad":
+{{
+  "cogency": "Good" | "Medium" | "Bad",
+  "effectiveness": "Good" | "Medium" | "Bad",
+  "reasonableness": "Good" | "Medium" | "Bad",
+  "overall": "Good" | "Medium" | "Bad"
+}}
 
-# This function builds the prompt
+
+###EXAMPLE###
+EXAMPLE argument:
+Through cooperation, children can learn about interpersonal skills which are significant in the future life of all students.
+What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others.
+During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred.
+All of these skills help them to get on well with other people and will benefit them for the whole life.
+
+EXAMPLE OUTPUT:
+{{
+    "cogency": Good,
+    "effectiveness": Medium,
+    "reasonableness": Bad,
+    "overall": Medium
+}}
+"""
+
+example3 = """
+###EXPECTED OUTPUT###
+Respond ONLY with a JSON object. The values MUST be Good or Bad:
+{{
+  "cogency": "Good" | "Bad",
+  "effectiveness": "Good" | "Bad",
+  "reasonableness": "Good" | "Bad",
+  "overall": "Good" | "Bad"
+}}
+
+
+###EXAMPLE###
+EXAMPLE argument:
+Through cooperation, children can learn about interpersonal skills which are significant in the future life of all students.
+What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others.
+During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred.
+All of these skills help them to get on well with other people and will benefit them for the whole life.
+
+EXAMPLE OUTPUT:
+{{
+    "cogency": Good,
+    "effectiveness": Bad,
+    "reasonableness": Good,
+    "overall": Good
+}}
+"""
+example4 = """
+###EXPECTED OUTPUT###
+Respond ONLY with a JSON object. The values MUST be Effective or Ineffective:
+{{
+  "cogency": "Effective" | "Ineffective",
+  "effectiveness": "Effective" | "Ineffective",
+  "reasonableness": "Effective" | "Ineffective",
+  "overall": "Effective" | "Ineffective"
+}}
+
+
+###EXAMPLE###
+EXAMPLE argument:
+Through cooperation, children can learn about interpersonal skills which are significant in the future life of all students.
+What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others.
+During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred.
+All of these skills help them to get on well with other people and will benefit them for the whole life.
+
+EXAMPLE OUTPUT:
+{{
+    "cogency": Effective,
+    "effectiveness": Ineffective,
+    "reasonableness": Effective,
+    "overall": Effective
+}}
+"""
+# --- Selector desde línea de comandos o input ---
+print("\nSelect version of prompt (1 to 4):")
+version = int(input("Enter version number: "))
+print(f"\n✅ Using prompt version {version}...\n")
+
+# --- Diccionarios para seleccionar automáticamente ---
+common_intros = {
+    1: common_intro1,
+    2: common_intro2,
+    3: common_intro3,
+    4: common_intro4
+}
+
+examples = {
+    1: example1,
+    2: example2,
+    3: example3,
+    4: example4
+}
+
+# --- Prompt Builder según versión ---
 def build_prompt(argument):
-    return f"{common_intro}\n{dimensions}\n{example}\n\n###argument###\n{argument}###YOUR RESPONSE### (Only respond with the JSON object)"
+    selected_intro = common_intros.get(version, common_intro1)
+    selected_example = examples.get(version, example1)
+    return f"{selected_intro}\n{dimensions}\n{selected_example}\n\n###argument###\n{argument}###YOUR RESPONSE### (Only respond with the JSON object)"
 
 
 # This function sends the prompt to the API and returns the response it also measures the response time
