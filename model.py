@@ -170,12 +170,16 @@ for run_ind in range(N_RUNS):
             print(f"Failed to process argument {i+1} after {MAX_RETRIES} retries. Skipping.")
             run.append(None)  # o gunmen marcador tipo 'None'
 
-    print(f"Argument {i + 1}:\n{arg}\nResponse: {run[-1]}\n")
-    arg_time = time.time() - arg_start
-    print(f"Time for argument {i + 1}: {arg_time:.2f} seconds")
-    time.sleep(0.5)  # optional cooldown
+        print(f"Argument {i + 1}:\n{arg}\nResponse: {run[-1]}\n")
+        arg_time = time.time() - arg_start
+        print(f"Time for argument {i + 1}: {arg_time:.2f} seconds")
+        time.sleep(0.5)  # optional cooldown
+
+        all_runs.append(run)
 
 output_filename = f"model_responses_{date}.json"
+print("Contenido de all runs:")
+print(json.dumps(all_runs, indent=2))
 with open(output_filename, "w") as f:
     json.dump(all_runs, f, indent=2)
 
