@@ -42,20 +42,15 @@ You are an Argument Annotator AI.
 
 ###OBJECTIVE###
 Your task is to evaluate the quality of an argument in four dimensions: cogency, effectiveness, reasonableness, and overall.
-
-You must score each of the first three traits (cogency, effectiveness, reasonableness) on a 1-to-5 scale:
-- 1: The argument fails to meet any relevant criteria. It is unclear, irrelevant, or unsupported.
-- 2: Meets one or two criteria minimally, but is weak overall. Serious flaws limit its quality.
-- 3: Satisfies some key criteria, but lacks strength or consistency. Mixed quality.
-- 4: Meets most criteria clearly and effectively. Strong, though not exceptional.
-- 5: Fully meets all relevant criteria with clarity, strength, and precision. Excellent overall.
-
+You must score each of the four traits on a scale from 1 to 5:
+- 1: Very Bad
+- 2: Bad
+- 3: Medium
+- 4: Good
+- 5: Very Good
 Then, assign an overall quality score based on the other three.
 
-Finally, convert each score into a binary label:
-- "Bad" if the score is 1 or 2
-- "Good" if the score is 3, 4, or 5
-Return your response only as a JSON object with the binary labels. Don't use any othel label other than "Good" or "Bad".
+Return your response only as a JSON object using numeric values (1 to 5). Do not use text labels like "Good" or "Bad".
 """
 
 dimensions = """
@@ -124,10 +119,10 @@ example2 = """
 ###EXPECTED OUTPUT###
 Resond in the following JSON format:
 {{
-"cogency": "Good" | "Bad",
-"effectiveness": "Good" | "Bad",
-"reasonableness": "Good" | "Bad",
-"overall": "Good" | "Bad"
+  "cogency": 1 | 2 | 3 | 4 | 5,
+  "effectiveness": 1 | 2 | 3 | 4 | 5,
+  "reasonableness": 1 | 2 | 3 | 4 | 5,
+  "overall": 1 | 2 | 3 | 4 | 5
 }}
 
 
@@ -140,10 +135,10 @@ All of these skills help them to get on well with other people and will benefit 
 
 EXAMPLE OUTPUT:
 {{
-    "cogency": "Good",
-    "effectiveness": "Bad",
-    "reasonableness": "Good",
-    "overall": "Good"
+    "cogency": 4,
+    "effectiveness": 2,
+    "reasonableness": 4,
+    "overall": 4
 }}
 """
 
@@ -171,16 +166,29 @@ def query_model(prompt):
         print("Request failed:", e)
         return None
 
-# Clean and parse the response
-def extract_labels(text):
+# Clean and parse the responsedef convert_score_to_label(score):
+def convert_score_to_label(score):
+    """Map numeric score to binary label (Good/Bad)"""
+    if score >= 3:
+        return "Good"
+    else:
+        return "Bad"
+
+def extract_labels(text, return_numeric=False):
     try:
         match = re.search(r'\{.*?\}', text, re.DOTALL)
         parsed = json.loads(match.group())
 
-        if all(dim in parsed for dim in ["cogency", "effectiveness", "reasonableness", "overall"]):
-            return parsed
+        expected_dims = ["cogency", "effectiveness", "reasonableness", "overall"]
+
+        if all(dim in parsed for dim in expected_dims):
+            if return_numeric:
+                return {dim: int(parsed[dim]) for dim in expected_dims}
+            else:
+                return {dim: convert_score_to_label(int(parsed[dim])) for dim in expected_dims}
         else:
             return None  # Missing keys
+
     except Exception as e:
         print("Error parsing response:", text)
         return None  # Invalid format
