@@ -260,7 +260,7 @@ def query_model(prompt):
         print("Request failed:", e)
         return None
     
-def extract_labels(text, return_numeric=False):
+def extract_labels(text):
     try:
         match = re.search(r'\{.*?\}', text, re.DOTALL)
         parsed = json.loads(match.group())
@@ -268,13 +268,19 @@ def extract_labels(text, return_numeric=False):
         expected_dims = ["cogency", "effectiveness", "reasonableness", "overall"]
 
         if all(dim in parsed for dim in expected_dims):
-            return {dim: int(parsed[dim]) for dim in expected_dims}
+            if version == 1:
+                # Valores numéricos
+                return {dim: int(parsed[dim]) for dim in expected_dims}
+            else:
+                # Valores string (Good, Bad, Effective, etc.)
+                return {dim: parsed[dim] for dim in expected_dims}
         else:
             return None  # Missing keys
 
     except Exception as e:
         print("Error parsing response:", text)
         return None  # Invalid format
+
     
 MAX_RETRIES = 5
 error_counter = Counter()
