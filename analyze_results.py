@@ -5,7 +5,7 @@ from collections import defaultdict
 
 # Define the mapping for ratings
 # The ratings are "Good" and "Bad", we map them to 1 and 0 respectively
-rating_map = {"Good": 1, "Bad": 0}
+rating_map = {"Good": 1, "Bad": 0, 1: 0, 2: 0, 3: 1, 4: 1, 5: 1}
 dimensions = ["cogency", "effectiveness", "reasonableness", "overall"]
 
 # Binarization of the ratings
