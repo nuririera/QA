@@ -1,0 +1,94 @@
+
+--- RUN 1 ---
+Argument 1:
+I am currently a college student at the University of Houston. Three times now I have been threatened with violence less than 2 minutes from my dorm. Once it was diffused by showing a knife. Once I managed to drove off. The final time I was lucky to be saved by campus pd. This has led me to advocate for campus carry. I belive that every college campus should be forced to allow it regardless of what the Dean or students think. The only argument I see against it is the "danger" of students carrying , but stats have proven that people with CHL's almost always commit crimes less often than people without liscenses.
+Edit: for clarity I'm talking about a law that both allows carry on campuses and forces them to accept it in policies. 
+Response: {'cogency': 'Good', 'effectiveness': 'Good', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Time for argument 1: 8.81 seconds
+Argument 2:
+Increasingly over the last decade the police in America have become more and more aggressive and abusive of their powers. Almost daily we hear of police shooting and killing unarmed and unthreatening citizens along with animals. Most times these cops are given a slap on the wrist or paid leave at worst. I understand that they serve a vital function in our society, but has become evident that they are abusing that trust. In many places they have tried to Institute personally mounted cameras which have been proven to lower incidents and false abuse claims, yet police departments have been adamant against implementation. This leads me to believe that they are trying to hide criminal activity and widespread systemic abuse. If i smoke marijuana I am infinitely more prone to danger from police then from anyone or anything else. And with the increasing militarization this threat is ever increasing. 
+Response: {'cogency': 'Good', 'effectiveness': 'Good', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Time for argument 2: 5.27 seconds
+Argument 3:
+Sadism as the practice of violence or cruelty against others to fulfil some sort of personal or sexual gratification is, in my opinion, the most sickening act a person can commit. In order to commit such an act, the person must be subjugated and therefore weaker than the active participant, thus compounding the act of violence. This is "evil".
+However where both, or all individuals are consenting active participants, I believe this to be a form of masochism, albeit from the hands of another. Although this statement may seem to be an oxymoron, if you pursue pain and violence, and consequently receive it from the hands of another, is this not just "assisted" masochism? (a la assisted suicide) Although these individuals may be strange, what two (or more) consenting adults do in private is no concern of mine.
+Pick this apart at your will.
+Response: {'cogency': 'Good', 'effectiveness': 'Good', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Time for argument 3: 5.15 seconds
+Argument 4:
+How are you going to enforce it? Stop people in the middle of the road, ask their license and registration, and conduct a breath test? "Sir, you have been randomly selected for breath test, please step outside of the car".
+Will certainty give counties jobs for police officers, at the expense of tax payers.
+Cops already doing tests if they suspect you were drinking -- it's not random but probable cause.
+Guess what. if you were drinking and cops do not suspect your drinking habits, it is because your Alcoholic content is below DUI. Some cops don't like the extra effort, and paperwork stopping people for DUI. Do you think random testing will solve this problem?
+Response: {'cogency': 'Good', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Good'}
+
+Time for argument 4: 5.17 seconds
+Argument 5:
+Although I believe both baseball and football are both deeply rooted in America's history, I believe that baseball has to America's number one pastime. It's the popularity of baseball in the days of Babe Ruth that all sports strive to achieve. It is with that type of popularity or attention to one specific thing that brings people together. Baseball definitely has to be America's favorite pastime, well at least it is my book.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Time for argument 5: 5.20 seconds
+Argument 6:
+Seeing as how I don't believe in the Big Bang theory and I believe God created all per Genesis, I have to say that God created photosynthesis.
+Although for those of you who disagree, I wonder just how likely it is that you think photosynthesis evolved. Something as complex as that process occurred by evolution/accident?
+It is things like this that make me wonder how we can't all believe in a supreme creator whether it be God, Allah, Vishnu, or any other god that people choose to worship. It just seems that somebody/something had to design it all at least in the beginning.
+Response: {'cogency': 'Bad', 'effectiveness': 'Good', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Time for argument 6: 5.04 seconds
+Argument 7:
+I would be in favor of that. My personal convictions could never allow me to support caging an animal up behind bars for the amusement of people. Animals are meant to be free. Of course nothing like this would ever be taken seriously by a substantial amount of people because for the most part animals are viewed as inferior which then justifies locking them up. F**k zoos.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Time for argument 7: 4.99 seconds
+Argument 8:
+The way i see it, the main controversy comes at whether abortion implies killing another human being or not.
+
+To solve this, we need to define what being alive means legally. I propose that being alive should be measured by brain activity since its our brain what makes us sentient.
+
+So, if a fetus doesn't show any signs of brain activity then its not a living human being yet and could be legally aborted.
+
+This definition bypasses both religious and ethical concerns, potentially makind the abort issue way easier to solve.
+Response: {'cogency': 'Good', 'effectiveness': 'Good', 'reasonableness': 'Bad', 'overall': 'Good'}
+
+Time for argument 8: 5.05 seconds
+Argument 9:
+First of all, very first of all, us people are very greedy. We like to scrimp if we can, so we can pocket the difference. $8B, according to Forbes is its budget. If it was so useless, or even if Congress felt they could get away without it, they would immediately remove it. $8B more! They'd raise their pay! But they don't. Why wouldn't they? Because they think it serves some sort of purpose, and I am assuming it is the one of protecting the USA. Secondly, it is evolving. You have seen new security measures every year and while yes, they are annoying, they may have potentially saved your life. How's that for throwing away 500ml of water and standing in queue for 30min?
+I can see that many people in reddit disagree with this, however, and I want to know why, so I can form a balanced opinion. So CMV!
+Response: {'cogency': 'Good', 'effectiveness': 'Good', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Time for argument 9: 5.19 seconds
+Argument 10:
+I feel that Kurt Cobain was murdered. Here are my reasons.
+1. He had enough heroin in his system to kill an adult 3 times over.
+2. The so called suicide note had evidence of being written by two different people. Kurt, himself, and another person.
+3. Kurt Cobain's credit card was reported being used after his death.
+4. There were no usable fingerprints on the weapon. I mean with all the heroin in his system he would not be coherent enough to put on gloves and then shoot himself.
+Everyone is entitled to their opinions, but with this kind of evidence, I feel there is no question that he was murdered.
+Response: {'cogency': 'Good', 'effectiveness': 'Bad', 'reasonableness': 'Bad', 'overall': 'Bad'}
+
+Time for argument 10: 5.12 seconds
+Run 1 completed in 60.01 seconds.
+Total errors in RUN 1: 0
+
+--- RUN 2 ---
+Argument 1:
+I am currently a college student at the University of Houston. Three times now I have been threatened with violence less than 2 minutes from my dorm. Once it was diffused by showing a knife. Once I managed to drove off. The final time I was lucky to be saved by campus pd. This has led me to advocate for campus carry. I belive that every college campus should be forced to allow it regardless of what the Dean or students think. The only argument I see against it is the "danger" of students carrying , but stats have proven that people with CHL's almost always commit crimes less often than people without liscenses.
+Edit: for clarity I'm talking about a law that both allows carry on campuses and forces them to accept it in policies. 
+Response: {'cogency': 'Good', 'effectiveness': 'Good', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Time for argument 1: 5.26 seconds
+Argument 2:
+Increasingly over the last decade the police in America have become more and more aggressive and abusive of their powers. Almost daily we hear of police shooting and killing unarmed and unthreatening citizens along with animals. Most times these cops are given a slap on the wrist or paid leave at worst. I understand that they serve a vital function in our society, but has become evident that they are abusing that trust. In many places they have tried to Institute personally mounted cameras which have been proven to lower incidents and false abuse claims, yet police departments have been adamant against implementation. This leads me to believe that they are trying to hide criminal activity and widespread systemic abuse. If i smoke marijuana I am infinitely more prone to danger from police then from anyone or anything else. And with the increasing militarization this threat is ever increasing. 
+Response: {'cogency': 'Good', 'effectiveness': 'Good', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Time for argument 2: 5.22 seconds
+Argument 3:
+Sadism as the practice of violence or cruelty against others to fulfil some sort of personal or sexual gratification is, in my opinion, the most sickening act a person can commit. In order to commit such an act, the person must be subjugated and therefore weaker than the active participant, thus compounding the act of violence. This is "evil".
+However where both, or all individuals are consenting active participants, I believe this to be a form of masochism, albeit from the hands of another. Although this statement may seem to be an oxymoron, if you pursue pain and violence, and consequently receive it from the hands of another, is this not just "assisted" masochism? (a la assisted suicide) Although these individuals may be strange, what two (or more) consenting adults do in private is no concern of mine.
+Pick this apart at your will.
+Response: {'cogency': 'Good', 'effectiveness': 'Good', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Time for argument 3: 5.11 seconds

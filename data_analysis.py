@@ -21,7 +21,7 @@ global_start = time.time() #total time
 
 API_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "llama3.1"
-N_RUNS = 8
+N_RUNS = 7
 
 arguments = [entry["text"] for entry in test_data]
 
@@ -50,13 +50,13 @@ You must score each of the four traits on a scale from 1 to 5:
 - 5: Very Good
 Then, assign an overall quality score based on the other three.
 
-Return your response only as a JSON object using numeric values (1 to 5). Do not use text labels like "Good" or "Bad".
+Return your response only as a JSON object using numeric values (1 to 5). Do not use other labels.
 """
 
 dimensions = """
 ###DIMENSIONS OF ARGUMENT QUALITY###
 
-The argument should be evaluated holistically according to four dimensions. First, consider logical cogency: whether the component presents ideas that are credible, relevant to the claim or conclusion, and sufficient to justify it. Second, assess rhetorical effectiveness by looking at how clearly the idea is expressed, whether the tone fits the topic and audience, how well it is structured, whether it adds to the author’s credibility, and whether it uses emotional appeal appropriately. Third, examine dialectical reasonableness, or the extent to which the argument is acceptable to the audience, contributes to resolving the issue, and addresses possible counterarguments. Finally, make an overall assessment: if the component performs well across most of these areas, label it <Good>; if not, label it <Bad>.
+The argument should be evaluated holistically according to four dimensions. First, consider logical cogency: whether the component presents ideas that are credible, relevant to the claim or conclusion, and sufficient to justify it. Second, assess rhetorical effectiveness by looking at how clearly the idea is expressed, whether the tone fits the topic and audience, how well it is structured, whether it adds to the author’s credibility, and whether it uses emotional appeal appropriately. Third, examine dialectical reasonableness, or the extent to which the argument is acceptable to the audience, contributes to resolving the issue, and addresses possible counterarguments. Finally, make an overall assessment.
 """
 dimensions2 = """
 #### DIMENSIONS & QUESTIONS ####
@@ -83,7 +83,7 @@ Consider the argument’s contribution to resolving the issue. Ask:
 - Does it address counterarguments?
 
 4. **Overall Quality**  
-Reflect on your previous scores. If most scores are "Good", overall should also be "Good". Consider any other relevant factors too.
+Reflect on your previous scores. Consider any other relevant factors too.
 
 """
 
@@ -117,7 +117,7 @@ EXAMPLE OUTPUT:
 
 example2 = """
 ###EXPECTED OUTPUT###
-Resond in the following JSON format:
+Respond ONLY with a JSON object. The values MUST 1 or 2 or 3 or 4 or 5:
 {{
   "cogency": 1 | 2 | 3 | 4 | 5,
   "effectiveness": 1 | 2 | 3 | 4 | 5,

@@ -1,0 +1,13 @@
+
+--- RUN 1 ---
+Argument 1:
+I am currently a college student at the University of Houston. Three times now I have been threatened with violence less than 2 minutes from my dorm. Once it was diffused by showing a knife. Once I managed to drove off. The final time I was lucky to be saved by campus pd. This has led me to advocate for campus carry. I belive that every college campus should be forced to allow it regardless of what the Dean or students think. The only argument I see against it is the "danger" of students carrying , but stats have proven that people with CHL's almost always commit crimes less often than people without liscenses.
+Edit: for clarity I'm talking about a law that both allows carry on campuses and forces them to accept it in policies. 
+Response: {'cogency': 'Good', 'effectiveness': 'Good', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Time for argument 1: 5.20 seconds
+Argument 2:
+Increasingly over the last decade the police in America have become more and more aggressive and abusive of their powers. Almost daily we hear of police shooting and killing unarmed and unthreatening citizens along with animals. Most times these cops are given a slap on the wrist or paid leave at worst. I understand that they serve a vital function in our society, but has become evident that they are abusing that trust. In many places they have tried to Institute personally mounted cameras which have been proven to lower incidents and false abuse claims, yet police departments have been adamant against implementation. This leads me to believe that they are trying to hide criminal activity and widespread systemic abuse. If i smoke marijuana I am infinitely more prone to danger from police then from anyone or anything else. And with the increasing militarization this threat is ever increasing. 
+Response: {'cogency': 'Good', 'effectiveness': 'Good', 'reasonableness': 'Good', 'overall': 'Good'}
+
+Time for argument 2: 5.00 seconds
