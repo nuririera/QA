@@ -175,7 +175,7 @@ for run_ind in range(N_RUNS):
         print(f"Time for argument {i + 1}: {arg_time:.2f} seconds")
         time.sleep(0.5)  # optional cooldown
 
-        all_runs.append(run)
+    all_runs.append(run)
 
 output_filename = f"model_responses_{date}.json"
 print("Contenido de all runs:")
