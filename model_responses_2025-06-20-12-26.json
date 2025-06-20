@@ -1,0 +1,2370 @@
+[
+  [
+    {
+      "cogency": 4,
+      "effectiveness": 5,
+      "reasonableness": 3,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 2,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 5,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    }
+  ],
+  [
+    {
+      "cogency": 4,
+      "effectiveness": 5,
+      "reasonableness": 3,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 5,
+      "reasonableness": 3,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 2,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    }
+  ],
+  [
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 5,
+      "reasonableness": 3,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 5,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 5
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    }
+  ],
+  [
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 5,
+      "reasonableness": 3,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 2,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 5,
+      "reasonableness": 3,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 5,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 5,
+      "reasonableness": 3,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 2,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 5,
+      "reasonableness": 4,
+      "overall": 4
+    }
+  ],
+  [
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 5,
+      "reasonableness": 3,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 5,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 5
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    }
+  ],
+  [
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 5,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 5,
+      "reasonableness": 3,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 5,
+      "reasonableness": 3,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 2,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    }
+  ],
+  [
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 5,
+      "reasonableness": 3,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 5,
+      "reasonableness": 3,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 5,
+      "reasonableness": 5,
+      "overall": 5
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 5,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 5,
+      "reasonableness": 3,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 2,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 5,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 1,
+      "reasonableness": 2,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    }
+  ],
+  [
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 2,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 5,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 5,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 3,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 2,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 3,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 5,
+      "overall": 4
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 4,
+      "overall": 3
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 2,
+      "reasonableness": 1,
+      "overall": 2
+    },
+    {
+      "cogency": 2,
+      "effectiveness": 1,
+      "reasonableness": 3,
+      "overall": 2
+    },
+    {
+      "cogency": 3,
+      "effectiveness": 4,
+      "reasonableness": 2,
+      "overall": 3
+    },
+    {
+      "cogency": 4,
+      "effectiveness": 3,
+      "reasonableness": 5,
+      "overall": 4
+    }
+  ]
+]
