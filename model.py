@@ -1,6 +1,4 @@
 import datetime
-import sys
-from Logger import Logger
 import time
 from dataset_division import test_data
 import requests
@@ -12,10 +10,6 @@ import json
 #date in YYYY-MM-DD-HH-MM format
 date = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")
 
-#Name of the file
-log_filename = f"analysis_log_{date}.txt"
-
-sys.stdout = Logger(log_filename)
 global_start = time.time() #total time
 
 API_URL = "http://localhost:11434/api/generate"
@@ -178,8 +172,6 @@ for run_ind in range(N_RUNS):
     all_runs.append(run)
 
 output_filename = f"model_responses_{date}.json"
-print("Contenido de all runs:")
-print(json.dumps(all_runs, indent=2))
 with open(output_filename, "w") as f:
     json.dump(all_runs, f, indent=2)
 
