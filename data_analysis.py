@@ -55,7 +55,7 @@ Then, assign an overall quality score based on the other three.
 Finally, convert each score into a binary label:
 - "Bad" if the score is 1 or 2
 - "Good" if the score is 3, 4, or 5
-Return your response only as a JSON object with the binary labels.
+Return your response only as a JSON object with the binary labels. Don't use any othel label other than "Good" or "Bad".
 """
 
 dimensions = """
@@ -93,14 +93,15 @@ Reflect on your previous scores. If most scores are "Good", overall should also 
 """
 
 example = """
-###EXPECTED OUTPUT###
-Resond in the following JSON format:
-{{
-"cogency": "Good" | "Bad",
-"effectiveness": "Good" | "Bad",
-"reasonableness": "Good" | "Bad",
-"overall": "Good" | "Bad"
-}}
+###YOUR RESPONSE### 
+Respond ONLY with a JSON object. The values MUST be either "Good" or "Bad". Do NOT write anything else. Do NOT use other labels like "Medium" or "Average". Your output MUST follow exactly this format:
+
+{
+  "cogency": "Good" | "Bad",
+  "effectiveness": "Good" | "Bad",
+  "reasonableness": "Good" | "Bad",
+  "overall": "Good" | "Bad"
+}
 
 
 ###EXAMPLE###
