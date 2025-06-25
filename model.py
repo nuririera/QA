@@ -145,6 +145,7 @@ Respond ONLY with a JSON object. The values MUST be "Good" or "Medium" or "Bad":
   "overall": "Good" | "Medium" | "Bad"
 }}
 
+Always wrap all values inside double quotes, so the output is always valid JSON.
 
 ###EXAMPLE###
 EXAMPLE argument:
@@ -155,10 +156,10 @@ All of these skills help them to get on well with other people and will benefit 
 
 EXAMPLE OUTPUT:
 {{
-    "cogency": Good,
-    "effectiveness": Medium,
-    "reasonableness": Bad,
-    "overall": Medium
+    "cogency": "Good",
+    "effectiveness": "Medium",
+    "reasonableness": "Bad",
+    "overall": "Medium"
 }}
 """
 
@@ -172,6 +173,9 @@ Respond ONLY with a JSON object. The values MUST be Good or Bad:
   "overall": "Good" | "Bad"
 }}
 
+Always wrap all values inside double quotes, so the output is always valid JSON.
+
+
 
 ###EXAMPLE###
 EXAMPLE argument:
@@ -182,14 +186,15 @@ All of these skills help them to get on well with other people and will benefit 
 
 EXAMPLE OUTPUT:
 {{
-    "cogency": Good,
-    "effectiveness": Bad,
-    "reasonableness": Good,
-    "overall": Good
+    "cogency": "Good",
+    "effectiveness": "Bad",
+    "reasonableness": "Good",
+    "overall": "Good"
 }}
 """
 example4 = """
 ###EXPECTED OUTPUT###
+
 Respond ONLY with a JSON object. The values MUST be Effective or Ineffective:
 {{
   "cogency": "Effective" | "Ineffective",
@@ -198,6 +203,7 @@ Respond ONLY with a JSON object. The values MUST be Effective or Ineffective:
   "overall": "Effective" | "Ineffective"
 }}
 
+Always wrap all values inside double quotes, so the output is always valid JSON.
 
 ###EXAMPLE###
 EXAMPLE argument:
@@ -208,10 +214,10 @@ All of these skills help them to get on well with other people and will benefit 
 
 EXAMPLE OUTPUT:
 {{
-    "cogency": Effective,
-    "effectiveness": Ineffective,
-    "reasonableness": Effective,
-    "overall": Effective
+    "cogency": "Effective",
+    "effectiveness": "Ineffective",
+    "reasonableness": "Effective",
+    "overall": "Effective"
 }}
 """
 # --- Selector desde línea de comandos o input ---
