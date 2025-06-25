@@ -14,7 +14,7 @@ global_start = time.time() #total time
 
 API_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "llama3.1"
-N_RUNS = 8
+N_RUNS = 10
 VERSION = 4 # chose between 4 versions
 
 arguments = [entry["text"] for entry in test_data]

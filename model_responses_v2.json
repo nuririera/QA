@@ -1,0 +1,7822 @@
+[
+  [
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    }
+  ],
+  [
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    }
+  ],
+  [
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    }
+  ],
+  [
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    }
+  ],
+  [
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    }
+  ],
+  [
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    }
+  ],
+  [
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    }
+  ],
+  [
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    }
+  ],
+  [
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    }
+  ],
+  [
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Medium",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Medium",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Medium",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Medium",
+      "reasonableness": "Bad",
+      "overall": "Medium"
+    }
+  ]
+]
