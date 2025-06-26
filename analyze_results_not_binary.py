@@ -21,24 +21,35 @@ def normalize_for_dimension(value, schema_name):
             return None
 
     elif schema_name == "binary_good_bad":
-        # Modelo: Good=0, Bad=1 ; GT: 1-2=0, 3-5=1
-        # Pero esta función solo recibe un valor, no diferencia si es GT o modelo,
-        # Así que asume que valor es etiqueta textual o numérica (int)
-        if val.lower() == "good":
-            return 0
-        elif val.lower() == "bad":
-            return 1
-        else:
-            # Intentamos numérico para GT
-            try:
-                iv = int(val)
-                if iv in [1, 2]:
+    # Modelo: Good=0, Bad=1 ; GT: Bad si media < 3.5, Good si >= 3.5
+
+        if val is None:
+            return None
+
+        try:
+            # Si es texto "Good"/"Bad"
+            if isinstance(val, str):
+                if val.lower() == "good":
                     return 0
-                elif iv in [3,4,5]:
+                elif val.lower() == "bad":
                     return 1
-            except:
-                pass
-        return None
+                else:
+                    # Intentar convertir strings numéricos como '3.3', '4.6666'...
+                    fv = float(val)
+            else:
+                # Si ya es numérico (int o float)
+                fv = float(val)
+
+            # Aplicar el umbral
+            if fv < 3.3:
+                return 1  # Bad
+            else:
+                return 0  # Good
+
+        except Exception as e:
+            print(f"Warning: Could not parse value '{val}' for schema 'binary_good_bad' - Error: {e}")
+            return None
+
 
     elif schema_name == "ternary_bad_medium_good":
         # Modelo: Bad=0, Medium=1, Good=2 ; GT: 1-2=0, 3=1, 4-5=2

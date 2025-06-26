@@ -57,11 +57,18 @@ common_intro3 = """
 You are an Argument Annotator AI.
 
 ###OBJECTIVE###
-Your task is to evaluate the quality of an argument in four dimensions: cogency, effectiveness, reasonableness, and overall.
-You must score each of the four traits binary:
-- Bad
-- Good
-Then, assign an overall quality score based on the other three.
+Your task is to asses the quality of an argument across four dimensions: cogency, effectiveness, reasonableness, and overall.
+For each dimension, provide a binary score:
+- "Bad"
+- "Good"
+
+You must evaluate each dimension independently, based strictly on the provided definitions.
+
+Be particularly strict and conservative when evaluating. Do not hesitate to assign "Bad" if an argument does not clearly meet the criteria for that dimension.
+
+The overall quality should reflect a synthesis of the other three dimensions but should also consider any other relevant factors.
+
+Do not assume that most arguments are "Good". Your priority is to identify weaknesses and be sensitive to any lack of quality.
 
 Return your response only as a JSON object using that values (Bad, Good). Do not use other labels.
 """
@@ -83,21 +90,19 @@ Return your response only as a JSON object using that values (Ineffective, Effec
 dimensions = """
 #### DIMENSIONS & QUESTIONS ####
 
-1. **Cogency**  
+1. **Cogency (Justification Quality)**  
 Evaluate only the justifications used to support the claim. Ask yourself:
-- Are the justifications believable?
-- Are they relevant to the author's point?
+- Are the justifications believable and relevant to the author's point?
 - Do they provide enough support for the conclusion?
 
-2. **Effectiveness**  
+2. **Effectiveness (Persuasiveness and Presentation)**  
 Assess how persuasive the presentation is. Ask yourself:
-- Is the author qualified or credible?
+- Is the author persuasiive or credible?
 - Does the argument evoke emotions appropriately?
-- Is the language clear and grammatically correct?
-- Is the delivery appropriate for an online forum?
+- Is the language clear, appropiate and grammatically correct?
 - Is the argument logically ordered and easy to follow?
 
-3. **Reasonableness**  
+3. **Reasonableness (Contribution to Issue Resolution)**  
 Consider the argument’s contribution to resolving the issue. Ask:
 - Would the target audience accept it?
 - Does it contribute meaningfully to the discussion?
@@ -105,7 +110,8 @@ Consider the argument’s contribution to resolving the issue. Ask:
 - Does it address counterarguments?
 
 4. **Overall Quality**  
-Reflect on your previous scores. Consider any other relevant factors too.
+- Reflect on the three dimensions above.  
+- Consider any other relevant factors for the general quality of the argument.
 
 """
 
@@ -179,10 +185,19 @@ Always wrap all values inside double quotes, so the output is always valid JSON.
 
 ###EXAMPLE###
 EXAMPLE argument:
-Through cooperation, children can learn about interpersonal skills which are significant in the future life of all students.
-What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others.
-During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred.
-All of these skills help them to get on well with other people and will benefit them for the whole life.
+Saying you belong to  a political ideology makes you dogmatic. Society is dynamic and can't go by the principles of one political ideology. Political ideologies are secular religions in this regard. Many self described liberals, libertarians, and conservatives rarely listen to each other on how to better society. Liberals see government as the only solution to all of society's ills. Conservatives and Libertarians find government as the mere deterrent to social ills and adhere to free market fundamentalism as holy. It's as if the free market makes everything a Utopia. These differences in dogma often resorts to divisive politics. How is that any different to religious differences? 
+
+EXAMPLE OUTPUT:
+{{
+    "cogency": "Good",
+    "effectiveness": "Good",
+    "reasonableness": "Bad",
+    "overall": "Bad"
+}}
+
+###EXAMPLE###
+EXAMPLE argument:
+Unless every single gun that is issued legally is tested with ballistics before being issued so that any bullet fired from a licensed gun can be traced, if found intact, then guns pose a threat because there is no way for those bullets to be traced back to owners so they can account for the shots they fired. It's like giving someone a jaguar as long as they promise to never let it out of their site. It's bull sh*t.
 
 EXAMPLE OUTPUT:
 {{
@@ -190,6 +205,21 @@ EXAMPLE OUTPUT:
     "effectiveness": "Bad",
     "reasonableness": "Good",
     "overall": "Good"
+}}
+
+###EXAMPLE###
+EXAMPLE argument:
+I've read some scientific racism writing and I think many of its claims have no scientific basis. Shouldn't the differences between races be studied ? 
+People of different origins have different bodies (skeletton, skin color...) why wouldn't they have a different brain ?
+Note that I don't think any race is superior to the other, just different. Just like the differences between gender doesn't make one superior to another.
+On another hand I don't want such research to be done because that could be misinterpreted by hateful people and lead to a resurgence of racism.
+
+EXAMPLE OUTPUT:
+{{
+    "cogency": "Bad",
+    "effectiveness": "Bad",
+    "reasonableness": "Good",
+    "overall": "Bad"
 }}
 """
 example4 = """

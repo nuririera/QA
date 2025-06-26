@@ -7,7 +7,8 @@ Selecciona el esquema de etiquetas (1-4): Usando esquema: binary_good_bad
 Archivos de respuesta de modelo disponibles:
 1: model_responses_2025-06-20-12-26.json
 2: model_responses_v1.json
-3: model_responses_v3.json
+3: model_responses_v2.json
+4: model_responses_v3.json
 Selecciona el número del archivo que quieres evaluar: 
 === Número de ejecuciones cargadas: 10 ===
 === Número de argumentos por ejecución: 130 ===
@@ -995,4 +996,4 @@ Matriz de predicciones por argumento (filas=argumentos, columnas=runs):
 Precisión usando la media redondeada de predicciones por argumento vs Ground Truth: 36.92%
 
 --- TIEMPO TOTAL DE EJECUCIÓN DE LA EVALUACIÓN ---
-Tiempo total: 14.16 segundos
+Tiempo total: 10.27 segundos

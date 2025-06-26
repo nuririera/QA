@@ -27,10 +27,10 @@ def get_text_and_labels(df):
         {
             'text': row['text'],
             'labels': {
-                'cogency': int(round(row['cogency_mean'])),
-                'effectiveness': int(round(row['effectiveness_mean'])),
-                'reasonableness': int(round(row['reasonableness_mean'])),
-                'overall': int(round(row['overall_mean']))
+                'cogency': row['cogency_mean'],
+                'effectiveness': row['effectiveness_mean'],
+                'reasonableness': row['reasonableness_mean'],
+                'overall': row['overall_mean']
             }
         }
         for _, row in df.iterrows()

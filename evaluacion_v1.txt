@@ -7,7 +7,8 @@ Selecciona el esquema de etiquetas (1-4): Usando esquema: numeric_1_to_5
 Archivos de respuesta de modelo disponibles:
 1: model_responses_2025-06-20-12-26.json
 2: model_responses_v1.json
-3: model_responses_v3.json
+3: model_responses_v2.json
+4: model_responses_v3.json
 Selecciona el número del archivo que quieres evaluar: 
 === Número de ejecuciones cargadas: 10 ===
 === Número de argumentos por ejecución: 130 ===
@@ -1000,10 +1001,12 @@ weighted avg       0.51      0.51      0.51       130
 
 --- ANÁLISIS DE VARIABILIDAD ENTRE ARGUMENTOS (ACROSS ARGUMENTS) ---
 
- === ANÁLISIS AGREGADO EN MULTIPLES EJECUCIONES ===
+ === ANÁLISIS AGREGADO EN MÚLTIPLES EJECUCIONES ===
 
 
  --- COGENCY ---
+
+Matriz de Confusión Promedio (media entre runs):
 
 Confusion Matrix (Actual vs Predicted):
                  1        2        3        4        5
@@ -1013,7 +1016,19 @@ Confusion Matrix (Actual vs Predicted):
 4             0.00     4.40    28.40    19.70     1.50
 5             0.00     0.00     0.70     3.10     0.20
 
+Desviación Estándar de la Matriz de Confusión entre runs:
+
+Confusion Matrix (Actual vs Predicted):
+                 1        2        3        4        5
+1             0.00     0.00     0.00     0.00     0.00
+2             0.49     1.61     1.25     0.87     0.66
+3             0.30     3.01     4.27     2.54     0.80
+4             0.00     1.36     4.18     3.20     0.81
+5             0.00     0.00     0.46     0.54     0.40
+
  --- EFFECTIVENESS ---
+
+Matriz de Confusión Promedio (media entre runs):
 
 Confusion Matrix (Actual vs Predicted):
                  1        2        3        4        5
@@ -1023,7 +1038,19 @@ Confusion Matrix (Actual vs Predicted):
 4             0.50     9.20    18.70    22.00     2.60
 5             0.00     0.10     0.70     0.20     0.00
 
+Desviación Estándar de la Matriz de Confusión entre runs:
+
+Confusion Matrix (Actual vs Predicted):
+                 1        2        3        4        5
+1             0.00     0.00     0.00     0.00     0.00
+2             1.08     0.94     1.43     1.81     0.67
+3             1.34     3.70     2.89     3.70     2.27
+4             0.67     2.44     4.05     2.76     1.28
+5             0.00     0.30     0.46     0.40     0.00
+
  --- REASONABLENESS ---
+
+Matriz de Confusión Promedio (media entre runs):
 
 Confusion Matrix (Actual vs Predicted):
                  1        2        3        4        5
@@ -1033,14 +1060,37 @@ Confusion Matrix (Actual vs Predicted):
 4             1.90     7.40     4.30     9.10    13.30
 5             0.00     0.20     0.30     0.40     0.10
 
- --- OVERALL ---
+Desviación Estándar de la Matriz de Confusión entre runs:
 
 Confusion Matrix (Actual vs Predicted):
-                 2        3        4        5
-2             9.20     8.20     5.30     0.00
-3            13.40    28.80    18.30     0.50
-4             3.90    15.70    24.80     0.60
-5             0.00     0.40     0.60     0.00
+                 1        2        3        4        5
+1             0.00     0.00     0.00     0.00     0.00
+2             2.15     2.55     1.10     1.63     1.50
+3             1.43     2.94     2.93     1.56     2.68
+4             0.70     2.01     1.55     2.55     1.42
+5             0.00     0.40     0.46     0.49     0.30
+
+ --- OVERALL ---
+
+Matriz de Confusión Promedio (media entre runs):
+
+Confusion Matrix (Actual vs Predicted):
+                 1        2        3        4        5
+1             0.00     0.00     0.00     0.00     0.00
+2             0.30     9.20     8.20     5.30     0.00
+3             0.00    13.40    28.80    18.30     0.50
+4             0.00     3.90    15.70    24.80     0.60
+5             0.00     0.00     0.40     0.60     0.00
+
+Desviación Estándar de la Matriz de Confusión entre runs:
+
+Confusion Matrix (Actual vs Predicted):
+                 1        2        3        4        5
+1             0.00     0.00     0.00     0.00     0.00
+2             0.46     1.72     1.54     0.64     0.00
+3             0.00     2.11     2.89     1.73     0.81
+4             0.00     1.92     2.00     2.99     0.80
+5             0.00     0.00     0.49     0.49     0.00
 
  === REPORTE PROMEDIO DE CLASIFICACIÓN ===
 
@@ -1198,4 +1248,4 @@ Matriz de predicciones por argumento (filas=argumentos, columnas=runs):
 Precisión usando la media redondeada de predicciones por argumento vs Ground Truth: 48.46%
 
 --- TIEMPO TOTAL DE EJECUCIÓN DE LA EVALUACIÓN ---
-Tiempo total: 9.92 segundos
+Tiempo total: 18.98 segundos

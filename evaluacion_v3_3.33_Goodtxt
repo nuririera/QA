@@ -1,0 +1,1000 @@
+Esquemas disponibles:
+1: binary_good_bad
+2: ternary_bad_medium_good
+3: binary_effective_ineffective
+4: numeric_1_to_5
+Selecciona el esquema de etiquetas (1-4): Usando esquema: binary_good_bad
+Archivos de respuesta de modelo disponibles:
+1: model_responses_2025-06-20-12-26.json
+2: model_responses_v1.json
+3: model_responses_v2.json
+4: model_responses_v3.json
+5: model_responses_v4.json
+Selecciona el número del archivo que quieres evaluar: 
+=== Número de ejecuciones cargadas: 10 ===
+=== Número de argumentos por ejecución: 130 ===
+
+--- EVALUACIÓN DE LA EJECUCIÓN 1 ---
+
+ --- RESULTADOS DE EVALUACIÓN (SINGLE RUN) ---
+
+
+ --- COGENCY ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            55.00    22.00
+1            26.00    27.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.68      0.71      0.70        77
+           1       0.55      0.51      0.53        53
+
+    accuracy                           0.63       130
+   macro avg       0.62      0.61      0.61       130
+weighted avg       0.63      0.63      0.63       130
+
+
+ --- EFFECTIVENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            22.00    53.00
+1            15.00    40.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      0.29      0.39        75
+           1       0.43      0.73      0.54        55
+
+    accuracy                           0.48       130
+   macro avg       0.51      0.51      0.47       130
+weighted avg       0.53      0.48      0.46       130
+
+
+ --- REASONABLENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            29.00    20.00
+1            40.00    41.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.42      0.59      0.49        49
+           1       0.67      0.51      0.58        81
+
+    accuracy                           0.54       130
+   macro avg       0.55      0.55      0.53       130
+weighted avg       0.58      0.54      0.55       130
+
+
+ --- OVERALL ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            34.00    30.00
+1            25.00    41.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.58      0.53      0.55        64
+           1       0.58      0.62      0.60        66
+
+    accuracy                           0.58       130
+   macro avg       0.58      0.58      0.58       130
+weighted avg       0.58      0.58      0.58       130
+
+
+--- EVALUACIÓN DE LA EJECUCIÓN 2 ---
+
+ --- RESULTADOS DE EVALUACIÓN (SINGLE RUN) ---
+
+
+ --- COGENCY ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            63.00    14.00
+1            27.00    26.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.82      0.75        77
+           1       0.65      0.49      0.56        53
+
+    accuracy                           0.68       130
+   macro avg       0.68      0.65      0.66       130
+weighted avg       0.68      0.68      0.67       130
+
+
+ --- EFFECTIVENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            13.00    62.00
+1            16.00    39.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.17      0.25        75
+           1       0.39      0.71      0.50        55
+
+    accuracy                           0.40       130
+   macro avg       0.42      0.44      0.38       130
+weighted avg       0.42      0.40      0.36       130
+
+
+ --- REASONABLENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            32.00    17.00
+1            39.00    42.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.45      0.65      0.53        49
+           1       0.71      0.52      0.60        81
+
+    accuracy                           0.57       130
+   macro avg       0.58      0.59      0.57       130
+weighted avg       0.61      0.57      0.57       130
+
+
+ --- OVERALL ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            42.00    22.00
+1            28.00    38.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      0.66      0.63        64
+           1       0.63      0.58      0.60        66
+
+    accuracy                           0.62       130
+   macro avg       0.62      0.62      0.62       130
+weighted avg       0.62      0.62      0.61       130
+
+
+--- EVALUACIÓN DE LA EJECUCIÓN 3 ---
+
+ --- RESULTADOS DE EVALUACIÓN (SINGLE RUN) ---
+
+
+ --- COGENCY ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            63.00    14.00
+1            31.00    22.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.67      0.82      0.74        77
+           1       0.61      0.42      0.49        53
+
+    accuracy                           0.65       130
+   macro avg       0.64      0.62      0.62       130
+weighted avg       0.65      0.65      0.64       130
+
+
+ --- EFFECTIVENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            13.00    62.00
+1            13.00    42.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.50      0.17      0.26        75
+           1       0.40      0.76      0.53        55
+
+    accuracy                           0.42       130
+   macro avg       0.45      0.47      0.39       130
+weighted avg       0.46      0.42      0.37       130
+
+
+ --- REASONABLENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            29.00    20.00
+1            43.00    38.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.40      0.59      0.48        49
+           1       0.66      0.47      0.55        81
+
+    accuracy                           0.52       130
+   macro avg       0.53      0.53      0.51       130
+weighted avg       0.56      0.52      0.52       130
+
+
+ --- OVERALL ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            36.00    28.00
+1            25.00    41.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      0.56      0.58        64
+           1       0.59      0.62      0.61        66
+
+    accuracy                           0.59       130
+   macro avg       0.59      0.59      0.59       130
+weighted avg       0.59      0.59      0.59       130
+
+
+--- EVALUACIÓN DE LA EJECUCIÓN 4 ---
+
+ --- RESULTADOS DE EVALUACIÓN (SINGLE RUN) ---
+
+
+ --- COGENCY ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            65.00    12.00
+1            29.00    24.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.69      0.84      0.76        77
+           1       0.67      0.45      0.54        53
+
+    accuracy                           0.68       130
+   macro avg       0.68      0.65      0.65       130
+weighted avg       0.68      0.68      0.67       130
+
+
+ --- EFFECTIVENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            10.00    65.00
+1            15.00    40.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.40      0.13      0.20        75
+           1       0.38      0.73      0.50        55
+
+    accuracy                           0.38       130
+   macro avg       0.39      0.43      0.35       130
+weighted avg       0.39      0.38      0.33       130
+
+
+ --- REASONABLENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            35.00    14.00
+1            34.00    47.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.51      0.71      0.59        49
+           1       0.77      0.58      0.66        81
+
+    accuracy                           0.63       130
+   macro avg       0.64      0.65      0.63       130
+weighted avg       0.67      0.63      0.64       130
+
+
+ --- OVERALL ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            42.00    22.00
+1            23.00    43.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.65      0.66      0.65        64
+           1       0.66      0.65      0.66        66
+
+    accuracy                           0.65       130
+   macro avg       0.65      0.65      0.65       130
+weighted avg       0.65      0.65      0.65       130
+
+
+--- EVALUACIÓN DE LA EJECUCIÓN 5 ---
+
+ --- RESULTADOS DE EVALUACIÓN (SINGLE RUN) ---
+
+
+ --- COGENCY ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            60.00    17.00
+1            28.00    25.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.68      0.78      0.73        77
+           1       0.60      0.47      0.53        53
+
+    accuracy                           0.65       130
+   macro avg       0.64      0.63      0.63       130
+weighted avg       0.65      0.65      0.65       130
+
+
+ --- EFFECTIVENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            10.00    65.00
+1            17.00    38.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.37      0.13      0.20        75
+           1       0.37      0.69      0.48        55
+
+    accuracy                           0.37       130
+   macro avg       0.37      0.41      0.34       130
+weighted avg       0.37      0.37      0.32       130
+
+
+ --- REASONABLENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            34.00    15.00
+1            37.00    44.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.48      0.69      0.57        49
+           1       0.75      0.54      0.63        81
+
+    accuracy                           0.60       130
+   macro avg       0.61      0.62      0.60       130
+weighted avg       0.65      0.60      0.61       130
+
+
+ --- OVERALL ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            35.00    29.00
+1            28.00    38.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.55      0.55        64
+           1       0.57      0.58      0.57        66
+
+    accuracy                           0.56       130
+   macro avg       0.56      0.56      0.56       130
+weighted avg       0.56      0.56      0.56       130
+
+
+--- EVALUACIÓN DE LA EJECUCIÓN 6 ---
+
+ --- RESULTADOS DE EVALUACIÓN (SINGLE RUN) ---
+
+
+ --- COGENCY ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            61.00    16.00
+1            32.00    21.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.66      0.79      0.72        77
+           1       0.57      0.40      0.47        53
+
+    accuracy                           0.63       130
+   macro avg       0.61      0.59      0.59       130
+weighted avg       0.62      0.63      0.62       130
+
+
+ --- EFFECTIVENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            14.00    61.00
+1            16.00    39.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.47      0.19      0.27        75
+           1       0.39      0.71      0.50        55
+
+    accuracy                           0.41       130
+   macro avg       0.43      0.45      0.38       130
+weighted avg       0.43      0.41      0.37       130
+
+
+ --- REASONABLENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            30.00    19.00
+1            39.00    42.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.43      0.61      0.51        49
+           1       0.69      0.52      0.59        81
+
+    accuracy                           0.55       130
+   macro avg       0.56      0.57      0.55       130
+weighted avg       0.59      0.55      0.56       130
+
+
+ --- OVERALL ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            39.00    25.00
+1            25.00    41.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.61      0.61      0.61        64
+           1       0.62      0.62      0.62        66
+
+    accuracy                           0.62       130
+   macro avg       0.62      0.62      0.62       130
+weighted avg       0.62      0.62      0.62       130
+
+
+--- EVALUACIÓN DE LA EJECUCIÓN 7 ---
+
+ --- RESULTADOS DE EVALUACIÓN (SINGLE RUN) ---
+
+
+ --- COGENCY ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            63.00    14.00
+1            30.00    23.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.68      0.82      0.74        77
+           1       0.62      0.43      0.51        53
+
+    accuracy                           0.66       130
+   macro avg       0.65      0.63      0.63       130
+weighted avg       0.65      0.66      0.65       130
+
+
+ --- EFFECTIVENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0             6.00    69.00
+1            16.00    39.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.27      0.08      0.12        75
+           1       0.36      0.71      0.48        55
+
+    accuracy                           0.35       130
+   macro avg       0.32      0.39      0.30       130
+weighted avg       0.31      0.35      0.27       130
+
+
+ --- REASONABLENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            36.00    13.00
+1            35.00    46.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.51      0.73      0.60        49
+           1       0.78      0.57      0.66        81
+
+    accuracy                           0.63       130
+   macro avg       0.64      0.65      0.63       130
+weighted avg       0.68      0.63      0.64       130
+
+
+ --- OVERALL ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            42.00    22.00
+1            24.00    42.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.64      0.66      0.65        64
+           1       0.66      0.64      0.65        66
+
+    accuracy                           0.65       130
+   macro avg       0.65      0.65      0.65       130
+weighted avg       0.65      0.65      0.65       130
+
+
+--- EVALUACIÓN DE LA EJECUCIÓN 8 ---
+
+ --- RESULTADOS DE EVALUACIÓN (SINGLE RUN) ---
+
+
+ --- COGENCY ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            62.00    15.00
+1            30.00    23.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.67      0.81      0.73        77
+           1       0.61      0.43      0.51        53
+
+    accuracy                           0.65       130
+   macro avg       0.64      0.62      0.62       130
+weighted avg       0.65      0.65      0.64       130
+
+
+ --- EFFECTIVENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            14.00    61.00
+1            16.00    39.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.47      0.19      0.27        75
+           1       0.39      0.71      0.50        55
+
+    accuracy                           0.41       130
+   macro avg       0.43      0.45      0.38       130
+weighted avg       0.43      0.41      0.37       130
+
+
+ --- REASONABLENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            38.00    11.00
+1            42.00    39.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.47      0.78      0.59        49
+           1       0.78      0.48      0.60        81
+
+    accuracy                           0.59       130
+   macro avg       0.63      0.63      0.59       130
+weighted avg       0.67      0.59      0.59       130
+
+
+ --- OVERALL ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            46.00    18.00
+1            30.00    36.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.61      0.72      0.66        64
+           1       0.67      0.55      0.60        66
+
+    accuracy                           0.63       130
+   macro avg       0.64      0.63      0.63       130
+weighted avg       0.64      0.63      0.63       130
+
+
+--- EVALUACIÓN DE LA EJECUCIÓN 9 ---
+
+ --- RESULTADOS DE EVALUACIÓN (SINGLE RUN) ---
+
+
+ --- COGENCY ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            64.00    13.00
+1            27.00    26.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.83      0.76        77
+           1       0.67      0.49      0.57        53
+
+    accuracy                           0.69       130
+   macro avg       0.68      0.66      0.66       130
+weighted avg       0.69      0.69      0.68       130
+
+
+ --- EFFECTIVENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            13.00    62.00
+1            15.00    40.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.46      0.17      0.25        75
+           1       0.39      0.73      0.51        55
+
+    accuracy                           0.41       130
+   macro avg       0.43      0.45      0.38       130
+weighted avg       0.43      0.41      0.36       130
+
+
+ --- REASONABLENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            32.00    17.00
+1            41.00    40.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.44      0.65      0.52        49
+           1       0.70      0.49      0.58        81
+
+    accuracy                           0.55       130
+   macro avg       0.57      0.57      0.55       130
+weighted avg       0.60      0.55      0.56       130
+
+
+ --- OVERALL ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            40.00    24.00
+1            25.00    41.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.62      0.62      0.62        64
+           1       0.63      0.62      0.63        66
+
+    accuracy                           0.62       130
+   macro avg       0.62      0.62      0.62       130
+weighted avg       0.62      0.62      0.62       130
+
+
+--- EVALUACIÓN DE LA EJECUCIÓN 10 ---
+
+ --- RESULTADOS DE EVALUACIÓN (SINGLE RUN) ---
+
+
+ --- COGENCY ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            63.00    14.00
+1            29.00    24.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.68      0.82      0.75        77
+           1       0.63      0.45      0.53        53
+
+    accuracy                           0.67       130
+   macro avg       0.66      0.64      0.64       130
+weighted avg       0.66      0.67      0.66       130
+
+
+ --- EFFECTIVENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            10.00    65.00
+1            15.00    40.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.40      0.13      0.20        75
+           1       0.38      0.73      0.50        55
+
+    accuracy                           0.38       130
+   macro avg       0.39      0.43      0.35       130
+weighted avg       0.39      0.38      0.33       130
+
+
+ --- REASONABLENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            33.00    16.00
+1            32.00    49.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.51      0.67      0.58        49
+           1       0.75      0.60      0.67        81
+
+    accuracy                           0.63       130
+   macro avg       0.63      0.64      0.63       130
+weighted avg       0.66      0.63      0.64       130
+
+
+ --- OVERALL ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            41.00    23.00
+1            21.00    45.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.66      0.64      0.65        64
+           1       0.66      0.68      0.67        66
+
+    accuracy                           0.66       130
+   macro avg       0.66      0.66      0.66       130
+weighted avg       0.66      0.66      0.66       130
+
+
+--- ANÁLISIS DE VARIABILIDAD ENTRE ARGUMENTOS (ACROSS ARGUMENTS) ---
+
+ === ANÁLISIS AGREGADO EN MÚLTIPLES EJECUCIONES ===
+
+
+ --- COGENCY ---
+
+Matriz de Confusión Promedio (media entre runs):
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            61.90    15.10
+1            28.90    24.10
+
+Desviación Estándar de la Matriz de Confusión entre runs:
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0             2.66     2.66
+1             1.81     1.81
+
+ --- EFFECTIVENESS ---
+
+Matriz de Confusión Promedio (media entre runs):
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            12.50    62.50
+1            15.40    39.60
+
+Desviación Estándar de la Matriz de Confusión entre runs:
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0             3.96     3.96
+1             1.02     1.02
+
+ --- REASONABLENESS ---
+
+Matriz de Confusión Promedio (media entre runs):
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            32.80    16.20
+1            38.20    42.80
+
+Desviación Estándar de la Matriz de Confusión entre runs:
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0             2.86     2.86
+1             3.43     3.43
+
+ --- OVERALL ---
+
+Matriz de Confusión Promedio (media entre runs):
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            39.70    24.30
+1            25.40    40.60
+
+Desviación Estándar de la Matriz de Confusión entre runs:
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0             3.55     3.55
+1             2.50     2.50
+
+ === REPORTE PROMEDIO DE CLASIFICACIÓN ===
+
+ --- COGENCY ---
+Etiqueta             precision    recall  f1-score   support
+------------------------------------------------------------
+0                         0.68      0.80      0.74        77
+1                         0.62      0.45      0.52        53
+macro avg                 0.65      0.63      0.63       130
+weighted avg              0.66      0.66      0.65       130
+
+ --- EFFECTIVENESS ---
+Etiqueta             precision    recall  f1-score   support
+------------------------------------------------------------
+0                         0.44      0.17      0.24        75
+1                         0.39      0.72      0.50        55
+macro avg                 0.41      0.44      0.37       130
+weighted avg              0.42      0.40      0.35       130
+
+ --- REASONABLENESS ---
+Etiqueta             precision    recall  f1-score   support
+------------------------------------------------------------
+0                         0.46      0.67      0.55        49
+1                         0.73      0.53      0.61        81
+macro avg                 0.59      0.60      0.58       130
+weighted avg              0.63      0.58      0.59       130
+
+ --- OVERALL ---
+Etiqueta             precision    recall  f1-score   support
+------------------------------------------------------------
+0                         0.61      0.62      0.61        64
+1                         0.63      0.62      0.62        66
+macro avg                 0.62      0.62      0.62       130
+weighted avg              0.62      0.62      0.62       130
+
+--- ANÁLISIS DE VARIABILIDAD ENTRE EJECUCIONES (ACROSS RUNS) ---
+
+ --- RESULTADOS DE VARIABILIDAD ENTRE EJECUCIONES ---
+
+
+ --- VARIABILIDAD EN COGENCY ---
+
+Variabilidad entre runs:
+Media de desviación estándar por argumento: 0.21
+Argumentos con desacuerdo: 67 / 130 (51.54%)
+
+Precisión global respecto al Ground Truth (media sobre todos los runs y argumentos): 66.15%
+Precisión media por argumento: 66.15%
+Desviación estándar de precisión por argumento: 36.74%
+
+Distribución de argumentos según tasa de aciertos en runs:
+- 51 argumentos (39.23%) acertados en 100% de los runs.
+- 39 argumentos (30.00%) con entre 50% y 99% de aciertos.
+- 40 argumentos (30.77%) con menos del 50% de aciertos.
+
+Matriz de predicciones por argumento (filas=argumentos, columnas=runs):
+[[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 1 0]
+ ...
+ [0 0 1 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [1 0 0 ... 0 0 1]]
+
+Precisión usando la media redondeada de predicciones por argumento vs Ground Truth: 66.92%
+
+ --- VARIABILIDAD EN EFFECTIVENESS ---
+
+Variabilidad entre runs:
+Media de desviación estándar por argumento: 0.28
+Argumentos con desacuerdo: 89 / 130 (68.46%)
+
+Precisión global respecto al Ground Truth (media sobre todos los runs y argumentos): 40.08%
+Precisión media por argumento: 40.08%
+Desviación estándar de precisión por argumento: 34.72%
+
+Distribución de argumentos según tasa de aciertos en runs:
+- 10 argumentos (7.69%) acertados en 100% de los runs.
+- 45 argumentos (34.62%) con entre 50% y 99% de aciertos.
+- 75 argumentos (57.69%) con menos del 50% de aciertos.
+
+Matriz de predicciones por argumento (filas=argumentos, columnas=runs):
+[[1 1 1 ... 1 1 1]
+ [1 1 1 ... 1 1 1]
+ [1 1 1 ... 0 0 1]
+ ...
+ [1 1 0 ... 1 1 1]
+ [1 1 1 ... 1 1 1]
+ [0 1 0 ... 1 1 0]]
+
+Precisión usando la media redondeada de predicciones por argumento vs Ground Truth: 38.46%
+
+ --- VARIABILIDAD EN REASONABLENESS ---
+
+Variabilidad entre runs:
+Media de desviación estándar por argumento: 0.33
+Argumentos con desacuerdo: 101 / 130 (77.69%)
+
+Precisión global respecto al Ground Truth (media sobre todos los runs y argumentos): 58.15%
+Precisión media por argumento: 58.15%
+Desviación estándar de precisión por argumento: 31.96%
+
+Distribución de argumentos según tasa de aciertos en runs:
+- 21 argumentos (16.15%) acertados en 100% de los runs.
+- 58 argumentos (44.62%) con entre 50% y 99% de aciertos.
+- 51 argumentos (39.23%) con menos del 50% de aciertos.
+
+Matriz de predicciones por argumento (filas=argumentos, columnas=runs):
+[[1 0 1 ... 0 1 1]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 1 0]
+ ...
+ [1 0 1 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [1 1 1 ... 0 0 1]]
+
+Precisión usando la media redondeada de predicciones por argumento vs Ground Truth: 57.69%
+
+ --- VARIABILIDAD EN OVERALL ---
+
+Variabilidad entre runs:
+Media de desviación estándar por argumento: 0.29
+Argumentos con desacuerdo: 88 / 130 (67.69%)
+
+Precisión global respecto al Ground Truth (media sobre todos los runs y argumentos): 61.77%
+Precisión media por argumento: 61.77%
+Desviación estándar de precisión por argumento: 33.13%
+
+Distribución de argumentos según tasa de aciertos en runs:
+- 33 argumentos (25.38%) acertados en 100% de los runs.
+- 56 argumentos (43.08%) con entre 50% y 99% de aciertos.
+- 41 argumentos (31.54%) con menos del 50% de aciertos.
+
+Matriz de predicciones por argumento (filas=argumentos, columnas=runs):
+[[1 0 1 ... 0 1 1]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 1 1 0]
+ ...
+ [1 0 1 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [1 1 1 ... 0 0 1]]
+
+Precisión usando la media redondeada de predicciones por argumento vs Ground Truth: 63.85%
+
+--- TIEMPO TOTAL DE EJECUCIÓN DE LA EVALUACIÓN ---
+Tiempo total: 6.64 segundos
