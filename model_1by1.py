@@ -134,6 +134,7 @@ for run_ind in range(N_RUNS):
     local_errors = 0
 
     for i, arg in enumerate(arguments):
+        arg_start = time.time()
         labels = {}
 
         for dimension in ["cogency", "effectiveness", "reasonableness", "overall"]:
@@ -141,7 +142,6 @@ for run_ind in range(N_RUNS):
             retries = 0
 
             while retries < MAX_RETRIES and not dim_success:
-                arg_start = time.time()
                 prompt = build_prompt_by_dimension(arg, dimension)
                 response = query_model(prompt)
                 dim_labels = extract_labels(response)
@@ -157,8 +157,8 @@ for run_ind in range(N_RUNS):
                     time.sleep(1)
 
             if not dim_success:
-                print(f"Failed to process argument {i+1} after {MAX_RETRIES} retries. Skipping.")
-                labels[dimension] = None  # oänger marcador tipo 'None'
+                print(f"Failed to process argument {i+1}, dimension {dimension} after {MAX_RETRIES} retries. Skipping.")
+                labels[dimension] = None  # marcador tipo 'None'
 
         run.append(labels)
 
@@ -168,11 +168,12 @@ for run_ind in range(N_RUNS):
         time.sleep(0.5)
 
     all_runs.append(run)
+    print(f"\n--- Run {run_ind + 1} completed in {time.time() - run_start:.2f} seconds ---")
 
-    output_filename = f"model_responses_{date}.json"
-    with open(output_filename, "w") as f:
-        json.dump(all_runs, f, indent=2)
-        
-    print(f"\n--- RESPUESTAS GUARDADAS EN: {output_filename} ---")
-    print(f"Total time: {time.time() - global_start:.2f} seconds")
-    print(f"Total local errors: {local_errors}")
+output_filename = f"model_responses_{date}.json"
+with open(output_filename, "w") as f:
+    json.dump(all_runs, f, indent=2)
+
+print(f"\n--- RESPUESTAS GUARDADAS EN: {output_filename} ---")
+print(f"Total time: {time.time() - global_start:.2f} seconds")
+print(f"Total local errors: {local_errors}")
