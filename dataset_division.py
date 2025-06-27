@@ -20,7 +20,7 @@ seed = 42
 
 # Split the data into train and test sets
 data_train, data_temp = train_test_split(data, test_size=0.6, random_state=seed)
-data_val, data_test = train_test_split(data_temp, test_size=0.4, random_state=seed)
+data_val, data_test = train_test_split(data_temp, test_size=0.07, random_state=seed)
 
 def get_text_and_labels(df):
     return [
