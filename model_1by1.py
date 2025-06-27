@@ -12,7 +12,7 @@ date = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")
 global_start = time.time() #total time
 
 API_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "llama3.1"
+MODEL_NAME = "qwen3:8b"
 N_RUNS = 3
 
 arguments = [entry["text"] for entry in test_data]
