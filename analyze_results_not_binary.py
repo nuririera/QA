@@ -30,9 +30,9 @@ def normalize_for_dimension(value, schema_name):
             # Si es texto "Good"/"Bad"
             if isinstance(val, str):
                 if val.lower() == "good":
-                    return 0
-                elif val.lower() == "bad":
                     return 1
+                elif val.lower() == "bad":
+                    return 0
                 else:
                     # Intentar convertir strings numéricos como '3.3', '4.6666'...
                     fv = float(val)
@@ -42,9 +42,9 @@ def normalize_for_dimension(value, schema_name):
 
             # Aplicar el umbral
             if fv < 3.3:
-                return 1  # Bad
+                return 0  # Bad
             else:
-                return 0  # Good
+                return 1  # Good
 
         except Exception as e:
             print(f"Warning: Could not parse value '{val}' for schema 'binary_good_bad' - Error: {e}")

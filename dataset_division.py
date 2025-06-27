@@ -41,6 +41,6 @@ test_data = get_text_and_labels(data_test)
 
 
 # Save the splits to CSV files
-# data_train.to_csv('./data_train.csv', index=False)
-# data_val.to_csv('./data_val.csv', index=False)
+data_train.to_csv('./data_train.csv', index=False)
+data_val.to_csv('./data_val.csv', index=False)
 data_test.to_csv('./data_test.csv', index=False)
