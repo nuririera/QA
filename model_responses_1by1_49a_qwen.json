@@ -1,0 +1,890 @@
+[
+  [
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    }
+  ],
+  [
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    }
+  ],
+  [
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Good",
+      "reasonableness": "Bad",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    },
+    {
+      "cogency": "Good",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Good",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Bad",
+      "reasonableness": "Bad",
+      "overall": "Bad"
+    },
+    {
+      "cogency": "Bad",
+      "effectiveness": "Good",
+      "reasonableness": "Good",
+      "overall": "Good"
+    }
+  ]
+]
