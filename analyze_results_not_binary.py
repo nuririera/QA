@@ -6,7 +6,7 @@ from collections import defaultdict
 dimensions = ["cogency", "effectiveness", "reasonableness", "overall"]
 
 # Normaliza según el esquema seleccionado
-def normalize_for_dimension(value, schema_name):
+def normalize_for_dimension(value, schema_name, dimension_name=None):
     val = str(value).strip()
 
     if schema_name == "numeric_1_to_5":
@@ -21,7 +21,6 @@ def normalize_for_dimension(value, schema_name):
             return None
 
     elif schema_name == "binary_good_bad":
-    # Modelo: Good=0, Bad=1 ; GT: Bad si media < 3.5, Good si >= 3.5
 
         if val is None:
             return None
@@ -40,8 +39,9 @@ def normalize_for_dimension(value, schema_name):
                 # Si ya es numérico (int o float)
                 fv = float(val)
 
+            threshold = 3 if dimension_name == "reasonableness" else 3.3
             # Aplicar el umbral
-            if fv < 3.3:
+            if fv < threshold:
                 return 0  # Bad
             else:
                 return 1  # Good
@@ -98,7 +98,7 @@ def normalize_for_dimension(value, schema_name):
 def prepare_scores(data, dim, schema_name):
     scores = []
     for x in data:
-        val = normalize_for_dimension(x[dim], schema_name)
+        val = normalize_for_dimension(x[dim], schema_name, dim)
         if val is not None:
             scores.append(val)
         else:
@@ -119,7 +119,7 @@ def print_dynamic_cm(cm, labels):
         print(f"{labels[i]:10}{row_str}")
 
 # Evalúa una ejecución simple
-def evaluate_single_run(model_outputs, ground_truths, schema_name):
+def evaluate_single_run(model_outputs, ground_truths, schema_name="binary_good_bad"):
     print("\n --- RESULTADOS DE EVALUACIÓN (SINGLE RUN) ---\n")
     for dim in dimensions:
         true_scores = prepare_scores(ground_truths, dim, schema_name)
@@ -264,7 +264,7 @@ def analyze_variability_across_runs(runs_outputs, ground_truths, schema_name):
 
         bin_matrix = np.array([
             [
-                normalize_for_dimension(run[i][dim], schema_name)
+                normalize_for_dimension(run[i][dim], schema_name, dim)
                 for run in runs_outputs
             ]
             for i in range(n_args)
