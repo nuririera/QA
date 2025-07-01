@@ -300,7 +300,7 @@ def extract_labels(text):
     try:
         match = re.search(r'(\{{1,2})(.*?)(\}{1,2})', text, re.DOTALL)
         if not match:
-            print("❌ No JSON-like object found in response.")
+            print("❌ No JSON-like object found in response. ")
             return None  
         
         json_text = match.group(0)
