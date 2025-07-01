@@ -14,7 +14,8 @@ API_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "llama_ft"
 N_RUNS = 5
 MAX_RETRIES = 5
-
+TIMEOUT = 30
+NUM_PREDICT = 100
 arguments = [entry["text"] for entry in test_data]
 
 # Prompt idéntico al usado en el fine-tuning
@@ -71,21 +72,31 @@ def build_prompt(argument):
 
 def query_model(prompt):
     try:
-        res = requests.post(API_URL, json={
-            "model": MODEL_NAME,
-            "prompt": prompt,
-            "stream": False
-        })
+        res = requests.post(
+            API_URL,
+            json={
+                "model": MODEL_NAME,
+                "prompt": prompt,
+                "num_predict": NUM_PREDICT,
+                "stream": False
+            },
+            timeout=TIMEOUT
+        )
 
         if res.status_code != 200:
             print("Error from API:", res.text)
             return None
 
         return res.json().get("response", "{}")
-    
+
+    except requests.exceptions.Timeout:
+        print("Request timed out after", TIMEOUT, "seconds.")
+        return None
+
     except requests.exceptions.RequestException as e:
         print("Request failed:", e)
         return None
+
 
 def extract_labels(text):
     try:
