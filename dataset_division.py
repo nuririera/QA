@@ -19,8 +19,8 @@ def map_score(score):
 seed = 42
 
 # Split the data into train and test sets
-data_train, data_temp = train_test_split(data, test_size=0.6, random_state=seed)
-data_val, data_test = train_test_split(data_temp, test_size=0.4, random_state=seed)
+data_train, data_temp = train_test_split(data, test_size=0.3, random_state=seed)
+data_val, data_test = train_test_split(data_temp, test_size=0.5, random_state=seed)
 
 def get_text_and_labels(df):
     return [
@@ -41,6 +41,6 @@ test_data = get_text_and_labels(data_test)
 
 
 # Save the splits to CSV files
-data_train.to_csv('./data_train.csv', index=False)
-data_val.to_csv('./data_val.csv', index=False)
-data_test.to_csv('./data_test.csv', index=False)
+data_train.to_csv('./data/data_train.csv', index=False)
+data_val.to_csv('./data/data_val.csv', index=False)
+data_test.to_csv('./data/data_test.csv', index=False)

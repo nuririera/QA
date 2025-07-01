@@ -298,8 +298,17 @@ def query_model(prompt):
     
 def extract_labels(text):
     try:
-        match = re.search(r'\{.*?\}', text, re.DOTALL)
-        parsed = json.loads(match.group())
+        match = re.search(r'(\{{1,2})(.*?)(\}{1,2})', text, re.DOTALL)
+        if not match:
+            print("❌ No JSON-like object found in response.")
+            return None  
+        
+        json_text = match.group(0)
+
+        if json_text.startswith('{{') and json_text.endswith('}}'):
+            json_text = json_text[1:-1].strip()
+
+        parsed = json.loads(json_text)
 
         expected_dims = ["cogency", "effectiveness", "reasonableness", "overall"]
 
