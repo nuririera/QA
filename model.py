@@ -13,8 +13,8 @@ date = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")
 global_start = time.time() #total time
 
 API_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "llama3.1"
-N_RUNS = 10
+MODEL_NAME = "llama_ft"
+N_RUNS = 5
 VERSION = 4 # chose between 4 versions
 
 arguments = [entry["text"] for entry in test_data]
