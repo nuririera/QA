@@ -8,7 +8,7 @@ from dataset_division import test_data
 dimensions = ["cogency", "effectiveness", "reasonableness", "overall"]
 
 def get_threshold(dim):
-    return 3 if dim =="reasonableness" else 3.33
+    return 3 if dim == "reasonableness" else 3.33
 
 def normalize_error(error, dim, error_type):
     if dim == "reasonableness":
@@ -26,11 +26,12 @@ def normalize_error(error, dim, error_type):
             min_err, max_err = -4, -1.67
             return (max_err - error) / (max_err - min_err)
 
-
-        
 def analyze_error_severity(model_runs, ground_truths, output_folder):
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
+    all_errors_by_dim = {}
+    error_records_by_dim = {}
+
+    all_bad_to_good = {}
+    all_good_to_bad = {}
 
     for dim in dimensions:
         print(f"\n=== Error Severity for {dim.upper()} ===")
@@ -38,8 +39,13 @@ def analyze_error_severity(model_runs, ground_truths, output_folder):
         all_errors = []
         error_records = []
 
+        errors_bad_to_good = []
+        errors_good_to_bad = []
+
         for run_idx, run in enumerate(model_runs):
             for i, pred_item in enumerate(run):
+                if pred_item is None:
+                    continue
                 gt_val = ground_truths[i][dim]
                 pred_label = pred_item[dim]
 
@@ -47,17 +53,14 @@ def analyze_error_severity(model_runs, ground_truths, output_folder):
                     gt_float = float(gt_val)
                 except:
                     continue
-            
-                # ground truth binarization
+
                 gt_bin = 1 if gt_float >= threshold else 0
                 pred_bin = 1 if pred_label.lower() == "good" else 0
 
                 if gt_bin != pred_bin:
                     error_type = "bad_to_good" if (pred_bin == 0 and gt_bin == 1) else "good_to_bad"
-    
                     target_numeric = 1 if error_type == "bad_to_good" else 5
                     error = gt_float - target_numeric
-
                     norm_error = normalize_error(error, dim, error_type)
                     norm_error = max(0, min(1, norm_error))
 
@@ -74,11 +77,22 @@ def analyze_error_severity(model_runs, ground_truths, output_folder):
                         "Error_Type": error_type
                     })
 
-            
+                    if error_type == "bad_to_good":
+                        errors_bad_to_good.append(norm_error)
+                    else:
+                        errors_good_to_bad.append(norm_error)
+
+        all_errors_by_dim[dim] = all_errors
+        error_records_by_dim[dim] = error_records
+
+        # Guardamos para gráfico final
+        all_bad_to_good[dim] = errors_bad_to_good
+        all_good_to_bad[dim] = errors_good_to_bad
+
         csv_filename = os.path.join(output_folder, f"{dim}_error_analysis.csv")
         with open(csv_filename, mode='w', newline='') as csv_file:
-            fieldnames = ["Run", "Argument_Index", "Ground_Truth_Score", "Ground_Truth_Binary", 
-                              "Predicted_Label", "Predicted_Binary", "Error", "Normalized_Error", "Error_Type"]
+            fieldnames = ["Run", "Argument_Index", "Ground_Truth_Score", "Ground_Truth_Binary",
+                          "Predicted_Label", "Predicted_Binary", "Error", "Normalized_Error", "Error_Type"]
             writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
             writer.writeheader()
             for record in error_records:
@@ -88,23 +102,49 @@ def analyze_error_severity(model_runs, ground_truths, output_folder):
         if all_errors:
             print(f"Mean normalized error: {np.mean(all_errors):.3f}")
             print(f" Std deviation: {np.std(all_errors):.3f}")
-
-            # Plotting the distribution of normalized errors
-            plt.figure(figsize=(6, 4))
-            plt.hist(all_errors, bins=10, range=(0, 1), alpha=0.7, color='coral', edgecolor='black')
-            plt.title(f"Error severity distribution for {dim.upper()}")
-            plt.ylabel("Frequency")
-            plt.xlabel("Normalized Error severity (0 = min error, 1 = max error)")
-            plt.tight_layout()
-            plot_filename = os.path.join(output_folder, f"error_severity_{dim}.png")
-            plt.savefig(plot_filename)
-            plt.show()
-
         else:
             print(f"No errors found for {dim} dimension.")
 
+        # Gráficos individuales por dimensión
+        # fig, axs = plt.subplots(1, 2, figsize=(10, 4))
+        # axs[0].hist(errors_bad_to_good, bins=10, range=(0, 1), alpha=0.7, color='coral', edgecolor='black')
+        # axs[0].set_title(f"{dim.upper()} - Pred Good, GT Bad")
+        # axs[0].set_xlabel("Normalized Error Severity")
+        # axs[0].set_ylabel("Frequency")
+
+        # axs[1].hist(errors_good_to_bad, bins=10, range=(0, 1), alpha=0.7, color='skyblue', edgecolor='black')
+        # axs[1].set_title(f"{dim.upper()} - Pred Bad, GT Good")
+        # axs[1].set_xlabel("Normalized Error Severity")
+        # axs[1].set_ylabel("Frequency")
+
+        # plt.tight_layout()
+        # plot_filename = os.path.join(output_folder, f"{dim}_error_severity_separated.png")
+        # plt.savefig(plot_filename)
+        # plt.show()
+
+    # Gráfico compuesto con 8 subplots (4 filas x 2 columnas)
+    fig, axs = plt.subplots(len(dimensions), 2, figsize=(12, 16))
+
+    for i, dim in enumerate(dimensions):
+        axs[i, 0].hist(all_bad_to_good[dim], bins=10, range=(0, 1), alpha=0.7, color='coral', edgecolor='black')
+        axs[i, 0].set_title(f"{dim.upper()} - Pred Good, GT Bad")
+        axs[i, 0].set_xlabel("Normalized Error Severity")
+        axs[i, 0].set_ylabel("Frequency")
+
+        axs[i, 1].hist(all_good_to_bad[dim], bins=10, range=(0, 1), alpha=0.7, color='skyblue', edgecolor='black')
+        axs[i, 1].set_title(f"{dim.upper()} - Pred Bad, GT Good")
+        axs[i, 1].set_xlabel("Normalized Error Severity")
+        axs[i, 1].set_ylabel("Frequency")
+
+    plt.tight_layout()
+    plot_filename_all = os.path.join(output_folder, "error_severity_8plots.png")
+    plt.savefig(plot_filename_all)
+    plt.show()
+
+
 # --------- MAIN ----------
-response_files = [f for f in os.listdir() if f.startswith("model_responses_") and f.endswith(".json")]
+response_dir = "model_responses"
+response_files = [f for f in os.listdir(response_dir) if f.startswith("model_responses_") and f.endswith(".json")]
 if not response_files:
     print("No model response files found.")
     exit()
@@ -118,15 +158,19 @@ if selected_idx < 0 or selected_idx >= len(response_files):
     print("Invalid selection.")
     exit()
 
-with open(response_files[selected_idx], 'r') as f:
+selected_filename = response_files[selected_idx]
+with open(selected_filename, 'r') as f:
     all_runs = json.load(f)
 
 ground_truths = [entry["labels"] for entry in test_data]
 print(f"\nLoaded {len(all_runs)} runs with {len(all_runs[0])} predictions each.")
 
-output_folder = "error_analysis_plots"
+# Generate subfolder name
+base_name = os.path.splitext(selected_filename)[0].replace("model_responses_", "")
+output_folder = os.path.join("error_analysis_plots", f"error_{base_name}")
+os.makedirs(output_folder, exist_ok=True)
 
 analyze_error_severity(all_runs, ground_truths, output_folder)
 
 print(f"\n--- Error severity analysis finished ---")
-print(f"CSV files and plots saved in folder: {output_folder}")
+print(f"CSV files and plot saved in folder: {output_folder}")

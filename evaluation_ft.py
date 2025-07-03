@@ -242,7 +242,8 @@ def print_avg_classification_report(avg_reports):
 print(f"Loaded {len(test_data)} test arguments")
 
 # Cargar resultados modelo (suponiendo archivo ya seleccionado)
-response_files = [f for f in os.listdir() if f.startswith("model_responses_") and f.endswith(".json")]
+response_dir = "model_responses"
+response_files = [f for f in os.listdir(response_dir) if f.startswith("model_responses_") and f.endswith(".json")]
 if not response_files:
     print("No response files found.")
     sys.exit(1)

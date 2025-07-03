@@ -41,7 +41,8 @@ schema_name = schemas_map[schema_option]
 print(f"Usando esquema: {schema_name}")
 
 # Buscar archivos de respuesta generados por el modelo
-response_files = [f for f in os.listdir() if f.startswith("model_responses_") and f.endswith(".json")]
+response_dir = "model_responses"
+response_files = [f for f in os.listdir(response_dir) if f.startswith("model_responses_") and f.endswith(".json")]
 
 if not response_files:
     print("No se encontraron archivos tipo model_responses_*.json en el directorio actual.")

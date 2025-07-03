@@ -1,0 +1,574 @@
+Loaded 81 test arguments
+Available model response files:
+ 1: model_responses_1by1_49a_qwen.json
+ 2: model_responses_1by1_llama.json
+ 3: model_responses_1by1_qwen.json
+ 4: model_responses_ft_llama3.1_v1.json
+ 5: model_responses_ft_qwen2.5_81a.json
+ 6: model_responses_ft_qwen2.5_81a_v2.json
+ 7: model_responses_ft_qwen2.5_81a_v3.json
+ 8: model_responses_gemma2_promptft_81a.json
+ 9: model_responses_llama_promptft_81a.json
+ 10: model_responses_qwen.json
+ 11: model_responses_qwen2.5_promptft_81a.json
+ 12: model_responses_v1.json
+ 13: model_responses_v2.json
+ 14: model_responses_v3.json
+ 15: model_responses_v3_llama_prompt2_130a.json
+ 16: model_responses_v4.json
+Select response file number: 
+Loaded 5 runs with 81 arguments each.
+
+=== Evaluation for run 1 ===
+
+--- SINGLE RUN EVALUATION ---
+
+
+--- COGENCY ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            28.00     2.00
+1            43.00     8.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.39      0.93      0.55        30
+           1       0.80      0.16      0.26        51
+
+    accuracy                           0.44        81
+   macro avg       0.60      0.55      0.41        81
+weighted avg       0.65      0.44      0.37        81
+
+Pearson correlation for cogency: 0.1324 (p=0.2387)
+
+--- EFFECTIVENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            24.00     9.00
+1            19.00    29.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.73      0.63        33
+           1       0.76      0.60      0.67        48
+
+    accuracy                           0.65        81
+   macro avg       0.66      0.67      0.65        81
+weighted avg       0.68      0.65      0.66        81
+
+Pearson correlation for effectiveness: 0.3263 (p=0.0029)
+
+--- REASONABLENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            25.00     6.00
+1            32.00    18.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.44      0.81      0.57        31
+           1       0.75      0.36      0.49        50
+
+    accuracy                           0.53        81
+   macro avg       0.59      0.58      0.53        81
+weighted avg       0.63      0.53      0.52        81
+
+Pearson correlation for reasonableness: 0.1772 (p=0.1136)
+
+--- OVERALL ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            39.00     0.00
+1            34.00     8.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.53      1.00      0.70        39
+           1       1.00      0.19      0.32        42
+
+    accuracy                           0.58        81
+   macro avg       0.77      0.60      0.51        81
+weighted avg       0.78      0.58      0.50        81
+
+Pearson correlation for overall: 0.3190 (p=0.0037)
+
+=== Evaluation for run 2 ===
+
+--- SINGLE RUN EVALUATION ---
+
+
+--- COGENCY ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            29.00     1.00
+1            43.00     8.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.40      0.97      0.57        30
+           1       0.89      0.16      0.27        51
+
+    accuracy                           0.46        81
+   macro avg       0.65      0.56      0.42        81
+weighted avg       0.71      0.46      0.38        81
+
+Pearson correlation for cogency: 0.1898 (p=0.0897)
+
+--- EFFECTIVENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            22.00    11.00
+1            17.00    31.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.67      0.61        33
+           1       0.74      0.65      0.69        48
+
+    accuracy                           0.65        81
+   macro avg       0.65      0.66      0.65        81
+weighted avg       0.67      0.65      0.66        81
+
+Pearson correlation for effectiveness: 0.3073 (p=0.0053)
+
+--- REASONABLENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            26.00     5.00
+1            35.00    15.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.43      0.84      0.57        31
+           1       0.75      0.30      0.43        50
+
+    accuracy                           0.51        81
+   macro avg       0.59      0.57      0.50        81
+weighted avg       0.63      0.51      0.48        81
+
+Pearson correlation for reasonableness: 0.1563 (p=0.1634)
+
+--- OVERALL ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            37.00     2.00
+1            37.00     5.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.50      0.95      0.65        39
+           1       0.71      0.12      0.20        42
+
+    accuracy                           0.52        81
+   macro avg       0.61      0.53      0.43        81
+weighted avg       0.61      0.52      0.42        81
+
+Pearson correlation for overall: 0.1205 (p=0.2839)
+
+=== Evaluation for run 3 ===
+
+--- SINGLE RUN EVALUATION ---
+
+
+--- COGENCY ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            28.00     2.00
+1            44.00     7.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.39      0.93      0.55        30
+           1       0.78      0.14      0.23        51
+
+    accuracy                           0.43        81
+   macro avg       0.58      0.54      0.39        81
+weighted avg       0.63      0.43      0.35        81
+
+Pearson correlation for cogency: 0.1085 (p=0.3351)
+
+--- EFFECTIVENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            23.00    10.00
+1            18.00    30.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.70      0.62        33
+           1       0.75      0.62      0.68        48
+
+    accuracy                           0.65        81
+   macro avg       0.66      0.66      0.65        81
+weighted avg       0.67      0.65      0.66        81
+
+Pearson correlation for effectiveness: 0.3164 (p=0.0040)
+
+--- REASONABLENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            23.00     8.00
+1            31.00    19.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.43      0.74      0.54        31
+           1       0.70      0.38      0.49        50
+
+    accuracy                           0.52        81
+   macro avg       0.56      0.56      0.52        81
+weighted avg       0.60      0.52      0.51        81
+
+Pearson correlation for reasonableness: 0.1257 (p=0.2634)
+
+--- OVERALL ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            37.00     2.00
+1            36.00     6.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.51      0.95      0.66        39
+           1       0.75      0.14      0.24        42
+
+    accuracy                           0.53        81
+   macro avg       0.63      0.55      0.45        81
+weighted avg       0.63      0.53      0.44        81
+
+Pearson correlation for overall: 0.1534 (p=0.1716)
+
+=== Evaluation for run 4 ===
+
+--- SINGLE RUN EVALUATION ---
+
+
+--- COGENCY ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            28.00     2.00
+1            41.00    10.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.41      0.93      0.57        30
+           1       0.83      0.20      0.32        51
+
+    accuracy                           0.47        81
+   macro avg       0.62      0.56      0.44        81
+weighted avg       0.67      0.47      0.41        81
+
+Pearson correlation for cogency: 0.1759 (p=0.1162)
+
+--- EFFECTIVENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            22.00    11.00
+1            19.00    29.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.54      0.67      0.59        33
+           1       0.72      0.60      0.66        48
+
+    accuracy                           0.63        81
+   macro avg       0.63      0.64      0.63        81
+weighted avg       0.65      0.63      0.63        81
+
+Pearson correlation for effectiveness: 0.2662 (p=0.0163)
+
+--- REASONABLENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            27.00     4.00
+1            28.00    22.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.49      0.87      0.63        31
+           1       0.85      0.44      0.58        50
+
+    accuracy                           0.60        81
+   macro avg       0.67      0.66      0.60        81
+weighted avg       0.71      0.60      0.60        81
+
+Pearson correlation for reasonableness: 0.3238 (p=0.0032)
+
+--- OVERALL ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            37.00     2.00
+1            34.00     8.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.52      0.95      0.67        39
+           1       0.80      0.19      0.31        42
+
+    accuracy                           0.56        81
+   macro avg       0.66      0.57      0.49        81
+weighted avg       0.67      0.56      0.48        81
+
+Pearson correlation for overall: 0.2114 (p=0.0581)
+
+=== Evaluation for run 5 ===
+
+--- SINGLE RUN EVALUATION ---
+
+
+--- COGENCY ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            28.00     2.00
+1            43.00     8.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.39      0.93      0.55        30
+           1       0.80      0.16      0.26        51
+
+    accuracy                           0.44        81
+   macro avg       0.60      0.55      0.41        81
+weighted avg       0.65      0.44      0.37        81
+
+Pearson correlation for cogency: 0.1324 (p=0.2387)
+
+--- EFFECTIVENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            23.00    10.00
+1            18.00    30.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.56      0.70      0.62        33
+           1       0.75      0.62      0.68        48
+
+    accuracy                           0.65        81
+   macro avg       0.66      0.66      0.65        81
+weighted avg       0.67      0.65      0.66        81
+
+Pearson correlation for effectiveness: 0.3164 (p=0.0040)
+
+--- REASONABLENESS ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            25.00     6.00
+1            32.00    18.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.44      0.81      0.57        31
+           1       0.75      0.36      0.49        50
+
+    accuracy                           0.53        81
+   macro avg       0.59      0.58      0.53        81
+weighted avg       0.63      0.53      0.52        81
+
+Pearson correlation for reasonableness: 0.1772 (p=0.1136)
+
+--- OVERALL ---
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            38.00     1.00
+1            35.00     7.00
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.52      0.97      0.68        39
+           1       0.88      0.17      0.28        42
+
+    accuracy                           0.56        81
+   macro avg       0.70      0.57      0.48        81
+weighted avg       0.70      0.56      0.47        81
+
+Pearson correlation for overall: 0.2362 (p=0.0338)
+
+--- VARIABILITY AND CORRELATION ACROSS RUNS ---
+
+
+--- DIMENSION: COGENCY ---
+Mean std deviation per argument: 0.0330
+Arguments with disagreement: 6 / 81 (7.41%)
+
+Pearson correlation per run:
+ Run 1: correlation = 0.1324 (p=0.2387)
+ Run 2: correlation = 0.1898 (p=0.0897)
+ Run 3: correlation = 0.1085 (p=0.3351)
+ Run 4: correlation = 0.1759 (p=0.1162)
+ Run 5: correlation = 0.1324 (p=0.2387)
+
+Overall Pearson correlation (mean across runs): 0.1592 (p=0.1556)
+
+--- DIMENSION: EFFECTIVENESS ---
+Mean std deviation per argument: 0.1060
+Arguments with disagreement: 19 / 81 (23.46%)
+
+Pearson correlation per run:
+ Run 1: correlation = 0.3263 (p=0.0029)
+ Run 2: correlation = 0.3073 (p=0.0053)
+ Run 3: correlation = 0.3164 (p=0.0040)
+ Run 4: correlation = 0.2662 (p=0.0163)
+ Run 5: correlation = 0.3164 (p=0.0040)
+
+Overall Pearson correlation (mean across runs): 0.3412 (p=0.0018)
+
+--- DIMENSION: REASONABLENESS ---
+Mean std deviation per argument: 0.1148
+Arguments with disagreement: 21 / 81 (25.93%)
+
+Pearson correlation per run:
+ Run 1: correlation = 0.1772 (p=0.1136)
+ Run 2: correlation = 0.1563 (p=0.1634)
+ Run 3: correlation = 0.1257 (p=0.2634)
+ Run 4: correlation = 0.3238 (p=0.0032)
+ Run 5: correlation = 0.1772 (p=0.1136)
+
+Overall Pearson correlation (mean across runs): 0.2211 (p=0.0473)
+
+--- DIMENSION: OVERALL ---
+Mean std deviation per argument: 0.0511
+Arguments with disagreement: 9 / 81 (11.11%)
+
+Pearson correlation per run:
+ Run 1: correlation = 0.3190 (p=0.0037)
+ Run 2: correlation = 0.1205 (p=0.2839)
+ Run 3: correlation = 0.1534 (p=0.1716)
+ Run 4: correlation = 0.2114 (p=0.0581)
+ Run 5: correlation = 0.2362 (p=0.0338)
+
+Overall Pearson correlation (mean across runs): 0.2427 (p=0.0290)
+
+--- Average Confusion Matrix for COGENCY ---
+Mean Confusion Matrix:
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            28.20     1.80
+1            42.80     8.20
+
+Std Dev Confusion Matrix:
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0             0.40     0.40
+1             0.98     0.98
+
+--- Average Confusion Matrix for EFFECTIVENESS ---
+Mean Confusion Matrix:
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            22.80    10.20
+1            18.20    29.80
+
+Std Dev Confusion Matrix:
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0             0.75     0.75
+1             0.75     0.75
+
+--- Average Confusion Matrix for REASONABLENESS ---
+Mean Confusion Matrix:
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            25.20     5.80
+1            31.60    18.40
+
+Std Dev Confusion Matrix:
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0             1.33     1.33
+1             2.24     2.24
+
+--- Average Confusion Matrix for OVERALL ---
+Mean Confusion Matrix:
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0            37.60     1.40
+1            35.20     6.80
+
+Std Dev Confusion Matrix:
+
+Confusion Matrix (Actual vs Predicted):
+                 0        1
+0             0.80     0.80
+1             1.17     1.17
+
+--- Average Classification Report for COGENCY ---
+Label           Precision  Recall  F1-score  Support
+--------------------------------------------------
+0                    0.40    0.94      0.56       30
+1                    0.82    0.16      0.27       51
+macro avg            0.61    0.55      0.41       81
+weighted avg         0.66    0.45      0.38       81
+
+--- Average Classification Report for EFFECTIVENESS ---
+Label           Precision  Recall  F1-score  Support
+--------------------------------------------------
+0                    0.56    0.69      0.62       33
+1                    0.75    0.62      0.68       48
+macro avg            0.65    0.66      0.65       81
+weighted avg         0.67    0.65      0.65       81
+
+--- Average Classification Report for REASONABLENESS ---
+Label           Precision  Recall  F1-score  Support
+--------------------------------------------------
+0                    0.44    0.81      0.57       31
+1                    0.76    0.37      0.49       50
+macro avg            0.60    0.59      0.53       81
+weighted avg         0.64    0.54      0.53       81
+
+--- Average Classification Report for OVERALL ---
+Label           Precision  Recall  F1-score  Support
+--------------------------------------------------
+0                    0.52    0.96      0.67       39
+1                    0.83    0.16      0.27       42
+macro avg            0.67    0.56      0.47       81
+weighted avg         0.68    0.55      0.46       81
+
+--- Evaluation finished ---
