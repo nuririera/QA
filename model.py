@@ -13,7 +13,7 @@ date = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")
 global_start = time.time() #total time
 
 API_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "llama_ft"
+MODEL_NAME = "llama3.1"
 N_RUNS = 5
 VERSION = 4 # chose between 4 versions
 
@@ -84,6 +84,20 @@ You must score each of the four traits binary:
 Then, assign an overall quality score based on the other three.
 
 Return your response only as a JSON object using that values (Ineffective, Effective). Do not use other labels.
+"""
+
+common_intro5 = """
+####ROLE###
+You are an Argument Annotator AI.
+
+###OBJECTIVE###
+Your task is to evaluate the quality of an argument in four dimensions: cogency, effectiveness, reasonableness, and overall.
+You must score each of the four traits binary:
+- Bad
+- Good
+Then, assign an overall quality score based on the other three.
+
+Return your response only as a JSON object using that values (Bad, Good). Do not use other labels.
 """
 
 
@@ -250,8 +264,37 @@ EXAMPLE OUTPUT:
     "overall": "Effective"
 }}
 """
+
+example5 = """
+###EXPECTED OUTPUT###
+
+Respond ONLY with a JSON object. The values MUST be Good or Bad:
+{{
+  "cogency": "Good" | "Bad",
+  "effectiveness": "Good" | "Bad",
+  "reasonableness": "Good" | "Bad",
+  "overall": "Good" | "Bad"
+}}
+
+Always wrap all values inside double quotes, so the output is always valid JSON.
+
+###EXAMPLE###
+EXAMPLE argument:
+Through cooperation, children can learn about interpersonal skills which are significant in the future life of all students.
+What we acquired from team work is not only how to achieve the same goal with others but more importantly, how to get along with others.
+During the process of cooperation, children can learn about how to listen to opinions of others, how to communicate with others, how to think comprehensively, and even how to compromise with other team members when conflicts occurred.
+All of these skills help them to get on well with other people and will benefit them for the whole life.
+
+EXAMPLE OUTPUT:
+{{
+    "cogency": "Good",
+    "effectiveness": "Bad",
+    "reasonableness": "Bad",
+    "overall": "Good"
+}}
+"""
 # --- Selector desde línea de comandos o input ---
-print("\nSelect version of prompt (1 to 4):")
+print("\nSelect version of prompt (1 to 5):")
 version = int(input("Enter version number: "))
 print(f"\n✅ Using prompt version {version}...\n")
 
@@ -260,14 +303,16 @@ common_intros = {
     1: common_intro1,
     2: common_intro2,
     3: common_intro3,
-    4: common_intro4
+    4: common_intro4,
+    5: common_intro5
 }
 
 examples = {
     1: example1,
     2: example2,
     3: example3,
-    4: example4
+    4: example4,
+    5: example5
 }
 
 # --- Prompt Builder según versión ---
