@@ -174,6 +174,6 @@ output_filename = f"model_responses_{date}.json"
 with open(output_filename, "w") as f:
     json.dump(all_runs, f, indent=2)
 
-print(f"\n--- RESPUESTAS GUARDADAS EN: {output_filename} ---")
+print(f"\n--- SAVED RESPONSES IN: {output_filename} ---")
 print(f"Total time: {time.time() - global_start:.2f} seconds")
 print(f"Total local errors: {local_errors}")

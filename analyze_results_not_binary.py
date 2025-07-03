@@ -5,12 +5,12 @@ from collections import defaultdict
 
 dimensions = ["cogency", "effectiveness", "reasonableness", "overall"]
 
-# Normaliza según el esquema seleccionado
+# normalize a value for a specific dimension based on the schema
 def normalize_for_dimension(value, schema_name, dimension_name=None):
     val = str(value).strip()
 
     if schema_name == "numeric_1_to_5":
-        # Valores del 1 al 5 numéricos
+        # Numeric values from 1 to 5
         try:
             iv = int(val)
             if 1 <= iv <= 5:
@@ -26,21 +26,19 @@ def normalize_for_dimension(value, schema_name, dimension_name=None):
             return None
 
         try:
-            # Si es texto "Good"/"Bad"
+            # if its a string, check for "good" or "bad"
             if isinstance(val, str):
                 if val.lower() == "good":
                     return 1
                 elif val.lower() == "bad":
                     return 0
                 else:
-                    # Intentar convertir strings numéricos como '3.3', '4.6666'...
                     fv = float(val)
             else:
-                # Si ya es numérico (int o float)
                 fv = float(val)
 
             threshold = 3 if dimension_name == "reasonableness" else 3.3
-            # Aplicar el umbral
+            # Apply threshold logic
             if fv < threshold:
                 return 0  # Bad
             else:
@@ -52,7 +50,7 @@ def normalize_for_dimension(value, schema_name, dimension_name=None):
 
 
     elif schema_name == "ternary_bad_medium_good":
-        # Modelo: Bad=0, Medium=1, Good=2 ; GT: 1-2=0, 3=1, 4-5=2
+        # Model: Bad=0, Medium=1, Good=2 ; GT: 1-2=0, 3=1, 4-5=2
         if val.lower() == "bad":
             return 0
         elif val.lower() == "medium":
@@ -73,13 +71,13 @@ def normalize_for_dimension(value, schema_name, dimension_name=None):
         return None
 
     elif schema_name == "binary_effective_ineffective":
-        # Modelo: Effective=0, Ineffective=1 ; GT similar (asumimos)
+        # Model: Effective=0, Ineffective=1 ; GT similar (assumed)
         if val.lower() == "effective":
             return 0
         elif val.lower() == "ineffective":
             return 1
         else:
-            # Intentamos numérico para GT
+            # try to parse as integer
             try:
                 iv = int(val)
                 if iv in [1, 2]:
@@ -91,10 +89,10 @@ def normalize_for_dimension(value, schema_name, dimension_name=None):
         return None
 
     else:
-        # Si esquema no reconocido, devuelve None
+        # If the schema is not recognized, return None
         return None
 
-# Prepara lista de puntuaciones normalizadas
+# prepares scores for a specific dimension from the data
 def prepare_scores(data, dim, schema_name):
     scores = []
     for x in data:
@@ -102,15 +100,15 @@ def prepare_scores(data, dim, schema_name):
         if val is not None:
             scores.append(val)
         else:
-            print(f"Warning: '{x[dim]}' no está en clases esperadas para esquema '{schema_name}' y dimensión '{dim}'")
+            print(f"Warning: '{x[dim]}' is not in expected classes for schema '{schema_name}' and dimension '{dim}'")
             scores.append(-1)
     return scores
 
-# Imprime matriz de confusión dinámica
+# prints a confusion matrix in a dynamic format
 def print_dynamic_cm(cm, labels):
     print("\nConfusion Matrix (Actual vs Predicted):")
     if cm.shape[0] != len(labels):
-        print(f"Warning: mismatch entre tamaño matriz {cm.shape} y longitud labels {len(labels)}")
+        print(f"Warning: mismatch between matrix size {cm.shape} and labels length {len(labels)}")
         return
     header = " ".join(f"{l:>8}" for l in labels)
     print(f"{'':10}{header}")
@@ -118,16 +116,16 @@ def print_dynamic_cm(cm, labels):
         row_str = " ".join(f"{val:8.2f}" for val in row)
         print(f"{labels[i]:10}{row_str}")
 
-# Evalúa una ejecución simple
+# Evaluates a single run against the ground truth
 def evaluate_single_run(model_outputs, ground_truths, schema_name="binary_good_bad"):
-    print("\n --- RESULTADOS DE EVALUACIÓN (SINGLE RUN) ---\n")
+    print("\n --- EVALUATION RESULTS (SINGLE RUN) ---\n")
     for dim in dimensions:
         true_scores = prepare_scores(ground_truths, dim, schema_name)
         model_scores = prepare_scores(model_outputs, dim, schema_name)
 
         paired = [(t, p) for t, p in zip(true_scores, model_scores) if t >= 0 and p >= 0]
         if not paired:
-            print(f"No hay muestras válidas para {dim}, saltando.")
+            print(f"No valid samples for {dim}, skipping.")
             continue
 
         y_true = [t for t, p in paired]
@@ -142,7 +140,7 @@ def evaluate_single_run(model_outputs, ground_truths, schema_name="binary_good_b
         print("\nClassification Report:")
         print(report)
 
-# Matriz de confusión promedio en múltiples ejecuciones
+# Confusion matrix and standard deviation across multiple runs
 def compute_avg_cm_and_std(model_outputs_runs, ground_truths, schema_name):
     n_runs = len(model_outputs_runs)
     avg_cms = {}
@@ -150,7 +148,7 @@ def compute_avg_cm_and_std(model_outputs_runs, ground_truths, schema_name):
     for dim in dimensions:
         all_classes = set()
 
-        # Primero: Reunir todas las clases posibles a lo largo de todos los runs y el ground truth
+        # First: prepare all classes from the ground truth and model outputs
         true_scores_total = prepare_scores(ground_truths, dim, schema_name)
         for run_outputs in model_outputs_runs:
             model_scores_total = prepare_scores(run_outputs, dim, schema_name)
@@ -165,7 +163,7 @@ def compute_avg_cm_and_std(model_outputs_runs, ground_truths, schema_name):
 
         cm_stack = []
 
-        # Segundo: Calcular la confusion matrix por run usando las mismas clases
+        # Second: calculate confusion matrices for each run
         for run_outputs in model_outputs_runs:
             true_scores = prepare_scores(ground_truths, dim, schema_name)
             model_scores = prepare_scores(run_outputs, dim, schema_name)
@@ -188,7 +186,7 @@ def compute_avg_cm_and_std(model_outputs_runs, ground_truths, schema_name):
     return avg_cms
 
 
-# Reporte promedio en múltiples ejecuciones
+# mean report across multiple runs
 def compute_avg_report(model_outputs_runs, ground_truths, schema_name):
     n_runs = len(model_outputs_runs)
     avg_reports = {}
@@ -221,9 +219,9 @@ def compute_avg_report(model_outputs_runs, ground_truths, schema_name):
 
     return avg_reports
 
-# Evalúa múltiples ejecuciones
+# Evaluate multiple runs against the ground truth
 def evaluate_multiple_runs(model_outputs_runs, ground_truths, schema_name):
-    print("\n === ANÁLISIS AGREGADO EN MÚLTIPLES EJECUCIONES ===\n")
+    print("\n === AGGREGATED ANALYSIS OVER MULTIPLE RUNS ===\n")
     
     avg_cms = compute_avg_cm_and_std(model_outputs_runs, ground_truths, schema_name)
     for dim in dimensions:
@@ -231,35 +229,35 @@ def evaluate_multiple_runs(model_outputs_runs, ground_truths, schema_name):
         cm_data = avg_cms[dim]
 
         if cm_data["mean_cm"] is not None:
-            print("\nMatriz de Confusión Promedio (media entre runs):")
+            print("\nAverage Confusion Matrix (mean across runs):")
             print_dynamic_cm(cm_data["mean_cm"], cm_data["labels"])
 
-            print("\nDesviación Estándar de la Matriz de Confusión entre runs:")
+            print("\nStandard Deviation of Confusion Matrix across runs:")
             print_dynamic_cm(cm_data["std_cm"], cm_data["labels"])
         else:
-            print("No hay datos suficientes para esta dimensión.")
+            print("Not enough data for this dimension.")
 
-    print("\n === REPORTE PROMEDIO DE CLASIFICACIÓN ===")
+    print("\n === AVERAGE CLASSIFICATION REPORT ===")
     avg_reports = compute_avg_report(model_outputs_runs, ground_truths, schema_name)
     for dim in dimensions:
         print(f"\n --- {dim.upper()} ---")
         report, classes = avg_reports[dim]
-        print(f"{'Etiqueta':<20}{'precision':>10}{'recall':>10}{'f1-score':>10}{'support':>10}")
+        print(f"{'Label':<20}{'precision':>10}{'recall':>10}{'f1-score':>10}{'support':>10}")
         print("-" * 60)
         for label in report:
             m = report[label]
             if isinstance(m, dict):
                 print(f"{label:<20}{m.get('precision', 0):10.2f}{m.get('recall', 0):10.2f}{m.get('f1-score', 0):10.2f}{m.get('support', 0):10.0f}")
 
-# Analiza variabilidad entre ejecuciones
+# Analyze variability across runs
 def analyze_variability_across_runs(runs_outputs, ground_truths, schema_name):
-    print("\n --- RESULTADOS DE VARIABILIDAD ENTRE EJECUCIONES ---\n")
+    print("\n --- VARIABILITY RESULTS BETWEEN RUNS ---\n")
 
     n_args = len(runs_outputs[0])
     n_runs = len(runs_outputs)
 
     for dim in dimensions:
-        print(f"\n --- VARIABILIDAD EN {dim.upper()} ---")
+        print(f"\n --- VARIABILITY IN {dim.upper()} ---")
         gt_scores = prepare_scores(ground_truths, dim, schema_name)
 
         bin_matrix = np.array([
@@ -277,9 +275,9 @@ def analyze_variability_across_runs(runs_outputs, ground_truths, schema_name):
         num_disagreements = sum(disagreement_flags)
         proportion_disagreement = num_disagreements / n_args
 
-        print(f"\nVariabilidad entre runs:")
-        print(f"Media de desviación estándar por argumento: {mean_std:.2f}")
-        print(f"Argumentos con desacuerdo: {num_disagreements} / {n_args} ({proportion_disagreement:.2%})")
+        print(f"\nVariability between runs:")
+        print(f"Mean standard deviation per argument: {mean_std:.2f}")
+        print(f"Arguments with disagreement: {num_disagreements} / {n_args} ({proportion_disagreement:.2%})")
 
         matches_per_argument = []
         for i in range(n_args):
@@ -301,16 +299,16 @@ def analyze_variability_across_runs(runs_outputs, ground_truths, schema_name):
         medium_correct = sum(1 for m in matches_per_argument if n_runs * 0.5 <= m < n_runs)
         low_correct = sum(1 for m in matches_per_argument if m < n_runs * 0.5)
 
-        print(f"\nPrecisión global respecto al Ground Truth (media sobre todos los runs y argumentos): {overall_accuracy:.2%}")
-        print(f"Precisión media por argumento: {mean_accuracy_per_argument:.2%}")
-        print(f"Desviación estándar de precisión por argumento: {std_accuracy_per_argument:.2%}")
+        print(f"\nOverall accuracy vs Ground Truth (mean across all runs and arguments): {overall_accuracy:.2%}")
+        print(f"Mean accuracy per argument: {mean_accuracy_per_argument:.2%}")
+        print(f"Standard deviation of accuracy per argument: {std_accuracy_per_argument:.2%}")
 
-        print(f"\nDistribución de argumentos según tasa de aciertos en runs:")
-        print(f"- {fully_correct} argumentos ({fully_correct / n_args:.2%}) acertados en 100% de los runs.")
-        print(f"- {medium_correct} argumentos ({medium_correct / n_args:.2%}) con entre 50% y 99% de aciertos.")
-        print(f"- {low_correct} argumentos ({low_correct / n_args:.2%}) con menos del 50% de aciertos.")
+        print(f"\nDistribution of arguments by run accuracy rate:")
+        print(f"- {fully_correct} arguments ({fully_correct / n_args:.2%}) fully correct in 100% of runs.")
+        print(f"- {medium_correct} arguments ({medium_correct / n_args:.2%}) correct in 50% to 99% of runs.")
+        print(f"- {low_correct} arguments ({low_correct / n_args:.2%}) correct in less than 50% of runs.")
 
-        print("\nMatriz de predicciones por argumento (filas=argumentos, columnas=runs):")
+        print("\nPrediction matrix by argument (rows=arguments, columns=runs):")
         print(bin_matrix)
 
         rounded_means = np.rint(np.mean(bin_matrix, axis=1)).astype(int)
@@ -319,4 +317,4 @@ def analyze_variability_across_runs(runs_outputs, ground_truths, schema_name):
         correct_avg_preds = sum(1 for i in valid_indices if rounded_means[i] == gt_scores[i])
         accuracy_avg_preds = correct_avg_preds / len(valid_indices) if valid_indices else 0
 
-        print(f"\nPrecisión usando la media redondeada de predicciones por argumento vs Ground Truth: {accuracy_avg_preds:.2%}")
+        print(f"\nAccuracy using rounded average of predictions per argument vs Ground Truth: {accuracy_avg_preds:.2%}")

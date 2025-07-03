@@ -12,10 +12,6 @@ data = data[columns_of_interest]
 def map_score(score):
     return 'Good' if score > 2.9 else 'Bad'
 
-#Apply the map_score function to the cogency_mean, effectiveness_mean, reasonableness_mean, and overall_mean columns
-# for col in ['cogency_mean', 'effectiveness_mean', 'reasonableness_mean', 'overall_mean']:
-#     data[col] = data[col].apply(map_score)
-
 seed = 42
 
 # Split the data into train and test sets

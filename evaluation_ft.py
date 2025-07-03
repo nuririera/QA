@@ -1,6 +1,5 @@
 import datetime
 import sys
-import time
 import json
 import os
 import numpy as np
@@ -12,7 +11,10 @@ from Logger import Logger
 
 dimensions = ["cogency", "effectiveness", "reasonableness", "overall"]
 
-log_filename = f"evaluation_ft_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+log_dir = "evaluation"
+os.makedirs(log_dir, exist_ok=True)
+date = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")
+log_filename = os.path.join(log_dir, f"evaluation_{date}.txt")
 sys.stdout = Logger(log_filename)
 
 def normalize_for_dimension(value, dimension_name=None):
@@ -48,7 +50,7 @@ def prepare_scores(data, dim):
             scores.append(val)
         else:
             print(f"Warning: '{x[dim]}' not valid for dimension '{dim}'")
-            scores.append(-1)  # Marca inválidos con -1
+            scores.append(-1)
     return scores
 
 def print_dynamic_cm(cm, labels):
@@ -143,7 +145,6 @@ def compute_avg_cm_and_std(all_runs, ground_truth):
 
     for dim in dimensions:
         all_classes = set()
-        # Obtener todas las clases que aparecen (de GT y preds)
         true_scores_total = prepare_scores(ground_truth, dim)
         for run in all_runs:
             model_scores_total = prepare_scores(run, dim)
@@ -241,7 +242,6 @@ def print_avg_classification_report(avg_reports):
 
 print(f"Loaded {len(test_data)} test arguments")
 
-# Cargar resultados modelo (suponiendo archivo ya seleccionado)
 response_dir = "model_responses"
 response_files = [f for f in os.listdir(response_dir) if f.startswith("model_responses_") and f.endswith(".json")]
 if not response_files:

@@ -7,24 +7,22 @@ import json
 from analyze_results_not_binary import evaluate_single_run, analyze_variability_across_runs, evaluate_multiple_runs
 import os
 
-# Obtener fecha y hora actual en formato YYYY-MM-DD-HH-MM
+
+log_dir = "evaluation"
+os.makedirs(log_dir, exist_ok=True)
 date = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")
-
-# Nombre del archivo de log
-log_filename = f"evaluacion_{date}.txt"
-
-# Redirigir la salida estándar al Logger
+log_filename = os.path.join(log_dir, f"evaluation_{date}.txt")
 sys.stdout = Logger(log_filename)
 
-global_start = time.time()  # Medir tiempo total de ejecución
+global_start = time.time()
 
 # Pedir esquema al usuario por terminal
-print("Esquemas disponibles:")
+print("Available schemas:")
 print("1: binary_good_bad")
 print("2: ternary_bad_medium_good")
 print("3: binary_effective_ineffective")
 print("4: numeric_1_to_5")
-schema_option = input("Selecciona el esquema de etiquetas (1-4): ").strip()
+schema_option = input("Select the label schema (1-4): ").strip()
 
 schemas_map = {
     "1": "binary_good_bad",
@@ -34,35 +32,35 @@ schemas_map = {
 }
 
 if schema_option not in schemas_map:
-    print("Opción inválida. Terminando ejecución.")
+    print("Invalid option. Finishing execution.")
     sys.exit(1)
 
 schema_name = schemas_map[schema_option]
-print(f"Usando esquema: {schema_name}")
+print(f"Using schema: {schema_name}")
 
 # Buscar archivos de respuesta generados por el modelo
 response_dir = "model_responses"
 response_files = [f for f in os.listdir(response_dir) if f.startswith("model_responses_") and f.endswith(".json")]
 
 if not response_files:
-    print("No se encontraron archivos tipo model_responses_*.json en el directorio actual.")
+    print("No model response files found in the 'model_responses' directory.")
     sys.exit(1)
 
 # Mostrar opciones al usuario
-print("Archivos de respuesta de modelo disponibles:")
+print("Response files available:")
 for idx, file in enumerate(response_files):
     print(f"{idx + 1}: {file}")
 
 # Solicitar selección
 try:
-    selected_index = int(input("Selecciona el número del archivo que quieres evaluar: ")) - 1
+    selected_index = int(input("Select a file by number to analyze: ")) - 1
 except ValueError:
-    print("Entrada inválida. Por favor, introduce un número.")
+    print("Invalid input. Please enter a number.")
     sys.exit(1)
 
 # Validar selección
 if selected_index < 0 or selected_index >= len(response_files):
-    print("Selección no válida.")
+    print("Invalid selection.")
     sys.exit(1)
 
 # Cargar el archivo seleccionado
@@ -73,25 +71,25 @@ with open(input_filename, "r") as f:
 # Obtener etiquetas del ground truth
 ground_truth = [entry["labels"] for entry in test_data]
 
-print(f"\n=== Número de ejecuciones cargadas: {len(all_runs)} ===")
-print(f"=== Número de argumentos por ejecución: {len(all_runs[0]) if all_runs else 0} ===")
+print(f"\n=== Number of runs: {len(all_runs)} ===")
+print(f"=== Number of arguments per run: {len(all_runs[0]) if all_runs else 0} ===")
 
 # Ahora pasamos schema_name a las funciones para que usen el esquema correcto
 
 # Evaluar cada ejecución contra el ground truth
 for i, run in enumerate(all_runs):
-    print(f"\n--- EVALUACIÓN DE LA EJECUCIÓN {i + 1} ---")
+    print(f"\n--- EVALUATING RUN {i + 1} ---")
     evaluate_single_run(run, ground_truth, schema_name)
 
 # Análisis de agregación en múltiples ejecuciones
-print("\n--- ANÁLISIS DE VARIABILIDAD ENTRE ARGUMENTOS (ACROSS ARGUMENTS) ---")
+print("\n--- ANALYSIS OF AGGREGATION IN MULTIPLE RUNS ---")
 evaluate_multiple_runs(all_runs, ground_truth, schema_name)
 
 # Análisis de variabilidad entre ejecuciones
-print("\n--- ANÁLISIS DE VARIABILIDAD ENTRE EJECUCIONES (ACROSS RUNS) ---")
+print("\n--- ANALYSIS OF VARIABILITY BETWEEN RUNS (ACROSS RUNS) ---")
 analyze_variability_across_runs(all_runs, ground_truth, schema_name)
 
 # Mostrar tiempo total
 total_duration = time.time() - global_start
-print(f"\n--- TIEMPO TOTAL DE EJECUCIÓN DE LA EVALUACIÓN ---")
-print(f"Tiempo total: {total_duration:.2f} segundos")
+print(f"\n---TOTAL EXECUTION TIME ---")
+print(f"Total time: {total_duration:.2f} seconds")

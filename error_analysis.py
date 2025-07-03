@@ -85,7 +85,7 @@ def analyze_error_severity(model_runs, ground_truths, output_folder):
         all_errors_by_dim[dim] = all_errors
         error_records_by_dim[dim] = error_records
 
-        # Guardamos para gráfico final
+        # we save the graphs and csv files for each dimension
         all_bad_to_good[dim] = errors_bad_to_good
         all_good_to_bad[dim] = errors_good_to_bad
 
@@ -105,24 +105,7 @@ def analyze_error_severity(model_runs, ground_truths, output_folder):
         else:
             print(f"No errors found for {dim} dimension.")
 
-        # Gráficos individuales por dimensión
-        # fig, axs = plt.subplots(1, 2, figsize=(10, 4))
-        # axs[0].hist(errors_bad_to_good, bins=10, range=(0, 1), alpha=0.7, color='coral', edgecolor='black')
-        # axs[0].set_title(f"{dim.upper()} - Pred Good, GT Bad")
-        # axs[0].set_xlabel("Normalized Error Severity")
-        # axs[0].set_ylabel("Frequency")
-
-        # axs[1].hist(errors_good_to_bad, bins=10, range=(0, 1), alpha=0.7, color='skyblue', edgecolor='black')
-        # axs[1].set_title(f"{dim.upper()} - Pred Bad, GT Good")
-        # axs[1].set_xlabel("Normalized Error Severity")
-        # axs[1].set_ylabel("Frequency")
-
-        # plt.tight_layout()
-        # plot_filename = os.path.join(output_folder, f"{dim}_error_severity_separated.png")
-        # plt.savefig(plot_filename)
-        # plt.show()
-
-    # Gráfico compuesto con 8 subplots (4 filas x 2 columnas)
+    # Graph generation 
     fig, axs = plt.subplots(len(dimensions), 2, figsize=(12, 16))
 
     for i, dim in enumerate(dimensions):
