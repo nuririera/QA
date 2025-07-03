@@ -11,7 +11,7 @@ date = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M")
 global_start = time.time()
 
 API_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "llama_ft"
+MODEL_NAME = "gemma2:9b"
 N_RUNS = 5
 MAX_RETRIES = 5
 TIMEOUT = 30
@@ -64,11 +64,64 @@ Consider the argument’s contribution to resolving the issue. Ask:
 4. **Overall Quality**
 Reflect on the three dimensions above. Consider any other relevant factors for the general quality of the argument.
 
-###ARGUMENT###
+
 """
 
+example = """
+###EXPECTED OUTPUT###
+Respond ONLY with a JSON object. The values MUST be Good or Bad:
+{{
+  "cogency": "Good" | "Bad",
+  "effectiveness": "Good" | "Bad",
+  "reasonableness": "Good" | "Bad",
+  "overall": "Good" | "Bad"
+}}
+
+Always wrap all values inside double quotes, so the output is always valid JSON.
+
+###EXAMPLE###
+EXAMPLE argument:
+Saying you belong to  a political ideology makes you dogmatic. Society is dynamic and can't go by the principles of one political ideology. Political ideologies are secular religions in this regard. Many self described liberals, libertarians, and conservatives rarely listen to each other on how to better society. Liberals see government as the only solution to all of society's ills. Conservatives and Libertarians find government as the mere deterrent to social ills and adhere to free market fundamentalism as holy. It's as if the free market makes everything a Utopia. These differences in dogma often resorts to divisive politics. How is that any different to religious differences? 
+
+EXAMPLE OUTPUT:
+{{
+    "cogency": "Good",
+    "effectiveness": "Good",
+    "reasonableness": "Bad",
+    "overall": "Bad"
+}}
+
+###EXAMPLE###
+EXAMPLE argument:
+Unless every single gun that is issued legally is tested with ballistics before being issued so that any bullet fired from a licensed gun can be traced, if found intact, then guns pose a threat because there is no way for those bullets to be traced back to owners so they can account for the shots they fired. It's like giving someone a jaguar as long as they promise to never let it out of their site. It's bull sh*t.
+
+EXAMPLE OUTPUT:
+{{
+    "cogency": "Good",
+    "effectiveness": "Bad",
+    "reasonableness": "Good",
+    "overall": "Good"
+}}
+
+###EXAMPLE###
+EXAMPLE argument:
+I've read some scientific racism writing and I think many of its claims have no scientific basis. Shouldn't the differences between races be studied ? 
+People of different origins have different bodies (skeletton, skin color...) why wouldn't they have a different brain ?
+Note that I don't think any race is superior to the other, just different. Just like the differences between gender doesn't make one superior to another.
+On another hand I don't want such research to be done because that could be misinterpreted by hateful people and lead to a resurgence of racism.
+
+EXAMPLE OUTPUT:
+{{
+    "cogency": "Bad",
+    "effectiveness": "Bad",
+    "reasonableness": "Good",
+    "overall": "Bad"
+}}
+
+###ARGUMENT###
+"""
 def build_prompt(argument):
-    return f"{prompt_intro}\n{argument}\n###OUTPUT###"
+    return f"{prompt_intro}\n{example}\n{argument}\n###OUTPUT###"
 
 def query_model(prompt):
     try:
