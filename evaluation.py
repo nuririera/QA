@@ -65,7 +65,8 @@ if selected_index < 0 or selected_index >= len(response_files):
 
 # Cargar el archivo seleccionado
 input_filename = response_files[selected_index]
-with open(input_filename, "r") as f:
+input_path = os.path.join(response_dir, input_filename)
+with open(input_path, "r") as f:
     all_runs = json.load(f)
 
 # Obtener etiquetas del ground truth

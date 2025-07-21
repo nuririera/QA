@@ -142,7 +142,7 @@ if selected_idx < 0 or selected_idx >= len(response_files):
     exit()
 
 selected_filename = response_files[selected_idx]
-with open(selected_filename, 'r') as f:
+with open(os.path.join(response_dir, selected_filename), 'r') as f:
     all_runs = json.load(f)
 
 ground_truths = [entry["labels"] for entry in test_data]

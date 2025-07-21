@@ -8,15 +8,11 @@ data = pd.read_csv('./dataset.csv')
 columns_of_interest = ['text', 'cogency_mean', 'effectiveness_mean', 'reasonableness_mean', 'overall_mean']
 data = data[columns_of_interest]
 
-# Map the cogency_mean, effectiveness_mean, reasonableness_mean, and overall_mean columns
-def map_score(score):
-    return 'Good' if score > 2.9 else 'Bad'
-
 seed = 42
 
 # Split the data into train and test sets
-data_train, data_temp = train_test_split(data, test_size=0.3, random_state=seed)
-data_val, data_test = train_test_split(data_temp, test_size=0.5, random_state=seed)
+data_train, data_temp = train_test_split(data, test_size=0.6, random_state=seed)
+data_val, data_test = train_test_split(data_temp, test_size=0.4, random_state=seed)
 
 def get_text_and_labels(df):
     return [
